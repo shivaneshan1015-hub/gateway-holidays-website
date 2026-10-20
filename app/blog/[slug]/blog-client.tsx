@@ -6,7 +6,6 @@ import Image from "next/image";
 import {
   Calendar,
   Clock,
-  User,
   Share2,
   Check,
   ChevronRight,
@@ -18,6 +17,11 @@ import {
   ArrowRight,
   Bookmark,
   CheckCircle2,
+  Lightbulb,
+  Compass,
+  Star,
+  ShieldCheck,
+  ChevronDown,
 } from "lucide-react";
 import { BlogPost } from "@/data/blogs";
 import { TourPackage } from "@/data/tours";
@@ -54,49 +58,53 @@ export function BlogClient({ post, relatedPosts, relatedTours }: BlogClientProps
   )}`;
 
   return (
-    <div className="bg-white min-h-screen text-slate-900 pb-20">
+    <div className="bg-white min-h-screen text-slate-900 pb-24">
       {/* Top Breadcrumb Bar */}
-      <nav aria-label="Breadcrumb" className="bg-slate-50 border-b border-slate-200 py-3 px-4 sm:px-6 lg:px-8 text-xs text-slate-500">
-        <div className="max-w-5xl mx-auto flex items-center gap-2 flex-wrap">
+      <nav aria-label="Breadcrumb" className="bg-slate-50 border-b border-slate-200 py-3.5 px-4 sm:px-6 lg:px-8 text-xs text-slate-500">
+        <div className="max-w-6xl mx-auto flex items-center gap-2 flex-wrap">
           <Link href="/" className="hover:text-slate-900 transition-colors">
             Home
           </Link>
           <ChevronRight className="h-3 w-3 text-slate-400" />
           <Link href="/blog" className="hover:text-slate-900 transition-colors">
-            Blog
+            Travel Blog
           </Link>
           <ChevronRight className="h-3 w-3 text-slate-400" />
-          <span className="text-slate-700 font-semibold truncate max-w-xs sm:max-w-md">
+          <span className="text-slate-900 font-semibold truncate max-w-xs sm:max-w-md">
             {post.title}
           </span>
         </div>
       </nav>
 
       {/* Article Header */}
-      <header className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 pb-8 space-y-6">
+      <header className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 sm:pt-14 pb-8 space-y-6">
         <div className="flex flex-wrap items-center gap-3">
-          <span className="px-3.5 py-1 rounded-full text-xs font-bold bg-orange-50 text-[#F25C05] border border-orange-200 shadow-xs">
+          <span className="px-3.5 py-1.5 rounded-full text-xs font-bold bg-orange-50 text-[#F25C05] border border-orange-200/80 shadow-2xs">
             {post.category}
           </span>
-          <span className="flex items-center gap-1.5 text-xs text-slate-500">
+          <span className="flex items-center gap-1.5 text-xs text-slate-500 font-medium">
             <Calendar className="h-3.5 w-3.5 text-slate-400" />
             <span>{post.publishDate}</span>
           </span>
           <span className="text-slate-300">•</span>
-          <span className="flex items-center gap-1.5 text-xs text-slate-500">
+          <span className="flex items-center gap-1.5 text-xs text-slate-500 font-medium">
             <Clock className="h-3.5 w-3.5 text-amber-500" />
             <span>{post.readingTime}</span>
           </span>
         </div>
 
-        <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-slate-900 leading-tight">
+        <h1 className="text-3xl sm:text-5xl font-black tracking-tight text-slate-950 leading-[1.2]">
           {post.title}
         </h1>
 
-        {/* Author Bio Strip & Share buttons */}
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pt-4 border-t border-slate-200">
+        <p className="text-base sm:text-lg text-slate-600 leading-relaxed font-normal">
+          {post.excerpt}
+        </p>
+
+        {/* Author Bio Strip & Action Buttons */}
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pt-6 border-t border-slate-200">
           <div className="flex items-center gap-3">
-            <div className="h-10 w-10 rounded-full bg-gradient-to-r from-[#E61E6E] to-[#F25C05] flex items-center justify-center text-white font-bold text-sm shadow-xs">
+            <div className="h-11 w-11 rounded-full bg-gradient-to-r from-[#E61E6E] to-[#F25C05] flex items-center justify-center text-white font-black text-sm shadow-sm">
               GH
             </div>
             <div>
@@ -110,25 +118,25 @@ export function BlogClient({ post, relatedPosts, relatedTours }: BlogClientProps
               href={whatsappShareUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="px-3 py-1.5 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-700 border border-emerald-200 text-xs font-bold flex items-center gap-1.5 transition-colors cursor-pointer"
+              className="px-3.5 py-2 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-700 border border-emerald-200 text-xs font-bold flex items-center gap-1.5 transition-colors cursor-pointer"
             >
               <MessageCircle className="h-3.5 w-3.5" />
               <span>Share</span>
             </a>
             <button
               onClick={handleCopyLink}
-              className="px-3 py-1.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 border border-slate-200 text-xs font-bold flex items-center gap-1.5 transition-colors cursor-pointer"
+              className="px-3.5 py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 border border-slate-200 text-xs font-bold flex items-center gap-1.5 transition-colors cursor-pointer"
             >
               {copied ? <Check className="h-3.5 w-3.5 text-emerald-600" /> : <Share2 className="h-3.5 w-3.5" />}
-              <span>{copied ? "Copied!" : "Copy Link"}</span>
+              <span>{copied ? "Link Copied!" : "Copy Link"}</span>
             </button>
           </div>
         </div>
       </header>
 
-      {/* Hero Image */}
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-10">
-        <div className="relative h-72 sm:h-[480px] w-full rounded-3xl overflow-hidden border border-slate-200 shadow-xl">
+      {/* Cinematic Hero Image */}
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
+        <div className="relative h-72 sm:h-[460px] w-full rounded-3xl overflow-hidden border border-slate-200 shadow-xl">
           <Image
             src={post.heroImage}
             alt={post.title}
@@ -140,57 +148,201 @@ export function BlogClient({ post, relatedPosts, relatedTours }: BlogClientProps
         </div>
       </div>
 
-      {/* Main Content Area */}
-      <main className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10">
-          {/* Article Left Body (8 cols) */}
-          <article className="lg:col-span-8 space-y-8">
-            {/* AEO: Direct Answer Snippet Box */}
-            <div className="p-6 rounded-3xl bg-gradient-to-br from-amber-50/90 via-orange-50/70 to-white border-2 border-[#F25C05]/30 shadow-md">
-              <div className="flex items-center gap-2 text-xs font-extrabold uppercase tracking-wider text-[#F25C05] mb-2.5">
+      {/* Main Content Layout */}
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+          {/* Article Main Column (8 Cols) */}
+          <main className="lg:col-span-8 space-y-12">
+            {/* AEO: Structured "At a Glance" Executive Summary */}
+            <section className="p-6 sm:p-8 rounded-3xl bg-gradient-to-br from-orange-50/80 via-amber-50/40 to-white border-2 border-orange-200/90 shadow-md space-y-5">
+              <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#F25C05]">
                 <Sparkles className="h-4 w-4" />
-                <span>At a Glance (Quick Summary)</span>
+                <span>At a Glance: The Direct Answer</span>
               </div>
-              <p className="text-sm sm:text-base text-slate-800 leading-relaxed font-medium">
+
+              <p className="text-base sm:text-lg text-slate-900 leading-relaxed font-medium">
                 {post.quickAnswer}
               </p>
-            </div>
 
-            {/* GEO: Key Facts Table */}
-            {post.keyFacts && post.keyFacts.length > 0 && (
-              <div className="p-6 rounded-3xl bg-slate-50 border border-slate-200 shadow-xs space-y-4">
-                <h3 className="text-sm font-bold uppercase tracking-wider text-slate-700 flex items-center gap-2">
-                  <Bookmark className="h-4 w-4 text-[#E61E6E]" />
-                  <span>Essential Route & Trip Facts</span>
-                </h3>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
-                  {post.keyFacts.map((fact, i) => (
+              {/* Structured Summary Cards Grid */}
+              {post.quickSummaryPoints && post.quickSummaryPoints.length > 0 && (
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
+                  {post.quickSummaryPoints.map((pt, idx) => (
                     <div
-                      key={i}
-                      className="p-3 rounded-2xl bg-white border border-slate-200/90 shadow-2xs space-y-0.5"
+                      key={idx}
+                      className="p-3.5 rounded-2xl bg-white border border-slate-200 shadow-2xs space-y-1 flex flex-col justify-between"
                     >
-                      <p className="text-[11px] font-semibold text-slate-500">{fact.label}</p>
-                      <p className="text-xs font-bold text-slate-900">{fact.value}</p>
+                      <div className="flex items-center justify-between gap-2">
+                        <span className="text-xs font-bold text-slate-900">{pt.title}</span>
+                        <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-orange-100/70 text-[#F25C05]">
+                          {pt.distance}
+                        </span>
+                      </div>
+                      <p className="text-[11px] text-slate-600 line-clamp-1">{pt.highlight}</p>
+                      <p className="text-[10px] font-semibold text-emerald-700 flex items-center gap-1 pt-0.5">
+                        <CheckCircle2 className="h-3 w-3 shrink-0" />
+                        <span>Best for: {pt.bestFor}</span>
+                      </p>
                     </div>
                   ))}
                 </div>
-              </div>
+              )}
+            </section>
+
+            {/* GEO: Machine-Readable Entity Facts Table */}
+            {post.keyFacts && post.keyFacts.length > 0 && (
+              <section className="p-6 rounded-3xl bg-slate-50 border border-slate-200 shadow-2xs space-y-4">
+                <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-slate-700">
+                  <Bookmark className="h-4 w-4 text-[#E61E6E]" />
+                  <span>Essential Route & Planning Metrics</span>
+                </div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  {post.keyFacts.map((fact, i) => (
+                    <div
+                      key={i}
+                      className="p-3.5 rounded-2xl bg-white border border-slate-200/90 shadow-2xs space-y-0.5"
+                    >
+                      <p className="text-[11px] font-semibold text-slate-500">{fact.label}</p>
+                      <p className="text-xs sm:text-sm font-bold text-slate-900">{fact.value}</p>
+                    </div>
+                  ))}
+                </div>
+              </section>
             )}
 
-            {/* Render Main Article HTML Content */}
-            <div
-              className="prose prose-slate max-w-none prose-headings:font-bold prose-headings:text-slate-900 prose-h2:text-2xl prose-h2:mt-8 prose-h2:mb-4 prose-h3:text-xl prose-h3:mt-6 prose-h3:mb-3 prose-p:text-slate-700 prose-p:leading-relaxed prose-li:text-slate-700 prose-strong:text-slate-900"
-              dangerouslySetInnerHTML={{ __html: post.contentHtml }}
-            />
+            {/* Editorial Lead-In */}
+            <section className="space-y-4 text-base sm:text-lg text-slate-700 leading-relaxed">
+              {post.introduction.map((p, i) => (
+                <p key={i} className={i === 0 ? "first-letter:text-4xl first-letter:font-black first-letter:text-[#F25C05] first-letter:mr-2 first-letter:float-left text-slate-800" : ""}>
+                  {p}
+                </p>
+              ))}
+            </section>
 
-            {/* FAQ Accordion Section (AEO Target) */}
+            {/* Editorial Chapter Sections */}
+            <div className="space-y-16 pt-4">
+              {post.sections.map((section, idx) => (
+                <article
+                  key={section.id}
+                  id={section.id}
+                  className="rounded-3xl bg-white border border-slate-200 shadow-sm overflow-hidden p-6 sm:p-8 space-y-6 scroll-mt-24 transition-all hover:border-slate-300 hover:shadow-md"
+                >
+                  {/* Section Title & Distance Badge */}
+                  <div className="space-y-2">
+                    {section.badge && (
+                      <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] font-bold bg-slate-100 text-slate-700 border border-slate-200">
+                        <MapPin className="h-3.5 w-3.5 text-[#F25C05]" />
+                        <span>{section.badge}</span>
+                      </span>
+                    )}
+                    <h2 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
+                      {section.title}
+                    </h2>
+                  </div>
+
+                  {/* Optional Chapter Image */}
+                  {section.image && (
+                    <div className="relative h-64 sm:h-80 w-full rounded-2xl overflow-hidden border border-slate-100 shadow-xs">
+                      <Image
+                        src={section.image}
+                        alt={section.title}
+                        fill
+                        className="object-cover"
+                        sizes="(max-width: 768px) 100vw, 700px"
+                      />
+                    </div>
+                  )}
+
+                  {/* Narrative Body */}
+                  <div className="space-y-4 text-sm sm:text-base text-slate-700 leading-relaxed font-normal">
+                    {section.narrative.map((paragraph, pIdx) => (
+                      <p key={pIdx}>{paragraph}</p>
+                    ))}
+                  </div>
+
+                  {/* Highlights Pill Box */}
+                  <div className="p-5 rounded-2xl bg-slate-50 border border-slate-200 space-y-3">
+                    <p className="text-xs font-bold uppercase tracking-wider text-slate-900 flex items-center gap-1.5">
+                      <Star className="h-3.5 w-3.5 text-[#F25C05]" />
+                      <span>Experiences You Cannot Miss</span>
+                    </p>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-slate-800">
+                      {section.highlights.map((h, hIdx) => (
+                        <div key={hIdx} className="flex items-start gap-2 bg-white p-2.5 rounded-xl border border-slate-200/80 shadow-2xs">
+                          <CheckCircle2 className="h-4 w-4 text-emerald-600 shrink-0 mt-0.5" />
+                          <span>{h}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* Timing & Insider Tip Callout */}
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div className="p-4 rounded-2xl bg-slate-50/80 border border-slate-200 space-y-1">
+                      <p className="text-[11px] font-bold uppercase tracking-wider text-slate-500 flex items-center gap-1">
+                        <Clock className="h-3.5 w-3.5 text-amber-500" />
+                        <span>Recommended Pace</span>
+                      </p>
+                      <p className="text-xs font-bold text-slate-900">{section.idealDuration}</p>
+                    </div>
+
+                    <div className="p-4 rounded-2xl bg-amber-50/70 border border-amber-200/80 space-y-1">
+                      <p className="text-[11px] font-bold uppercase tracking-wider text-amber-800 flex items-center gap-1">
+                        <Lightbulb className="h-3.5 w-3.5 text-amber-600" />
+                        <span>Local Chauffeur Tip</span>
+                      </p>
+                      <p className="text-xs text-slate-800 leading-relaxed">{section.insiderTip}</p>
+                    </div>
+                  </div>
+
+                  {/* Direct Tour Package CTA */}
+                  {section.ctaTourSlug && (
+                    <div className="pt-2 flex items-center justify-between flex-wrap gap-4 border-t border-slate-100">
+                      <span className="text-xs text-slate-500 font-medium">
+                        Want this circuit arranged end-to-end with private cab?
+                      </span>
+                      <Link
+                        href={`/tours/${section.ctaTourSlug}`}
+                        className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-gradient-to-r from-[#E61E6E] to-[#F25C05] text-white text-xs font-bold shadow-xs hover:scale-105 transition-all"
+                      >
+                        <span>{section.ctaTourTitle || "View Tour Package"}</span>
+                        <ArrowRight className="h-3.5 w-3.5" />
+                      </Link>
+                    </div>
+                  )}
+                </article>
+              ))}
+            </div>
+
+            {/* Pro Travel Tips Box */}
+            {post.proTips && post.proTips.length > 0 && (
+              <section className="p-6 sm:p-8 rounded-3xl bg-slate-900 text-white shadow-xl space-y-4">
+                <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-amber-400">
+                  <ShieldCheck className="h-4 w-4" />
+                  <span>Gateway Holidays Chauffeur Advice</span>
+                </div>
+                <h3 className="text-xl sm:text-2xl font-bold">
+                  Golden Rules for Smooth South India Touring
+                </h3>
+                <div className="space-y-3 pt-2">
+                  {post.proTips.map((tip, tIdx) => (
+                    <div key={tIdx} className="flex items-start gap-3 text-xs sm:text-sm text-slate-200">
+                      <Check className="h-4 w-4 text-emerald-400 shrink-0 mt-0.5" />
+                      <span className="leading-relaxed">{tip}</span>
+                    </div>
+                  ))}
+                </div>
+              </section>
+            )}
+
+            {/* FAQ Accordion Section (AEO Schema) */}
             {post.faqs && post.faqs.length > 0 && (
-              <div className="pt-8 border-t border-slate-200 space-y-6">
+              <section id="faqs" className="pt-8 border-t border-slate-200 space-y-6 scroll-mt-24">
                 <div>
                   <span className="text-xs font-bold uppercase tracking-wider text-[#F25C05]">
                     Frequently Asked Questions
                   </span>
-                  <h3 className="text-2xl font-bold text-slate-900 mt-1">
+                  <h3 className="text-2xl sm:text-3xl font-black text-slate-900 mt-1">
                     Everything You Need to Know
                   </h3>
                 </div>
@@ -212,9 +364,9 @@ export function BlogClient({ post, relatedPosts, relatedTours }: BlogClientProps
                             <HelpCircle className="h-4 w-4 text-[#F25C05] shrink-0" />
                             <span>{faq.question}</span>
                           </span>
-                          <ChevronRight
+                          <ChevronDown
                             className={`h-4 w-4 text-slate-400 transition-transform ${
-                              isOpen ? "rotate-90 text-[#F25C05]" : ""
+                              isOpen ? "rotate-180 text-[#F25C05]" : ""
                             }`}
                           />
                         </button>
@@ -227,40 +379,65 @@ export function BlogClient({ post, relatedPosts, relatedTours }: BlogClientProps
                     );
                   })}
                 </div>
-              </div>
+              </section>
             )}
-          </article>
+          </main>
 
-          {/* Sticky Sidebar Right (4 cols) */}
+          {/* Sticky Sidebar (4 Cols) */}
           <aside className="lg:col-span-4 space-y-8">
-            {/* Consultation Card */}
             <div className="sticky top-24 space-y-6">
-              <div className="p-6 rounded-3xl bg-gradient-to-br from-slate-900 to-slate-800 text-white shadow-xl space-y-5">
+              {/* Table of Contents Quick Jump */}
+              <div className="p-6 rounded-3xl bg-slate-50 border border-slate-200 shadow-xs space-y-3">
+                <h4 className="text-xs font-black uppercase tracking-wider text-slate-700 flex items-center gap-2">
+                  <Compass className="h-4 w-4 text-[#F25C05]" />
+                  <span>Table of Contents</span>
+                </h4>
+                <nav className="space-y-1.5 text-xs">
+                  {post.sections.map((sec, sIdx) => (
+                    <a
+                      key={sec.id}
+                      href={`#${sec.id}`}
+                      className="block py-1.5 px-2.5 rounded-lg text-slate-600 hover:text-[#F25C05] hover:bg-white font-medium transition-colors truncate"
+                    >
+                      {sec.title}
+                    </a>
+                  ))}
+                  <a
+                    href="#faqs"
+                    className="block py-1.5 px-2.5 rounded-lg text-slate-600 hover:text-[#F25C05] hover:bg-white font-medium transition-colors"
+                  >
+                    Frequently Asked Questions
+                  </a>
+                </nav>
+              </div>
+
+              {/* Consultation / Private Cab Card */}
+              <div className="p-6 rounded-3xl bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white shadow-xl space-y-5">
                 <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/10 text-amber-300 text-[11px] font-bold border border-white/20">
                   <Car className="h-3.5 w-3.5" />
-                  <span>Doorstep & Airport Cab</span>
+                  <span>Private AC Vehicle Available</span>
                 </div>
 
-                <h3 className="text-xl font-bold leading-snug">
-                  Plan This Exact Circuit with Gateway Holidays
+                <h3 className="text-xl font-black leading-snug">
+                  Plan This Circuit with Zero Hassle
                 </h3>
 
                 <p className="text-xs text-slate-300 leading-relaxed">
-                  Skip the hassle of public transit or self-driving ghat roads. We provide a sanitized AC vehicle, certified courteous chauffeur, and handpicked resort stays.
+                  Skip the stress of public buses or self-driving winding mountain roads. We arrange doorstep or airport pickup, seasoned drivers, and handpicked resort stays.
                 </p>
 
-                <div className="space-y-2 pt-2 text-xs text-slate-200">
+                <div className="space-y-2 pt-1 text-xs text-slate-200">
                   <div className="flex items-center gap-2">
                     <CheckCircle2 className="h-4 w-4 text-emerald-400 shrink-0" />
-                    <span>Direct pickup on arrival (station/airport)</span>
+                    <span>Pickup directly on arrival (airport/station)</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <CheckCircle2 className="h-4 w-4 text-emerald-400 shrink-0" />
-                    <span>No hidden fees — tolls & permits included</span>
+                    <span>All toll, parking & fuel charges included</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <CheckCircle2 className="h-4 w-4 text-emerald-400 shrink-0" />
-                    <span>Tailored day-by-day customized schedule</span>
+                    <span>Flexible pauses for meals & photography</span>
                   </div>
                 </div>
 
@@ -282,16 +459,16 @@ export function BlogClient({ post, relatedPosts, relatedTours }: BlogClientProps
                     }}
                     className="w-full py-3 px-4 rounded-xl bg-white/10 hover:bg-white/20 border border-white/20 text-white font-bold text-xs flex items-center justify-center gap-2 transition-colors cursor-pointer"
                   >
-                    <span>Request Custom Callback</span>
+                    <span>Request Callback Quotation</span>
                   </button>
                 </div>
               </div>
 
-              {/* Related Articles in Sidebar */}
+              {/* Related Blog Posts */}
               {relatedPosts.length > 0 && (
-                <div className="p-6 rounded-3xl bg-white border border-slate-200 shadow-sm space-y-4">
-                  <h4 className="text-xs font-bold uppercase tracking-wider text-slate-500">
-                    More Travel Guides
+                <div className="p-6 rounded-3xl bg-white border border-slate-200 shadow-xs space-y-4">
+                  <h4 className="text-xs font-black uppercase tracking-wider text-slate-500">
+                    More South India Guides
                   </h4>
                   <div className="space-y-4">
                     {relatedPosts.map((r) => (
@@ -300,7 +477,7 @@ export function BlogClient({ post, relatedPosts, relatedTours }: BlogClientProps
                         href={`/blog/${r.slug}`}
                         className="group block space-y-1"
                       >
-                        <p className="text-xs text-amber-600 font-semibold">{r.category}</p>
+                        <p className="text-[11px] text-amber-600 font-bold">{r.category}</p>
                         <h5 className="text-xs sm:text-sm font-bold text-slate-900 group-hover:text-[#F25C05] transition-colors leading-snug line-clamp-2">
                           {r.title}
                         </h5>
@@ -313,17 +490,17 @@ export function BlogClient({ post, relatedPosts, relatedTours }: BlogClientProps
           </aside>
         </div>
 
-        {/* Relevant Tour Packages Section (Bottom) */}
+        {/* Bottom Related Tour Packages */}
         {relatedTours.length > 0 && (
-          <section className="mt-20 pt-14 border-t border-slate-200">
+          <section className="mt-24 pt-16 border-t border-slate-200">
             <SectionHeading
-              badge="Handcrafted Packages"
-              title="Recommended Packages for This Destination"
-              subtitle="Turn this travel guide into reality. All tours include private AC cab transfers, polite chauffeurs, and handpicked stays."
+              badge="Handcrafted Itineraries"
+              title="Recommended Packages for This Route"
+              subtitle="Turn this travel guide into a reality. All tours include private AC vehicle transfers, polite chauffeurs, and handpicked stays."
               center
             />
 
-            <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {relatedTours.map((tour) => (
                 <div
                   key={tour.id}
@@ -362,7 +539,7 @@ export function BlogClient({ post, relatedPosts, relatedTours }: BlogClientProps
                         href={`/tours/${tour.slug}`}
                         className="text-xs font-bold text-[#F25C05] flex items-center gap-1.5 hover:underline"
                       >
-                        <span>View Itinerary</span>
+                        <span>View Day-by-Day Itinerary</span>
                         <ArrowRight className="h-3.5 w-3.5" />
                       </Link>
 
@@ -382,7 +559,7 @@ export function BlogClient({ post, relatedPosts, relatedTours }: BlogClientProps
             </div>
           </section>
         )}
-      </main>
+      </div>
 
       {/* 1-Click Consultation Modal */}
       <EnquiryModal
