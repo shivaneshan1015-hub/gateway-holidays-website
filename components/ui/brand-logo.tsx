@@ -40,14 +40,14 @@ export function BrandLogo({
   if (variant === "footer") {
     return (
       <Link href="/" className={`inline-flex items-center ${className}`}>
-        <div className="relative flex items-center rounded-2xl bg-white/95 p-3.5 shadow-xl border border-white/20 transition-all hover:scale-102">
+        <div className="relative flex items-center rounded-2xl bg-white p-3.5 shadow-md border border-slate-200 transition-all hover:scale-102">
           <Image
             src="/images/logo.png"
             alt="Gateway Holidays"
-            width={240}
-            height={80}
+            width={200}
+            height={200}
             loading="lazy"
-            className={`h-12 sm:h-14 w-auto object-contain ${imageClassName}`}
+            className={`h-14 sm:h-16 w-auto object-contain ${imageClassName}`}
           />
         </div>
       </Link>
@@ -60,16 +60,16 @@ export function BrandLogo({
       <motion.div
         whileHover={{ scale: 1.02 }}
         transition={{ type: "spring", stiffness: 400, damping: 25 }}
-        className="relative flex items-center rounded-xl bg-white px-3 py-1.5 shadow-xs border border-slate-200/80 hover:border-pink-500/40 transition-all"
+        className="relative flex items-center rounded-xl bg-white p-1 transition-all"
       >
         <Image
           src="/images/logo.png"
           alt="Gateway Holidays"
-          width={220}
-          height={68}
+          width={180}
+          height={180}
           priority
-          sizes="(max-width: 640px) 150px, 200px"
-          className={`h-9 sm:h-11 w-auto object-contain ${imageClassName}`}
+          sizes="(max-width: 640px) 130px, 170px"
+          className={`h-11 sm:h-13 w-auto object-contain ${imageClassName}`}
         />
       </motion.div>
     </Link>

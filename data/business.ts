@@ -44,7 +44,7 @@ export const businessInfo: BusinessInfo = {
   totalGoogleReviews: 128,
   rating: 4.9,
   reviewCount: 128,
-  googleMapsUrl: "https://maps.google.com/?q=Gateway+Holidays+Anna+Nagar+Madurai",
+  googleMapsUrl: "https://share.google/Ph649ZSpRfBmBvfY3",
   defaultWhatsAppMessage: "Hi Gateway Holidays, I am planning a holiday trip and would like a customized itinerary and quotation.",
   socials: {
     instagram: "https://www.instagram.com/gatewayholidays.in/",
