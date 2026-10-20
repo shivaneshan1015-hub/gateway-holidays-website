@@ -58,7 +58,7 @@ function ToursContent() {
         tour.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
         tour.subtitle.toLowerCase().includes(searchQuery.toLowerCase()) ||
         tour.overview.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        tour.startingHub.toLowerCase().includes(searchQuery.toLowerCase());
+        (tour.destination && tour.destination.toLowerCase().includes(searchQuery.toLowerCase()));
 
       return matchesCategory && matchesTheme && matchesSearch;
     });
@@ -247,7 +247,7 @@ function ToursContent() {
                     <div className="absolute bottom-3 left-4 right-4 z-10 flex items-center justify-between text-xs text-white">
                       <span className="flex items-center gap-1 text-slate-100 drop-shadow">
                         <MapPin className="h-3.5 w-3.5 text-amber-300" />
-                        <span>Starts: {tour.startingHub}</span>
+                        <span>{tour.destination || "Destination Pickup Included"}</span>
                       </span>
                       <span className="text-[11px] px-2 py-0.5 rounded bg-black/50 backdrop-blur-sm text-slate-200 font-medium">
                         {tour.theme}

@@ -204,6 +204,18 @@ export function Navbar({ onOpenEnquiry }: NavbarProps) {
               <span>Reviews</span>
             </Link>
 
+            {/* Blog */}
+            <Link
+              href="/blog"
+              className={`text-sm font-semibold transition-colors ${
+                pathname.startsWith("/blog")
+                  ? "text-[#E61E6E] font-bold"
+                  : "text-slate-700 hover:text-[#E61E6E]"
+              }`}
+            >
+              Blog
+            </Link>
+
             {/* Contact */}
             <Link
               href="/contact"
@@ -299,6 +311,12 @@ export function Navbar({ onOpenEnquiry }: NavbarProps) {
                   className="px-3 py-2 rounded-xl text-sm font-bold text-amber-700 hover:bg-amber-50 flex items-center gap-2"
                 >
                   <Star className="h-4 w-4 text-amber-500" /> Google Reviews (4.9★)
+                </Link>
+                <Link
+                  href="/blog"
+                  className="px-3 py-2 rounded-xl text-sm font-bold text-slate-900 hover:bg-slate-50"
+                >
+                  Travel Blog
                 </Link>
                 <Link
                   href="/contact"

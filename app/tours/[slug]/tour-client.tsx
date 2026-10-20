@@ -91,7 +91,7 @@ export function IndividualTourClient({
             <div className="pt-2 flex flex-wrap items-center gap-4 text-xs text-slate-200">
               <span className="flex items-center gap-1.5">
                 <MapPin className="h-4 w-4 text-[#F25C05]" />
-                <span>Starting Hub: <strong className="text-white">{tour.startingHub}</strong></span>
+                <span>Pickup & Assistance: <strong className="text-white">{tour.pickupAssistance || "On Arrival at Destination / Station / Airport"}</strong></span>
               </span>
               <span>•</span>
               <span className="flex items-center gap-1.5">

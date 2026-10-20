@@ -86,7 +86,7 @@ export default function PlanMyTripPage() {
     const text = `*Bespoke Trip Plan Request — Gateway Holidays*
 ━━━━━━━━━━━━━━━━━━━━
 *Theme Chosen:* ${themes.find((t) => t.id === selectedTheme)?.name || selectedTheme}
-*Starting Hub:* ${startingCity}
+*Arrival / Pickup Location:* ${startingCity}
 *Duration:* ${duration}
 *Traveler Group:* ${travelType}
 *Stay Style:* ${stayPreference}
@@ -241,19 +241,19 @@ _Please send me a customized itinerary quotation._`;
                   className="space-y-6"
                 >
                   <div>
-                    <h2 className="text-xl font-bold text-slate-900">Step 2: Starting City, Stay & Duration</h2>
+                    <h2 className="text-xl font-bold text-slate-900">Step 2: Arrival Location, Stay & Duration</h2>
                     <p className="text-xs text-slate-500 mt-1">
-                      Our private cab picks you up directly from your doorstep, airport, or railway station.
+                      Wherever you arrive — directly at the destination airport, railway station, or from home — our chauffeur will receive you and manage all local arrangements seamlessly.
                     </p>
                   </div>
 
-                  {/* Starting City */}
+                  {/* Arrival Location */}
                   <div>
                     <label className="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">
-                      Where should our private cab pick you up?
+                      Where should our private chauffeur receive / pick you up?
                     </label>
                     <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
-                      {["Madurai", "Chennai", "Coimbatore", "Cochin / Kerala", "Tiruchirappalli", "Bangalore", "Port Blair (Island)", "Other City"].map(
+                      {["Direct at Destination", "Madurai / Airport / Station", "Chennai", "Coimbatore", "Cochin / Kerala", "Bangalore", "Tiruchirappalli", "Doorstep / Other City"].map(
                         (city) => (
                           <button
                             key={city}
