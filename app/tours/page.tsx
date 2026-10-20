@@ -143,12 +143,9 @@ function ToursContent() {
                   className={`px-4 py-2.5 rounded-xl text-xs font-bold transition-all cursor-pointer flex items-center gap-1.5 ${
                     selectedCategory === cat.id
                       ? "bg-gradient-to-r from-[#E61E6E] via-[#F25C05] to-[#F59E0B] text-white shadow-md shadow-orange-500/20"
-                      : isAdventure
-                      ? "bg-orange-50 text-[#F25C05] border border-orange-200 hover:bg-orange-100 font-extrabold"
                       : "bg-white text-slate-700 hover:bg-slate-100 border border-slate-200"
                   }`}
                 >
-                  {isAdventure && <span>🔥</span>}
                   <span>{cat.name}</span>
                   <span className="text-[11px] opacity-75">({count})</span>
                 </button>

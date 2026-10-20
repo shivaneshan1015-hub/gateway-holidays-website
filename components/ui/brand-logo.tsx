@@ -46,8 +46,8 @@ export function BrandLogo({
           <Image
             src="/images/logo-dark-bg.png"
             alt="Gateway Holidays"
-            width={240}
-            height={75}
+            width={566}
+            height={150}
             loading="lazy"
             className={`h-12 sm:h-14 w-auto object-contain transition-transform group-hover:scale-102 ${imageClassName}`}
           />
@@ -67,8 +67,8 @@ export function BrandLogo({
           <Image
             src="/images/logo.png"
             alt="Gateway Holidays"
-            width={200}
-            height={157}
+            width={625}
+            height={491}
             priority
             className={`h-16 w-auto object-contain ${imageClassName}`}
           />
@@ -77,7 +77,7 @@ export function BrandLogo({
     );
   }
 
-  // 4. Header Default Variant (Optimized 515x160 Horizontal Lockup for Light Navbar)
+  // 4. Header Default Variant (Optimized 566x150 Horizontal Lockup for Light Navbar)
   return (
     <Link href="/" className={`inline-flex items-center ${className}`}>
       <motion.div
@@ -88,10 +88,10 @@ export function BrandLogo({
         <Image
           src="/images/logo-horizontal.png"
           alt="Gateway Holidays"
-          width={220}
-          height={68}
+          width={566}
+          height={150}
           priority
-          sizes="(max-width: 640px) 150px, 200px"
+          sizes="(max-width: 640px) 160px, 220px"
           className={`h-11 sm:h-13 w-auto object-contain ${imageClassName}`}
         />
       </motion.div>

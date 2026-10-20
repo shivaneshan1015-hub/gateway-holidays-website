@@ -177,14 +177,6 @@ export function Navbar({ onOpenEnquiry }: NavbarProps) {
               </AnimatePresence>
             </div>
 
-            {/* Adventure Tours Link */}
-            <Link
-              href="/tours?category=adventure-trekking"
-              className="flex items-center gap-1.5 text-sm font-semibold text-slate-700 hover:text-[#F25C05] transition-colors"
-            >
-              <Compass className="h-4 w-4 text-[#F25C05]" />
-              <span>Adventure Tours</span>
-            </Link>
 
             {/* Private Cabs Available */}
             <Link
@@ -293,12 +285,7 @@ export function Navbar({ onOpenEnquiry }: NavbarProps) {
                 >
                   All Tours
                 </Link>
-                <Link
-                  href="/tours?category=adventure-trekking"
-                  className="px-3 py-2 rounded-xl text-sm font-bold text-[#F25C05] hover:bg-orange-50 flex items-center gap-2"
-                >
-                  <Compass className="h-4 w-4" /> Adventure & Trekking Tours
-                </Link>
+
                 <Link
                   href="/#transport"
                   className="px-3 py-2 rounded-xl text-sm font-bold text-emerald-700 hover:bg-emerald-50 flex items-center gap-2"

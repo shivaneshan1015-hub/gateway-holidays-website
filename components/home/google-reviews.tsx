@@ -8,7 +8,6 @@ import {
   ShieldCheck,
   MapPin,
   Quote,
-  MessageCircle,
   ThumbsUp,
   Building2,
   CheckCircle2,
@@ -190,24 +189,6 @@ export function GoogleReviews() {
                 <p className="text-xs sm:text-[13px] text-slate-700 leading-relaxed font-medium bg-slate-50/70 p-3.5 rounded-2xl border border-slate-100">
                   &ldquo;{rev.content}&rdquo;
                 </p>
-
-                {/* Owner Response Box */}
-                {rev.ownerResponse && (
-                  <div className="p-3 rounded-2xl bg-amber-50/50 border border-amber-200/50 text-[11px] space-y-1">
-                    <div className="flex items-center justify-between">
-                      <div className="flex items-center gap-1.5 font-bold text-amber-950">
-                        <MessageCircle className="h-3.5 w-3.5 text-[#F25C05]" />
-                        <span>Response from Gateway Holidays</span>
-                      </div>
-                      {rev.ownerResponseDate && (
-                        <span className="text-[10px] text-amber-800/70">{rev.ownerResponseDate}</span>
-                      )}
-                    </div>
-                    <p className="text-slate-600 pl-5 text-[11px] leading-relaxed italic">
-                      &ldquo;{rev.ownerResponse}&rdquo;
-                    </p>
-                  </div>
-                )}
               </div>
 
               {/* Verified Google maps badge at bottom */}

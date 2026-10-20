@@ -72,10 +72,10 @@ export function CuratedTours({ onOpenEnquiry }: CuratedToursProps) {
             className={`px-4 py-2 rounded-xl text-xs font-bold transition-all cursor-pointer ${
               activeTab === "adventure-trekking"
                 ? "bg-gradient-to-r from-[#E61E6E] to-[#F25C05] text-white shadow-md shadow-orange-500/20"
-                : "bg-orange-50 text-[#F25C05] hover:bg-orange-100 border border-orange-200 font-extrabold"
+                : "bg-slate-100 text-slate-700 hover:bg-slate-200 border border-slate-200"
             }`}
           >
-            🔥 Adventure & Trekking
+            Adventure & Trekking
           </button>
           <button
             onClick={() => setActiveTab("heritage-temple")}
