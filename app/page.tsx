@@ -9,6 +9,7 @@ import { JourneyThemes3D } from "@/components/home/journey-themes-3d";
 import { CuratedTours } from "@/components/home/curated-tours";
 import { SpecialOffers } from "@/components/home/special-offers";
 import { TransportBanner } from "@/components/home/transport-banner";
+import { AboutUs } from "@/components/home/about-us";
 import { GoogleReviews } from "@/components/home/google-reviews";
 import { WhyUs3D } from "@/components/home/why-us-3d";
 import { EnquiryModal } from "@/components/tours/enquiry-modal";
@@ -44,10 +45,13 @@ export default function HomePage() {
         {/* 5. Transport Assurance: Private Cab Available / Included (No Raw Fleet Models) */}
         <TransportBanner onOpenEnquiry={() => handleOpenEnquiry("Custom Cab + Tour Package")} />
 
-        {/* 6. Google Maps Verified Testimonials (Anna Nagar Madurai 4.8★) */}
+        {/* 6. About Us: Safe, Reliable & Affordable (Anna Nagar, Madurai) */}
+        <AboutUs onOpenEnquiry={() => handleOpenEnquiry()} />
+
+        {/* 7. Google Maps Verified Testimonials (Anna Nagar Madurai 4.8★) */}
         <GoogleReviews />
 
-        {/* 7. Why Choose Us — 4 Pillars of Trust */}
+        {/* 8. Why Choose Us — 4 Pillars of Trust */}
         <WhyUs3D />
       </main>
 

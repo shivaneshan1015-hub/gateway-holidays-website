@@ -42,9 +42,9 @@ export function Footer() {
                     {[...Array(5)].map((_, i) => (
                       <Star key={i} className="h-3 w-3 fill-amber-400 text-amber-400" />
                     ))}
-                    <span className="text-xs font-bold text-white ml-1">4.9 / 5.0</span>
+                    <span className="text-xs font-bold text-white ml-1">4.8 / 5.0</span>
                   </div>
-                  <p className="text-[11px] text-slate-400 mt-0.5">Based on 120+ Verified Google Reviews</p>
+                  <p className="text-[11px] text-slate-400 mt-0.5">Based on 13 Verified Google Reviews</p>
                 </div>
               </div>
 
@@ -101,12 +101,7 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/reviews" className="hover:text-white transition-colors">
-                  Traveler Reviews
-                </Link>
-              </li>
-              <li>
-                <Link href="/about" className="hover:text-white transition-colors">
+                <Link href="/#about" className="hover:text-white transition-colors">
                   About Our Team
                 </Link>
               </li>

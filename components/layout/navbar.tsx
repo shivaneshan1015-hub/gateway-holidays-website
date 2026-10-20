@@ -74,7 +74,7 @@ export function Navbar({ onOpenEnquiry }: NavbarProps) {
             <span className="text-white/20">•</span>
             <span className="text-amber-400 font-semibold flex items-center gap-1">
               <Star className="h-3 w-3 fill-amber-400 text-amber-400" />
-              <span>4.9★ Google Verified Tour Operator</span>
+              <span>4.8★ Google Verified Tour Operator</span>
             </span>
           </div>
 
@@ -195,13 +195,12 @@ export function Navbar({ onOpenEnquiry }: NavbarProps) {
               <span>Private Cabs</span>
             </Link>
 
-            {/* Reviews */}
+            {/* About Us */}
             <Link
-              href="/#reviews"
-              className="flex items-center gap-1.5 text-sm font-semibold text-slate-700 hover:text-amber-500 transition-colors"
+              href="/#about"
+              className="text-sm font-semibold text-slate-700 hover:text-[#E61E6E] transition-colors"
             >
-              <Star className="h-4 w-4 text-amber-500" />
-              <span>Reviews</span>
+              About Us
             </Link>
 
             {/* Blog */}
@@ -307,10 +306,10 @@ export function Navbar({ onOpenEnquiry }: NavbarProps) {
                   <Car className="h-4 w-4 text-emerald-600" /> Private Cab Available
                 </Link>
                 <Link
-                  href="/#reviews"
-                  className="px-3 py-2 rounded-xl text-sm font-bold text-amber-700 hover:bg-amber-50 flex items-center gap-2"
+                  href="/#about"
+                  className="px-3 py-2 rounded-xl text-sm font-bold text-slate-900 hover:bg-slate-50 flex items-center gap-2"
                 >
-                  <Star className="h-4 w-4 text-amber-500" /> Google Reviews (4.9★)
+                  <Sparkles className="h-4 w-4 text-[#F25C05]" /> About Us
                 </Link>
                 <Link
                   href="/blog"
