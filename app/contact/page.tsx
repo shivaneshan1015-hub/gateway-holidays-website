@@ -33,6 +33,20 @@ export default function ContactPage() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+
+    // Forward to CRM Webhook via /api/enquiry
+    fetch("/api/enquiry", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        name: formData.name,
+        phone: formData.phone,
+        email: formData.email,
+        destination: "Office Contact Inquiry",
+        specialRequests: formData.message,
+      }),
+    }).catch((err) => console.warn("[Contact CRM Sync Note]:", err));
+
     const text = `*New Contact Message — Gateway Holidays*
 ━━━━━━━━━━━━━━━━━━━━
 *Name:* ${formData.name}
