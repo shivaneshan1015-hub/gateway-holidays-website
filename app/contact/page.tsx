@@ -30,22 +30,31 @@ export default function ContactPage() {
     message: "",
   });
   const [submitted, setSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    if (!formData.name || !formData.phone) return;
+    setIsSubmitting(true);
 
-    // Forward to CRM Webhook via /api/enquiry
-    fetch("/api/enquiry", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        name: formData.name,
-        phone: formData.phone,
-        email: formData.email,
-        destination: "Office Contact Inquiry",
-        specialRequests: formData.message,
-      }),
-    }).catch((err) => console.warn("[Contact CRM Sync Note]:", err));
+    try {
+      await fetch("/api/enquiry", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: formData.name,
+          phone: formData.phone,
+          email: formData.email,
+          destination: "Office Contact Inquiry",
+          specialRequests: formData.message,
+        }),
+      });
+    } catch (err) {
+      console.warn("[Contact CRM Sync Note]:", err);
+    } finally {
+      setIsSubmitting(false);
+      setSubmitted(true);
+    }
 
     const text = `*New Contact Message — Gateway Holidays*
 ━━━━━━━━━━━━━━━━━━━━
@@ -56,7 +65,6 @@ export default function ContactPage() {
 ━━━━━━━━━━━━━━━━━━━━`;
     const url = `https://wa.me/${businessInfo.whatsappNumber}?text=${encodeURIComponent(text)}`;
     window.open(url, "_blank");
-    setSubmitted(true);
   };
 
   return (
