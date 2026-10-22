@@ -52,10 +52,12 @@ export function Navbar({ onOpenEnquiry }: NavbarProps) {
   }, []);
 
   // Close menus on route change
-  useEffect(() => {
+  const [prevPathname, setPrevPathname] = useState(pathname);
+  if (pathname !== prevPathname) {
+    setPrevPathname(pathname);
     setMobileMenuOpen(false);
     setToursDropdownOpen(false);
-  }, [pathname]);
+  }
 
   const whatsappUrl = `https://wa.me/${businessInfo.whatsappNumber}?text=${encodeURIComponent(
     businessInfo.defaultWhatsAppMessage

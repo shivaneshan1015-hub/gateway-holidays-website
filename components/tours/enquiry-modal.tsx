@@ -51,7 +51,11 @@ export function EnquiryModal({
   const [submitted, setSubmitted] = useState(false);
 
   // Update destination if default prop changes
-  React.useEffect(() => {
+  const [prevDefaultTourSlug, setPrevDefaultTourSlug] = useState(defaultTourSlug);
+  const [prevDefaultDestination, setPrevDefaultDestination] = useState(defaultDestination);
+  if (defaultTourSlug !== prevDefaultTourSlug || defaultDestination !== prevDefaultDestination) {
+    setPrevDefaultTourSlug(defaultTourSlug);
+    setPrevDefaultDestination(defaultDestination);
     if (selectedTour) {
       setFormData((prev) => ({
         ...prev,
@@ -64,7 +68,7 @@ export function EnquiryModal({
         destination: defaultDestination,
       }));
     }
-  }, [defaultTourSlug, defaultDestination, selectedTour]);
+  }
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>

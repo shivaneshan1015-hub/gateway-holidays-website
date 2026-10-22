@@ -41,11 +41,13 @@ function ToursContent() {
   const [activeTourForModal, setActiveTourForModal] = useState<string | undefined>();
 
   // Sync if URL query param changes
-  React.useEffect(() => {
+  const [prevCategoryParam, setPrevCategoryParam] = useState(categoryParam);
+  if (categoryParam !== prevCategoryParam) {
+    setPrevCategoryParam(categoryParam);
     if (categoryParam) {
       setSelectedCategory(categoryParam);
     }
-  }, [categoryParam]);
+  }
 
   const filteredTours = useMemo(() => {
     return tourPackages.filter((tour) => {
