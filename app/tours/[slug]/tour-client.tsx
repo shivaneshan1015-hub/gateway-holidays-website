@@ -235,26 +235,31 @@ export function IndividualTourClient({
                       </button>
 
                       {isCurrent && (
-                        <div className="px-6 pb-6 pt-2 border-t border-slate-100 space-y-4 bg-slate-50/50">
-                          <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                            {day.description}
-                          </p>
-
-                          <div className="pt-2 space-y-2">
-                            <p className="text-[11px] font-bold uppercase tracking-wider text-slate-800">
-                              Included Activities & Stops:
+                        <div className="px-6 pb-6 pt-4 border-t border-slate-100 space-y-4 bg-slate-50/50">
+                          <div className="space-y-3">
+                            <p className="text-[11px] font-bold uppercase tracking-wider text-slate-500 flex items-center gap-1.5">
+                              <Sparkles className="h-3.5 w-3.5 text-[#F25C05]" />
+                              <span>Day {day.day} Plan & Sightseeing Highlights</span>
                             </p>
-                            <div className="flex flex-wrap gap-2">
-                              {day.activities.map((act, idx) => (
-                                <span
+
+                            <ul className="space-y-2.5">
+                              {(day.bullets && day.bullets.length > 0
+                                ? day.bullets
+                                : [day.description]
+                              ).map((bullet, idx) => (
+                                <li
                                   key={idx}
-                                  className="px-3 py-1 rounded-xl bg-white border border-slate-200 text-xs text-slate-800 font-medium flex items-center gap-1.5 shadow-xs"
+                                  className="flex items-start gap-3 text-xs sm:text-sm text-slate-700 bg-white p-3.5 rounded-2xl border border-slate-200/80 shadow-xs hover:border-orange-200 transition-colors"
                                 >
-                                  <Compass className="h-3 w-3 text-[#F25C05]" />
-                                  <span>{act}</span>
-                                </span>
+                                  <div className="h-5 w-5 rounded-lg bg-orange-50 text-[#F25C05] flex items-center justify-center shrink-0 mt-0.5 border border-orange-200/60 font-bold text-[10px]">
+                                    {idx + 1}
+                                  </div>
+                                  <span className="leading-relaxed font-medium">
+                                    {bullet}
+                                  </span>
+                                </li>
                               ))}
-                            </div>
+                            </ul>
                           </div>
                         </div>
                       )}

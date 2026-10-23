@@ -11,6 +11,7 @@ export interface ItineraryDay {
   title: string;
   location: string;
   description: string;
+  bullets?: string[];
   activities: string[];
 }
 
@@ -137,18 +138,27 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Kanyakumari —",
+        "title": "Kanyakumari — Land's End Sightseeing",
         "location": "Kanyakumari & Thiruvananthapuram",
         "description": "Kanyakumari — Land's End Sightseeing Direct reception and pickup upon arrival by your dedicated private chauffeur Kumari Amman Temple darshan Ferry ride to Vivekananda Rock Memorial and Thiruvalluvar Statue rising from the sea Gandhi Memorial Museum Evening drive to Padmanabhapuram Palace Check-in at hotel in Kanyakumari Evening sunset at th",
         "activities": [
           "Land's",
           "Sightseeing",
           "Kumari"
+        ],
+        "bullets": [
+          "Direct reception and pickup upon arrival by your dedicated private chauffeur",
+          "Kumari Amman Temple darshan",
+          "Ferry ride to Vivekananda Rock Memorial and Thiruvalluvar Statue rising from the sea",
+          "Gandhi Memorial Museum",
+          "Evening drive to Padmanabhapuram Palace",
+          "Check-in at hotel in Kanyakumari",
+          "Evening sunset at the Triveni Sangam beach"
         ]
       },
       {
         "day": 2,
-        "title": "Thiruvananthapuram —",
+        "title": "Thiruvananthapuram — Royal Heritage & Beach",
         "location": "Kanyakumari & Thiruvananthapuram",
         "description": "Thiruvananthapuram — Royal Heritage & Beach Morning check-out — drive to Thiruvananthapuram Padmanabhaswamy Temple Kuthiramalika (Puthenmalika) Palace Museum Vizhinjam Rock Cave Temple Kovalam Beach — relax at the famous crescent-shaped lighthouse beach Drop-off at airport, railway station, or your next destination",
         "activities": [
@@ -156,6 +166,14 @@ export const tourPackages: TourPackage[] = [
           "Morning check-out — drive to",
           "Thiruvananthapuram",
           "Padmanabhaswamy"
+        ],
+        "bullets": [
+          "Morning check-out — drive to Thiruvananthapuram",
+          "Padmanabhaswamy Temple",
+          "Kuthiramalika (Puthenmalika) Palace Museum",
+          "Vizhinjam Rock Cave Temple",
+          "Kovalam Beach — relax at the famous crescent-shaped lighthouse beach",
+          "Drop-off at airport, railway station, or your next destination"
         ]
       }
     ],
@@ -209,18 +227,24 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Arrive",
+        "title": "Arrive North Goa",
         "location": "Goa",
         "description": "Arrive North Goa Arrive in Goa — check into a North Goa beach resort Afternoon at Calangute, Baga and Candolim beaches Sunset at Fort Aguada cliff Dinner at a fresh seafood beach shack",
         "activities": [
           "Arrive in",
           "Goa — check into a",
           "Goa beach resort"
+        ],
+        "bullets": [
+          "Arrive in Goa — check into a North Goa beach resort",
+          "Afternoon at Calangute, Baga and Candolim beaches",
+          "Sunset at Fort Aguada cliff",
+          "Dinner at a fresh seafood beach shack"
         ]
       },
       {
         "day": 2,
-        "title": "Grand",
+        "title": "Grand Island Adventure",
         "location": "Goa",
         "description": "Grand Island Adventure Morning Grand Island boat trip (3 km offshore) — snorkelling over coral reefs Dolphin spotting in the open sea and banana boat rides Afternoon at Anjuna and Vagator beaches Evening Anjuna Flea Market",
         "activities": [
@@ -229,11 +253,17 @@ export const tourPackages: TourPackage[] = [
           "Morning",
           "Island boat trip (3 km offshore) — snorkelling over coral reefs",
           "Dolphin spotting in the open sea and banana boat rides"
+        ],
+        "bullets": [
+          "Morning Grand Island boat trip (3 km offshore) — snorkelling over coral reefs",
+          "Dolphin spotting in the open sea and banana boat rides",
+          "Afternoon at Anjuna and Vagator beaches",
+          "Evening Anjuna Flea Market"
         ]
       },
       {
         "day": 3,
-        "title": "South",
+        "title": "South Goa Beaches",
         "location": "Goa",
         "description": "South Goa Beaches Morning Old Goa churches (UNESCO) Spice plantation visit Shopping for Goan cashews, feni and ceramics Departure",
         "activities": [
@@ -241,11 +271,16 @@ export const tourPackages: TourPackage[] = [
           "Morning",
           "Goa churches (UNESCO)",
           "Spice plantation visit"
+        ],
+        "bullets": [
+          "Morning Old Goa churches (UNESCO) Spice plantation visit",
+          "Shopping for Goan cashews, feni and ceramics",
+          "Departure"
         ]
       },
       {
         "day": 4,
-        "title": "Old",
+        "title": "Old Goa",
         "location": "Goa",
         "description": "Old Goa & Departure Early morning drive or walk up the Tirumala Ghat Road to the sacred hills Darshan at Sri Venkateswara Temple with specially arranged Darshan tickets Head tonsuring (optional) Sri Padmavathi Ammavari Temple at Tiruchanur (7 km) Departure",
         "activities": [
@@ -254,6 +289,12 @@ export const tourPackages: TourPackage[] = [
           "Early morning drive or walk up the",
           "Tirumala",
           "Road to the sacred hills"
+        ],
+        "bullets": [
+          "Departure Early morning drive or walk up the Tirumala Ghat Road to the sacred hills",
+          "Darshan at Sri Venkateswara Temple with specially arranged",
+          "Darshan tickets Head tonsuring (optional) Sri Padmavathi Ammavari Temple at Tiruchanur (7 km)",
+          "Departure"
         ]
       }
     ],
@@ -307,7 +348,7 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Arrive",
+        "title": "Arrive Agatti Island",
         "location": "Lakshadweep - Coral Island",
         "description": "Arrive Agatti Island Fly to Agatti Island — transfer by boat to resort Afternoon introductory snorkelling in the Agatti lagoon — see corals, rays and tropical fish Sunset beach walk Overnight stay",
         "activities": [
@@ -317,11 +358,16 @@ export const tourPackages: TourPackage[] = [
           "Agatti",
           "Island — transfer by boat to resort",
           "Afternoon introductory snorkelling in the"
+        ],
+        "bullets": [
+          "Fly to Agatti Island — transfer by boat to resort",
+          "Afternoon introductory snorkelling in the Agatti lagoon — see corals, rays and tropical fish",
+          "Sunset beach walk Overnight stay"
         ]
       },
       {
         "day": 2,
-        "title": "Bangaram",
+        "title": "Bangaram Island",
         "location": "Lakshadweep - Coral Island",
         "description": "Bangaram Island Day Trip Day trip to Bangaram Island (uninhabited) — the jewel of Lakshadweep Full-day beach picnic Snorkelling on the outer reef Glass-bottom boat ride Return to resort Overnight stay",
         "activities": [
@@ -329,11 +375,17 @@ export const tourPackages: TourPackage[] = [
           "Day trip to",
           "Bangaram",
           "Island (uninhabited) — the jewel of"
+        ],
+        "bullets": [
+          "Day Trip Day trip to Bangaram Island (uninhabited) — the jewel of Lakshadweep",
+          "Full-day beach picnic",
+          "Snorkelling on the outer reef Glass-bottom boat ride",
+          "Return to resort Overnight stay"
         ]
       },
       {
         "day": 3,
-        "title": "Scuba",
+        "title": "Scuba Diving",
         "location": "Lakshadweep - Coral Island",
         "description": "Scuba Diving & Kayaking Scuba diving (certified divers) or beginner discover scuba programme Dive sites include sharks, turtles and pristine hard coral formations Afternoon kayaking through the lagoon and mangrove channels Overnight stay",
         "activities": [
@@ -343,11 +395,17 @@ export const tourPackages: TourPackage[] = [
           "Dive sites include sharks, turtles and pristine hard coral formations",
           "Afternoon kayaking through the lagoon and mangrove channels",
           "Overnight stay"
+        ],
+        "bullets": [
+          "Kayaking Scuba diving (certified divers) or beginner discover scuba programme",
+          "Dive sites include sharks, turtles and pristine hard coral formations",
+          "Afternoon kayaking through the lagoon and mangrove channels",
+          "Overnight stay"
         ]
       },
       {
         "day": 4,
-        "title": "Tinnakara",
+        "title": "Tinnakara Island",
         "location": "Lakshadweep - Coral Island",
         "description": "Tinnakara Island Day trip to Tinnakara Island — another uninhabited island Beach bonfire dinner under stars Sea fishing trip at dawn Overnight stay",
         "activities": [
@@ -357,11 +415,17 @@ export const tourPackages: TourPackage[] = [
           "Island — another uninhabited island",
           "Beach bonfire dinner under stars",
           "Sea fishing trip at dawn"
+        ],
+        "bullets": [
+          "Day trip to Tinnakara Island — another uninhabited island",
+          "Beach bonfire dinner under stars",
+          "Sea fishing trip at dawn",
+          "Overnight stay"
         ]
       },
       {
         "day": 5,
-        "title": "Farewell",
+        "title": "Farewell Swim",
         "location": "Lakshadweep - Coral Island",
         "description": "Farewell Swim & Departure Morning final lagoon swim and beach time Souvenir shopping for Lakshadweep coconut products and shell crafts Departure flight from Agatti",
         "activities": [
@@ -371,6 +435,11 @@ export const tourPackages: TourPackage[] = [
           "Souvenir shopping for",
           "Lakshadweep coconut products and shell crafts",
           "Departure flight from"
+        ],
+        "bullets": [
+          "Departure Morning final lagoon swim and beach time",
+          "Souvenir shopping for Lakshadweep coconut products and shell crafts",
+          "Departure flight from Agatti"
         ]
       }
     ],
@@ -424,7 +493,7 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Arrive",
+        "title": "Arrive Sigiriya",
         "location": "Sri Lanka",
         "description": "Arrive Sigiriya Fly to Colombo — transfer to Sigiriya Afternoon at Sigiriya Rock Fortress (193 m) — 5th-century royal citadel with stunning frescoes Pidurangala Rock alternative climb for panoramic views",
         "activities": [
@@ -434,11 +503,16 @@ export const tourPackages: TourPackage[] = [
           "Sigiriya",
           "Afternoon at",
           "Sigiriya"
+        ],
+        "bullets": [
+          "Fly to Colombo — transfer to Sigiriya",
+          "Afternoon at Sigiriya Rock Fortress (193 m) — 5th-century royal citadel with stunning frescoes",
+          "Pidurangala Rock alternative climb for panoramic views"
         ]
       },
       {
         "day": 2,
-        "title": "Sigiriya to",
+        "title": "Sigiriya to Kandy",
         "location": "Sri Lanka",
         "description": "Sigiriya to Kandy En route Dambulla Cave Temple (UNESCO) — five magnificent Buddhist cave shrines Arrive Kandy — evening at Temple of the Sacred Tooth Relic Kandy Cultural Show — traditional Kandyan dance",
         "activities": [
@@ -446,11 +520,15 @@ export const tourPackages: TourPackage[] = [
           "Dambulla",
           "Temple (UNESCO) — five magnificent",
           "Buddhist cave shrines"
+        ],
+        "bullets": [
+          "En route Dambulla Cave Temple (UNESCO) — five magnificent Buddhist cave shrines Arrive Kandy — evening at Temple of the Sacred Tooth Relic",
+          "Kandy Cultural Show — traditional Kandyan dance"
         ]
       },
       {
         "day": 3,
-        "title": "Nuwara",
+        "title": "Nuwara Eliya",
         "location": "Sri Lanka",
         "description": "Nuwara Eliya Morning Peradeniya Royal Botanical Gardens — 150 acres of orchids, palms and exotic trees Drive to Nuwara Eliya (3 hours through tea country) Afternoon tea factory visit and tea tasting Nuwara Eliya Lake walk",
         "activities": [
@@ -458,11 +536,16 @@ export const tourPackages: TourPackage[] = [
           "Peradeniya",
           "Botanical",
           "Gardens — 150 acres of orchids, palms and exotic trees"
+        ],
+        "bullets": [
+          "Morning Peradeniya Royal Botanical Gardens — 150 acres of orchids, palms and exotic trees",
+          "Drive to Nuwara Eliya (3 hours through tea country)",
+          "Afternoon tea factory visit and tea tasting Nuwara Eliya Lake walk"
         ]
       },
       {
         "day": 4,
-        "title": "Drive to",
+        "title": "Drive to Mirissa",
         "location": "Sri Lanka",
         "description": "Drive to Mirissa Drive Nuwara Eliya to Mirissa (5 hours) En route Ella — Nine Arch Bridge and Little Adam's Peak hike Arrive Mirissa/Unawatuna Beach — check into a beachfront villa",
         "activities": [
@@ -471,11 +554,15 @@ export const tourPackages: TourPackage[] = [
           "Eliya to",
           "Mirissa (5 hours)",
           "En route"
+        ],
+        "bullets": [
+          "Drive Nuwara Eliya to Mirissa (5 hours)",
+          "En route Ella Nine Arch Bridge and Little Adam's Peak hike Arrive Mirissa/Unawatuna Beach — check into a beachfront villa"
         ]
       },
       {
         "day": 5,
-        "title": "Whale",
+        "title": "Whale Watching & Galle Fort",
         "location": "Sri Lanka",
         "description": "Whale Watching & Galle Fort Morning whale and dolphin watching boat trip from Mirissa (December–April) Afternoon at Galle Fort (UNESCO) — magnificent 17th-century Dutch fortified city Galle Fort lighthouse and rampart walk at sunset",
         "activities": [
@@ -483,11 +570,16 @@ export const tourPackages: TourPackage[] = [
           "Morning whale and dolphin watching boat trip from",
           "Mirissa (",
           "December–"
+        ],
+        "bullets": [
+          "Morning whale and dolphin watching boat trip from Mirissa (December–April)",
+          "Afternoon at Galle Fort (UNESCO) — magnificent 17th-century Dutch fortified city",
+          "Galle Fort lighthouse and rampart walk at sunset"
         ]
       },
       {
         "day": 6,
-        "title": "Colombo &",
+        "title": "Colombo",
         "location": "Sri Lanka",
         "description": "Colombo & Departure Drive to Colombo City tour: Gangaramaya Temple, Pettah Market, Beira Lake Shopping for Ceylon tea, batik and gems",
         "activities": [
@@ -497,6 +589,11 @@ export const tourPackages: TourPackage[] = [
           "City tour:",
           "Gangaramaya",
           "Temple,"
+        ],
+        "bullets": [
+          "Departure Drive to Colombo",
+          "City tour: Gangaramaya Temple, Pettah Market, Beira Lake",
+          "Shopping for Ceylon tea, batik and gems"
         ]
       }
     ],
@@ -550,7 +647,7 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Arrive",
+        "title": "Arrive Singapore",
         "location": "Singapore",
         "description": "Arrive Singapore Arrive in Singapore (Changi Airport) — hotel check-in Afternoon at Marina Bay Sands SkyPark Observation Deck Gardens by the Bay — futuristic Supertrees and Glass Greenhouses Supertree Grove light show at night",
         "activities": [
@@ -560,11 +657,16 @@ export const tourPackages: TourPackage[] = [
           "Changi",
           "Airport) — hotel check-in",
           "Afternoon at"
+        ],
+        "bullets": [
+          "Arrive in Singapore (Changi Airport) — hotel check-in Afternoon at Marina Bay Sands SkyPark Observation Deck",
+          "Gardens by the Bay — futuristic Supertrees and Glass Greenhouses",
+          "Supertree Grove light show at night"
         ]
       },
       {
         "day": 2,
-        "title": "Sentosa",
+        "title": "Sentosa Island",
         "location": "Singapore",
         "description": "Sentosa Island Full day Sentosa Island — Universal Studios Singapore Thrill rides, shows and themed zones (Transformers, Jurassic World, Minions) S.E.A. Aquarium Cable car back to mainland Evening Clarke Quay riverfront dining",
         "activities": [
@@ -574,11 +676,18 @@ export const tourPackages: TourPackage[] = [
           "Island —",
           "Universal",
           "Studios"
+        ],
+        "bullets": [
+          "Full day Sentosa Island",
+          "Universal Studios Singapore",
+          "Thrill rides, shows and themed zones (Transformers, Jurassic World, Minions)",
+          "S.E.A. Aquarium Cable car back to mainland",
+          "Evening Clarke Quay riverfront dining"
         ]
       },
       {
         "day": 3,
-        "title": "Zoo &",
+        "title": "Zoo",
         "location": "Singapore",
         "description": "Zoo & Night Safari Morning Singapore Zoo — one of the world's best Night Safari — world's first nocturnal zoo Afternoon Singapore Botanic Gardens (UNESCO) Orchard Road shopping",
         "activities": [
@@ -586,6 +695,11 @@ export const tourPackages: TourPackage[] = [
           "Morning",
           "Singapore",
           "Zoo — one of the world's best"
+        ],
+        "bullets": [
+          "Night Safari Morning Singapore Zoo — one of the world's best",
+          "Night Safari — world's first nocturnal zoo",
+          "Afternoon Singapore Botanic Gardens (UNESCO) Orchard Road shopping"
         ]
       },
       {
@@ -598,11 +712,17 @@ export const tourPackages: TourPackage[] = [
           "Little",
           "India —",
           "Veeramakaliamman"
+        ],
+        "bullets": [
+          "Cultural Heritage Day Little",
+          "India — Sri Veeramakaliamman Temple, Tekka Market Arab",
+          "Street — Sultan Mosque and Kampong Glam",
+          "Chinatown — Buddha Tooth Relic Temple Hawker Centre lunch — Chicken Rice, Char Kway Teow and Laksa"
         ]
       },
       {
         "day": 5,
-        "title": "Merlion",
+        "title": "Merlion Park",
         "location": "Singapore",
         "description": "Merlion Park & Departure Morning Merlion Park and ArtScience Museum Jewel Changi — the stunning airport waterfall Last-minute shopping at Mustafa Centre Departure",
         "activities": [
@@ -611,6 +731,12 @@ export const tourPackages: TourPackage[] = [
           "Morning",
           "Merlion",
           "Park and"
+        ],
+        "bullets": [
+          "Departure Morning Merlion Park and ArtScience Museum",
+          "Jewel Changi — the stunning airport waterfall",
+          "Last-minute shopping at Mustafa Centre",
+          "Departure"
         ]
       }
     ],
@@ -664,7 +790,7 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Arrive",
+        "title": "Arrive Kuala Lumpur",
         "location": "Malaysia",
         "description": "Arrive Kuala Lumpur Fly to Kuala Lumpur — check-in Afternoon at Petronas Twin Towers (Skybridge visit) KLCC Park and Aquaria KLCC Bukit Bintang for dinner",
         "activities": [
@@ -672,11 +798,14 @@ export const tourPackages: TourPackage[] = [
           "Fly to",
           "Lumpur — check-in",
           "Afternoon at"
+        ],
+        "bullets": [
+          "Fly to Kuala Lumpur — check-in Afternoon at Petronas Twin Towers (Skybridge visit) KLCC Park and Aquaria KLCC Bukit Bintang for dinner"
         ]
       },
       {
         "day": 2,
-        "title": "Batu",
+        "title": "Batu Caves & Old KL",
         "location": "Malaysia",
         "description": "Batu Caves & Old KL Morning at Batu Caves — 272 steps to the Hindu shrine inside a giant limestone cave Thean Hou Temple and National Museum Afternoon Merdeka Square and Sultan Abdul Samad Building Night market at Jalan Alor",
         "activities": [
@@ -685,11 +814,16 @@ export const tourPackages: TourPackage[] = [
           "Morning at",
           "Caves — 272 steps to the",
           "Hindu shrine inside a giant limestone cave"
+        ],
+        "bullets": [
+          "Morning at Batu Caves — 272 steps to the Hindu shrine inside a giant limestone cave Thean Hou Temple and National Museum",
+          "Afternoon Merdeka Square and Sultan Abdul Samad Building",
+          "Night market at Jalan Alor"
         ]
       },
       {
         "day": 3,
-        "title": "Cameron",
+        "title": "Cameron Highlands",
         "location": "Malaysia",
         "description": "Cameron Highlands Day Trip Day trip to Cameron Highlands (3 hours) — BOH Tea Plantation Walk through emerald tea fields and tour the factory Mossy Forest trail Strawberry and honey bee farms Rose Garden Return to KL",
         "activities": [
@@ -697,11 +831,15 @@ export const tourPackages: TourPackage[] = [
           "Day trip to",
           "Cameron",
           "Highlands (3 hours) — BOH"
+        ],
+        "bullets": [
+          "Day Trip Day trip to Cameron Highlands (3 hours) — BOH Tea Plantation Walk through emerald tea fields and tour the factory Mossy Forest trail Strawberry and honey bee farms Rose Garden",
+          "Return to KL"
         ]
       },
       {
         "day": 4,
-        "title": "Flight to",
+        "title": "Flight to Penang",
         "location": "Malaysia",
         "description": "Flight to Penang Morning flight to Penang — check-in at a heritage hotel in Georgetown Afternoon UNESCO George Town heritage walk — Khoo Kongsi clan house, Cheong Fatt Tze Mansion Penang Street Art trail Evening Gurney Drive hawker food — famous Char Koay Teow and Assam Laksa",
         "activities": [
@@ -711,11 +849,18 @@ export const tourPackages: TourPackage[] = [
           "Georgetown",
           "Afternoon UNESCO",
           "George"
+        ],
+        "bullets": [
+          "Morning flight to Penang — check-in at a heritage hotel in Georgetown",
+          "Afternoon UNESCO George Town heritage walk",
+          "Khoo Kongsi clan house",
+          "Cheong Fatt Tze Mansion Penang Street Art trail",
+          "Evening Gurney Drive hawker food — famous Char Koay Teow and Assam Laksa"
         ]
       },
       {
         "day": 6,
-        "title": "Putrajaya &",
+        "title": "Putrajaya",
         "location": "Malaysia",
         "description": "Putrajaya & Departure Morning return to KL Afternoon Putrajaya — Malaysia's stunning planned capital with Islamic architecture and man-made lake Departure from KLIA",
         "activities": [
@@ -725,6 +870,11 @@ export const tourPackages: TourPackage[] = [
           "Putrajaya —",
           "Malaysia's stunning planned capital with",
           "Islamic architecture and man-made lake"
+        ],
+        "bullets": [
+          "Departure Morning return to KL",
+          "Afternoon Putrajaya — Malaysia's stunning planned capital with Islamic architecture and man-made lake",
+          "Departure from KLIA"
         ]
       }
     ],
@@ -777,13 +927,17 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Arrive",
+        "title": "Arrive Hanoi",
         "location": "Vietnam",
         "description": "Arrive Hanoi Fly to Hanoi — check-in Afternoon Hoan Kiem Lake and Ngoc Son Temple Evening Hanoi Old Quarter walk — 36 ancient trade guild streets Water Puppet Show",
         "activities": [
           "Fly to",
           "Hanoi — check-in",
           "Afternoon"
+        ],
+        "bullets": [
+          "Fly to Hanoi — check-in Afternoon Hoan Kiem Lake and Ngoc Son Temple",
+          "Evening Hanoi Old Quarter walk — 36 ancient trade guild streets Water Puppet Show"
         ]
       },
       {
@@ -793,6 +947,10 @@ export const tourPackages: TourPackage[] = [
         "description": "Hanoi City Tour Ho Chi Minh Mausoleum and Museum One Pillar Pagoda Temple of Literature (11th century) Vietnam Museum of Ethnology Evening Train Street and street food tour",
         "activities": [
           "Mausoleum and"
+        ],
+        "bullets": [
+          "City Tour Ho Chi Minh Mausoleum and Museum One Pillar Pagoda Temple of Literature (11th century) Vietnam Museum of Ethnology",
+          "Evening Train Street and street food tour"
         ]
       },
       {
@@ -804,15 +962,26 @@ export const tourPackages: TourPackage[] = [
           "Cruise",
           "Halong",
           "Bay cruise (2-day/1-night): board a traditional junk boat in"
+        ],
+        "bullets": [
+          "Kayaking through grottos, swimming in emerald water",
+          "Visit Thien Cung Cave",
+          "Sunset cocktails on deck",
+          "Overnight on boat"
         ]
       },
       {
         "day": 4,
-        "title": "Halong to",
+        "title": "Halong to Hoi An",
         "location": "Vietnam",
         "description": "Halong to Hoi An Morning tai chi on the boat deck Visit Vung Vieng Fishing Village Return to Hanoi — afternoon flight to Danang Check-in at Hoi An",
         "activities": [
           "Morning tai chi on the boat deck"
+        ],
+        "bullets": [
+          "Morning tai chi on the boat deck",
+          "Visit Vung Vieng Fishing Village",
+          "Return to Hanoi — afternoon flight to Danang Check-in at Hoi An"
         ]
       },
       {
@@ -823,25 +992,36 @@ export const tourPackages: TourPackage[] = [
         "activities": [
           "An &",
           "Ancient"
+        ],
+        "bullets": [
+          "Cooking class Afternoon My Son Sanctuary (40 km) — ancient Cham Hindu temple ruins in a jungle valley"
         ]
       },
       {
         "day": 6,
-        "title": "Ho",
+        "title": "Ho Chi Minh City & Cu Chi",
         "location": "Vietnam",
         "description": "Ho Chi Minh City & Cu Chi Flight to Ho Chi Minh City Cu Chi Tunnels (70 km) — legendary 250 km underground tunnel network Ben Dinh entry and tunnel crawl experience Evening Ben Thanh Market and rooftop dining",
         "activities": [
           "City &",
           "Flight to"
+        ],
+        "bullets": [
+          "Flight to Ho Chi Minh City Cu Chi Tunnels (70 km) — legendary 250 km underground tunnel network Ben Dinh entry and tunnel crawl experience",
+          "Evening Ben Thanh Market and rooftop dining"
         ]
       },
       {
         "day": 7,
-        "title": "Mekong",
+        "title": "Mekong Delta",
         "location": "Vietnam",
         "description": "Mekong Delta & Departure Ho Chi Minh City: Reunification Palace, War Remnants Museum, Notre Dame Cathedral Mekong Delta half-day: boat ride, coconut candy factory, floating market Departure",
         "activities": [
           "Delta &",
+          "Departure"
+        ],
+        "bullets": [
+          "Departure Ho Chi Minh City: Reunification Palace, War Remnants Museum, Notre Dame Cathedral Mekong Delta half-day: boat ride, coconut candy factory, floating market",
           "Departure"
         ]
       }
@@ -895,7 +1075,7 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Arrive",
+        "title": "Arrive Bali — Tanah Lot",
         "location": "Bali",
         "description": "Arrive Bali — Tanah Lot Fly to Bali — check-in at Seminyak Afternoon Seminyak Beach and beach clubs Sunset at Tanah Lot Temple — iconic Bali sight rising from a sea rock",
         "activities": [
@@ -903,6 +1083,11 @@ export const tourPackages: TourPackage[] = [
           "Fly to",
           "Bali — check-in at",
           "Seminyak"
+        ],
+        "bullets": [
+          "Fly to Bali — check-in at Seminyak",
+          "Afternoon Seminyak Beach and beach clubs",
+          "Sunset at Tanah Lot Temple — iconic Bali sight rising from a sea rock"
         ]
       },
       {
@@ -915,6 +1100,13 @@ export const tourPackages: TourPackage[] = [
           "Ubud (1.5 hours) — check-in at a rice field resort",
           "Tegallalang",
           "Terrace — spectacular terraced paddies"
+        ],
+        "bullets": [
+          "Drive to Ubud (1.5 hours) — check-in at a rice field resort",
+          "Tegallalang Rice Terrace — spectacular terraced paddies",
+          "Tirta Empul Temple (holy spring water purification ritual)",
+          "Bali Swing over the jungle",
+          "Ubud Monkey Forest"
         ]
       },
       {
@@ -926,30 +1118,44 @@ export const tourPackages: TourPackage[] = [
           "Arts &",
           "Culture",
           "Palace and"
+        ],
+        "bullets": [
+          "Cooking class Silver jewellery workshop in Celuk and woodcarving village in Mas Barong & Kris Dance performance"
         ]
       },
       {
         "day": 4,
-        "title": "Mount",
+        "title": "Mount Batur",
         "location": "Bali",
         "description": "Mount Batur Sunrise Trek Mount Batur Sunrise Trek (2 AM start) — trek 2 hours in darkness to the 1,717 m volcanic rim One of Bali's most spectacular sunrises over the caldera lake Breakfast cooked by volcanic steam Afternoon Kintamani volcano viewpoint Coffee plantation — taste Kopi Luwak (civ",
         "activities": [
           "Sunrise",
           "Sunrise"
+        ],
+        "bullets": [
+          "Sunrise Mount Batur",
+          "Sunrise Trek (2 AM start) — trek 2 hours in darkness to the 1,717 m volcanic rim One of Bali's most spectacular sunrises over the caldera lake",
+          "Breakfast cooked by volcanic steam",
+          "Afternoon Kintamani volcano viewpoint Coffee plantation — taste Kopi Luwak (civ"
         ]
       },
       {
         "day": 5,
-        "title": "Uluwatu &",
+        "title": "Uluwatu & Kecak Fire Dance South Bali: Uluwatu Temple at",
         "location": "Bali",
         "description": "Uluwatu & Kecak Fire Dance South Bali: Uluwatu Temple at sunset — perched on a 70-metre cliff over the Indian Ocean Kecak Fire Dance performance as the sun sets into the sea Jimbaran Bay fresh seafood dinner on the beach by torchlight",
         "activities": [
           "Uluwatu"
+        ],
+        "bullets": [
+          "Kecak Fire Dance South Bali: Uluwatu Temple at sunset — perched on a 70-metre cliff over the Indian Ocean",
+          "Kecak Fire Dance performance as the sun sets into the sea",
+          "Jimbaran Bay fresh seafood dinner on the beach by torchlight"
         ]
       },
       {
         "day": 6,
-        "title": "Beach,",
+        "title": "Beach",
         "location": "Bali",
         "description": "Beach, Shopping & Departure Morning Nusa Dua beach, spa or surfing lesson at Kuta Souvenir shopping — batik sarongs, silver, woodcarvings and Bali coffee Departure",
         "activities": [
@@ -957,6 +1163,12 @@ export const tourPackages: TourPackage[] = [
           "Departure",
           "Morning",
           "Dua beach, spa or surfing lesson at"
+        ],
+        "bullets": [
+          "Shopping & Departure",
+          "Morning Nusa Dua beach, spa or surfing lesson at Kuta",
+          "Souvenir shopping — batik sarongs, silver, woodcarvings and Bali coffee",
+          "Departure"
         ]
       }
     ],
@@ -1009,7 +1221,7 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Acclimatisation &",
+        "title": "Acclimatisation & Briefing",
         "location": "Munnar",
         "description": "Acclimatisation & Briefing Arrive in Munnar — check-in Afternoon acclimatisation nature walk through a tea estate Briefing on the planned treks — routes, difficulty and gear Early dinner and rest Overnight stay",
         "activities": [
@@ -1019,11 +1231,15 @@ export const tourPackages: TourPackage[] = [
           "Afternoon acclimatisation nature walk through a tea estate",
           "Briefing on the planned treks — routes, difficulty and gear",
           "Early dinner and rest"
+        ],
+        "bullets": [
+          "Arrive in Munnar — check-in Afternoon acclimatisation nature walk through a tea estate Briefing on the planned treks — routes, difficulty and gear Early dinner and rest",
+          "Overnight stay"
         ]
       },
       {
         "day": 2,
-        "title": "Kolukkumalai /",
+        "title": "Kolukkumalai / Meesapulimala",
         "location": "Munnar",
         "description": "Kolukkumalai / Meesapulimala Trek Kolukkumalai Trek: jeep ride to base, 3-hour trek through tea bushes and grasslands to the world's highest tea estate at 2,100 m Visit the old Kolukkumalai tea factory OR Meesapulimala Trek (13 km): guided trek through rhododendron forests to the second-highes",
         "activities": [
@@ -1031,6 +1247,11 @@ export const tourPackages: TourPackage[] = [
           "Kolukkumalai",
           "Visit the old",
           "Kolukkumalai tea factory OR"
+        ],
+        "bullets": [
+          "Trek Kolukkumalai Trek: jeep ride to base, 3-hour trek through tea bushes and grasslands to the world's highest tea estate at 2,100 m",
+          "Visit the old Kolukkumalai tea factory OR Meesapulimala",
+          "Trek (13 km): guided trek through rhododendron forests to the second-highes"
         ]
       }
     ],
@@ -1083,7 +1304,7 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Munroe",
+        "title": "Munroe Island Canoe Tour",
         "location": "Varkala & Munroe Island Tour - Kerala",
         "description": "Munroe Island Canoe Tour Arrive at Kollam — check-in near Ashtamudi Lake Afternoon Munroe Island full-day backwater canoe tour Navigate through narrow canals — observe coir making, fishing and rice paddy cultivation Interaction with island families Sunset over Ashtamudi Lake Overnight stay",
         "activities": [
@@ -1091,22 +1312,35 @@ export const tourPackages: TourPackage[] = [
           "Arrive at",
           "Kollam — check-in near",
           "Ashtamudi"
+        ],
+        "bullets": [
+          "Arrive at Kollam — check-in near",
+          "Ashtamudi Lake Afternoon",
+          "Munroe Island full-day backwater canoe tour Navigate through narrow canals — observe coir making, fishing and rice paddy cultivation Interaction with island families",
+          "Sunset over Ashtamudi Lake",
+          "Overnight stay"
         ]
       },
       {
         "day": 2,
-        "title": "Varkala",
+        "title": "Varkala Cliff Beach",
         "location": "Varkala & Munroe Island Tour - Kerala",
         "description": "Varkala Cliff Beach Drive to Varkala (50 km) — check-in at a cliff-top resort Afternoon North Cliff promenade walk Janardhana Swamy Temple darshan Swim at Papanasam Beach Cliff-top restaurant dinner with ocean views Overnight stay",
         "activities": [
           "Drive to",
           "Varkala (50 km) — check-in at a cliff-top resort",
           "Afternoon"
+        ],
+        "bullets": [
+          "Drive to Varkala (50 km) — check-in at a cliff-top resort",
+          "Afternoon North Cliff promenade walk",
+          "Janardhana Swamy Temple darshan Swim at Papanasam Beach Cliff-top restaurant dinner with ocean views",
+          "Overnight stay"
         ]
       },
       {
         "day": 3,
-        "title": "Sivagiri",
+        "title": "Sivagiri Mutt",
         "location": "Varkala & Munroe Island Tour - Kerala",
         "description": "Sivagiri Mutt & Departure Morning at Sivagiri Mutt — ashram of Sree Narayana Guru Anjengo Fort (30 km) — an old British fort on a narrow sand spit Departure",
         "activities": [
@@ -1115,6 +1349,10 @@ export const tourPackages: TourPackage[] = [
           "Morning at",
           "Sivagiri",
           "Mutt — ashram of"
+        ],
+        "bullets": [
+          "Departure Morning at Sivagiri Mutt — ashram of Sree Narayana Guru Anjengo Fort (30 km) — an old British fort on a narrow sand spit",
+          "Departure"
         ]
       }
     ],
@@ -1167,7 +1405,7 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Rock",
+        "title": "Rock Climbing",
         "location": "Kanakapura Adventure Park Tour - Karnataka",
         "description": "Rock Climbing & Kayaking Drive from Bengaluru to Kanakapura (2 hours) Check into a riverside camp Afternoon rock climbing and bouldering on the famous granite faces Evening kayaking on the Cauvery at golden hour Riverside campfire dinner Overnight stay",
         "activities": [
@@ -1177,11 +1415,18 @@ export const tourPackages: TourPackage[] = [
           "Bengaluru to",
           "Kanakapura (2 hours)",
           "Check into a riverside camp"
+        ],
+        "bullets": [
+          "Kayaking Drive from Bengaluru to Kanakapura (2 hours)",
+          "Check into a riverside camp",
+          "Afternoon rock climbing and bouldering on the famous granite faces",
+          "Evening kayaking on the Cauvery at golden hour Riverside campfire dinner",
+          "Overnight stay"
         ]
       },
       {
         "day": 2,
-        "title": "Rafting &",
+        "title": "Rafting",
         "location": "Kanakapura Adventure Park Tour - Karnataka",
         "description": "Rafting & Departure Morning white-water rafting on the Cauvery (Grade 1–3 rapids, suitable for beginners) Coracle ride — circular bamboo-and-hide boat unique to the Cauvery Rappelling session Pack-up and drive back to Bengaluru Departure",
         "activities": [
@@ -1191,6 +1436,11 @@ export const tourPackages: TourPackage[] = [
           "Grade 1–3 rapids, suitable for beginners)",
           "Coracle ride — circular bamboo-and-hide boat unique to the",
           "Cauvery"
+        ],
+        "bullets": [
+          "Departure Morning white-water rafting on the Cauvery (Grade 1–3 rapids, suitable for beginners)",
+          "Coracle ride — circular bamboo-and-hide boat unique to the Cauvery Rappelling session Pack-up and drive back to Bengaluru",
+          "Departure"
         ]
       }
     ],
@@ -1243,7 +1493,7 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Arrive",
+        "title": "Arrive Bangkok",
         "location": "Thailand",
         "description": "Arrive Bangkok Fly to Bangkok — check-in Evening at Asiatique The Riverfront — riverside night market Chao Phraya River cruise",
         "activities": [
@@ -1252,6 +1502,9 @@ export const tourPackages: TourPackage[] = [
           "Bangkok — check-in",
           "Evening at",
           "Asiatique"
+        ],
+        "bullets": [
+          "Fly to Bangkok — check-in Evening at Asiatique The Riverfront — riverside night market Chao Phraya River cruise"
         ]
       },
       {
@@ -1262,11 +1515,15 @@ export const tourPackages: TourPackage[] = [
         "activities": [
           "Heritage",
           "Palace and"
+        ],
+        "bullets": [
+          "Boat ride to Wat Arun (Temple of Dawn)",
+          "Afternoon Jim Thompson House museum"
         ]
       },
       {
         "day": 3,
-        "title": "Floating",
+        "title": "Floating Market & Safari World",
         "location": "Thailand",
         "description": "Floating Market & Safari World Morning Damnoen Saduak Floating Market Maeklong Railway Market Afternoon Safari World and Marine Park",
         "activities": [
@@ -1275,11 +1532,15 @@ export const tourPackages: TourPackage[] = [
           "Morning",
           "Damnoen",
           "Saduak"
+        ],
+        "bullets": [
+          "Morning Damnoen Saduak Floating Market Maeklong Railway Market",
+          "Afternoon Safari World and Marine Park"
         ]
       },
       {
         "day": 4,
-        "title": "Fly to",
+        "title": "Fly to Phuket Fly to Phuket",
         "location": "Thailand",
         "description": "Fly to Phuket Fly to Phuket — check into a Patong or Kamala beach resort Afternoon Patong Beach Big Buddha of Phuket (45 m white marble statue) Evening Bangla Road walking street",
         "activities": [
@@ -1289,15 +1550,24 @@ export const tourPackages: TourPackage[] = [
           "Patong or",
           "Kamala beach resort",
           "Afternoon"
+        ],
+        "bullets": [
+          "Check into a Patong or Kamala beach resort",
+          "Afternoon Patong Beach Big Buddha of Phuket (45 m white marble statue)",
+          "Evening Bangla Road walking street"
         ]
       },
       {
         "day": 5,
-        "title": "Phi",
+        "title": "Phi Phi Islands",
         "location": "Thailand",
         "description": "Phi Phi Islands Day Trip Phi Phi Islands speedboat day trip Phi Phi Le — Maya Bay (The Beach movie location) Shark point snorkelling and Viking Cave Pileh Lagoon and Monkey Beach Return via sunset",
         "activities": [
           "Islands"
+        ],
+        "bullets": [
+          "Day Trip Phi Phi Islands speedboat day trip Phi Phi",
+          "Le — Maya Bay (The Beach movie location) Shark point snorkelling and Viking Cave Pileh Lagoon and Monkey Beach Return via sunset"
         ]
       },
       {
@@ -1308,11 +1578,15 @@ export const tourPackages: TourPackage[] = [
         "activities": [
           "Island",
           "Island ("
+        ],
+        "bullets": [
+          "Sea kayaking through caves and lagoons",
+          "Afternoon return to Phuket — Phuket old town walk"
         ]
       },
       {
         "day": 7,
-        "title": "Departure from",
+        "title": "Departure from Phuket",
         "location": "Thailand",
         "description": "Departure from Phuket Morning Thai cooking class or Muay Thai boxing experience Departure from Phuket",
         "activities": [
@@ -1321,6 +1595,10 @@ export const tourPackages: TourPackage[] = [
           "Thai cooking class or",
           "Thai boxing experience",
           "Departure from"
+        ],
+        "bullets": [
+          "Morning Thai cooking class or Muay Thai boxing experience",
+          "Departure from Phuket"
         ]
       }
     ],
@@ -1373,7 +1651,7 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Mysore",
+        "title": "Mysore Palace & Heritage",
         "location": "Mysore",
         "description": "Mysore Palace & Heritage Arrive in Mysore — check-in Afternoon at Mysore Palace and heritage sightseeing Evening Brindavan Gardens fountain show Overnight stay",
         "activities": [
@@ -1383,11 +1661,16 @@ export const tourPackages: TourPackage[] = [
           "Mysore — check-in",
           "Afternoon at",
           "Mysore"
+        ],
+        "bullets": [
+          "Arrive in Mysore — check-in Afternoon at Mysore Palace and heritage sightseeing",
+          "Evening Brindavan Gardens fountain show",
+          "Overnight stay"
         ]
       },
       {
         "day": 2,
-        "title": "Nagarhole",
+        "title": "Nagarhole Safari & Falls",
         "location": "Mysore",
         "description": "Nagarhole Safari & Falls Full day at Nagarhole National Park (80 km) — morning jeep safari Spot elephants, leopards, deer and bison Afternoon Kabini River boat safari Shivanasamudra Falls — Cauvery River plunging dramatically Departure",
         "activities": [
@@ -1396,6 +1679,11 @@ export const tourPackages: TourPackage[] = [
           "Nagarhole",
           "National",
           "Park (80 km) — morning jeep safari"
+        ],
+        "bullets": [
+          "Full day at Nagarhole National Park (80 km) — morning jeep safari Spot elephants, leopards, deer and bison",
+          "Afternoon Kabini River boat safari Shivanasamudra Falls — Cauvery River plunging dramatically",
+          "Departure"
         ]
       }
     ],
@@ -1448,7 +1736,7 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Arrive",
+        "title": "Arrive Srinagar",
         "location": "Kashmir",
         "description": "Arrive Srinagar Fly to Srinagar — transfer to houseboat on Dal Lake Afternoon shikara ride — floating vegetable market and lotus gardens Evening sunset from the houseboat deck",
         "activities": [
@@ -1456,11 +1744,16 @@ export const tourPackages: TourPackage[] = [
           "Fly to",
           "Srinagar — transfer to houseboat on",
           "Afternoon shikara ride — floating vegetable market and lotus gardens"
+        ],
+        "bullets": [
+          "Fly to Srinagar — transfer to houseboat on Dal Lake",
+          "Afternoon shikara ride — floating vegetable market and lotus gardens",
+          "Evening sunset from the houseboat deck"
         ]
       },
       {
         "day": 2,
-        "title": "Srinagar",
+        "title": "Srinagar Sightseeing",
         "location": "Kashmir",
         "description": "Srinagar Sightseeing Shankaracharya Temple — hilltop Shiva temple Mughal Gardens — Shalimar Bagh, Nishat Bagh and Chashme Shahi with terraced lawns",
         "activities": [
@@ -1470,6 +1763,11 @@ export const tourPackages: TourPackage[] = [
           "Shiva temple",
           "Mughal",
           "Gardens —"
+        ],
+        "bullets": [
+          "Shankaracharya Temple — hilltop Shiva temple",
+          "Mughal Gardens Shalimar Bagh",
+          "Nishat Bagh and Chashme Shahi with terraced lawns"
         ]
       },
       {
@@ -1482,6 +1780,10 @@ export const tourPackages: TourPackage[] = [
           "Gulmarg (52 km) — the",
           "Meadow of",
           "Flowers at 2,650 m"
+        ],
+        "bullets": [
+          "Day Trip Day trip to Gulmarg (52 km) — the Meadow of Flowers at 2,650 m",
+          "Gondola ride (Phase 1 + Phase 2) to 4,390 m — one of Asia's highest cable cars Snow activities in winter, golf in summer"
         ]
       },
       {
@@ -1494,6 +1796,10 @@ export const tourPackages: TourPackage[] = [
           "Pahalgam (96 km) — the",
           "Valley of",
           "Shepherds on the"
+        ],
+        "bullets": [
+          "Day Trip Day trip to Pahalgam (96 km) — the Valley of Shepherds on the Lidder River",
+          "Betaab Valley Aru Valley and Chandanwari meadow"
         ]
       },
       {
@@ -1505,11 +1811,14 @@ export const tourPackages: TourPackage[] = [
           "Sonamarg (80 km) — the",
           "Meadow of",
           "Glacier excursion to"
+        ],
+        "bullets": [
+          "Day Trip Sonamarg (80 km) — the Meadow of Gold Glacier excursion to Thajiwas Glacier by pony or on foot Glaciers, alpine lakes and wildflower meadows"
         ]
       },
       {
         "day": 6,
-        "title": "Old",
+        "title": "Old City",
         "location": "Kashmir",
         "description": "Old City & Departure Morning at Hazratbal Mosque — Kashmir's holiest mosque on Dal Lake Old City walk — Jama Masjid and Shah Hamdan Mosque Shopping for Pashmina shawls, Kashmiri carpets and saffron Departure",
         "activities": [
@@ -1519,6 +1828,11 @@ export const tourPackages: TourPackage[] = [
           "Hazratbal",
           "Mosque —",
           "Kashmir's holiest mosque on"
+        ],
+        "bullets": [
+          "Departure Morning at Hazratbal Mosque — Kashmir's holiest mosque on Dal Lake Old City walk — Jama Masjid and Shah Hamdan Mosque",
+          "Shopping for Pashmina shawls, Kashmiri carpets and saffron",
+          "Departure"
         ]
       }
     ],
@@ -1581,11 +1895,17 @@ export const tourPackages: TourPackage[] = [
           "Madurai — check-in",
           "Afternoon at",
           "Meenakshi"
+        ],
+        "bullets": [
+          "Darshan & Aalankaram",
+          "Arrive in Madurai — check-in Afternoon at Meenakshi Amman Temple with a licensed temple guide",
+          "Explore the Golden Lotus Tank, 1,000-pillar hall with musical pillars, Ashta Shakthi Mandapam",
+          "Evening spectacular Aalankaram ceremony — deities adorned and taken in processio"
         ]
       },
       {
         "day": 2,
-        "title": "Palace,",
+        "title": "Palace, Museum",
         "location": "Madurai",
         "description": "Palace, Museum & Departure Morning early darshan at the temple (less crowded) Thirumalai Nayakkar Mahal Palace Gandhi Museum Afternoon shopping for silk, cotton and temple jewellery Departure",
         "activities": [
@@ -1594,6 +1914,12 @@ export const tourPackages: TourPackage[] = [
           "Morning early darshan at the temple (less crowded)",
           "Thirumalai",
           "Nayakkar"
+        ],
+        "bullets": [
+          "Departure Morning early darshan at the temple (less crowded)",
+          "Thirumalai Nayakkar Mahal Palace Gandhi Museum",
+          "Afternoon shopping for silk, cotton and temple jewellery",
+          "Departure"
         ]
       }
     ],
@@ -1646,7 +1972,7 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Big",
+        "title": "Big Temple & Royal Palace",
         "location": "Thanjavur",
         "description": "Big Temple & Royal Palace Arrive in Thanjavur — check-in Afternoon at Brihadeeswara Temple — guided tour of main sanctum, vimana and Nandi mandapam Specially arranged torch-guided tour of Chola murals in the inner corridor Evening at Royal Palace and art gallery Overnight stay",
         "activities": [
@@ -1655,11 +1981,16 @@ export const tourPackages: TourPackage[] = [
           "Arrive in",
           "Thanjavur — check-in",
           "Afternoon at"
+        ],
+        "bullets": [
+          "Arrive in Thanjavur — check-in Afternoon at Brihadeeswara Temple — guided tour of main sanctum, vimana and Nandi mandapam Specially arranged torch-guided tour of Chola murals in the inner corridor",
+          "Evening at Royal Palace and art gallery",
+          "Overnight stay"
         ]
       },
       {
         "day": 2,
-        "title": "Library,",
+        "title": "Library, Arts",
         "location": "Thanjavur",
         "description": "Library, Arts & Departure Morning at Saraswathi Mahal Library — 60,000 manuscripts Schwartz Church Afternoon Tanjore Painting workshop visit Bronze casting artisan studio Shopping for Tanjore handicrafts Departure",
         "activities": [
@@ -1668,6 +1999,12 @@ export const tourPackages: TourPackage[] = [
           "Morning at",
           "Saraswathi",
           "Library — 60,000 manuscripts"
+        ],
+        "bullets": [
+          "Departure Morning at Saraswathi Mahal Library — 60,000 manuscripts Schwartz Church",
+          "Afternoon Tanjore Painting workshop visit Bronze casting artisan studio",
+          "Shopping for Tanjore handicrafts",
+          "Departure"
         ]
       }
     ],
@@ -1720,7 +2057,7 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Basilica &",
+        "title": "Basilica & Shrine",
         "location": "Velankanni",
         "description": "Basilica & Shrine Arrive at Velankanni — check-in at a pilgrim rest house or hotel Afternoon at Basilica of Our Lady of Good Health — attend mass or pray Museum of Miracles — display of offerings and testimonies Sacred Shrine Tank Evening Velankanni Beach walk Overnight stay",
         "activities": [
@@ -1729,11 +2066,17 @@ export const tourPackages: TourPackage[] = [
           "Velankanni — check-in at a pilgrim rest house or hotel",
           "Afternoon at",
           "Basilica of"
+        ],
+        "bullets": [
+          "Arrive at Velankanni — check-in at a pilgrim rest house or hotel",
+          "Afternoon at Basilica of Our Lady of Good Health — attend mass or pray Museum of Miracles — display of offerings and testimonies Sacred Shrine Tank",
+          "Evening Velankanni Beach walk",
+          "Overnight stay"
         ]
       },
       {
         "day": 2,
-        "title": "Church",
+        "title": "Church Circuit",
         "location": "Velankanni",
         "description": "Church Circuit & Departure Morning early mass at the Basilica Visit the old Annai Velankanni Church Nearby Nagapattinam Kayarohana Swamy Temple Departure",
         "activities": [
@@ -1742,6 +2085,11 @@ export const tourPackages: TourPackage[] = [
           "Morning early mass at the",
           "Basilica",
           "Visit the old"
+        ],
+        "bullets": [
+          "Departure Morning early mass at the Basilica",
+          "Visit the old Annai Velankanni Church Nearby Nagapattinam Kayarohana Swamy Temple",
+          "Departure"
         ]
       }
     ],
@@ -1794,7 +2142,7 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Jatayu",
+        "title": "Jatayu Earth's Center",
         "location": "Varkala",
         "description": "Jatayu Earth's Center Arrive at Chadayamangalam (65 km from Thiruvananthapuram) — check into a resort Afternoon at Jatayu Earth's Center — ropeway ride to the hilltop Walk to the massive Jatayu sculpture Digital Ramayana Museum — immersive storytelling Adventure activities — ziplining, rock cl",
         "activities": [
@@ -1804,11 +2152,15 @@ export const tourPackages: TourPackage[] = [
           "Chadayamangalam (65 km from",
           "Thiruvananthapuram) — check into a resort",
           "Afternoon at"
+        ],
+        "bullets": [
+          "Arrive at Chadayamangalam (65 km from Thiruvananthapuram) — check into a resort",
+          "Afternoon at Jatayu Earth's Center — ropeway ride to the hilltop Walk to the massive Jatayu sculpture Digital Ramayana Museum — immersive storytelling Adventure activities — ziplining, rock cl"
         ]
       },
       {
         "day": 2,
-        "title": "Varkala",
+        "title": "Varkala Cliff",
         "location": "Varkala",
         "description": "Varkala Cliff & Departure Morning revisit Jatayu Earth's Center or explore nearby Varkala Cliff promenade walk Janardhana Swamy Temple darshan Papanasam Beach sacred bath Departure",
         "activities": [
@@ -1818,6 +2170,13 @@ export const tourPackages: TourPackage[] = [
           "Jatayu",
           "Earth's",
           "Center or explore nearby"
+        ],
+        "bullets": [
+          "Departure Morning revisit",
+          "Jatayu Earth's Center or explore nearby Varkala Cliff promenade walk",
+          "Janardhana Swamy Temple darshan",
+          "Papanasam Beach sacred bath",
+          "Departure"
         ]
       }
     ],
@@ -1870,7 +2229,7 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Rock",
+        "title": "Rock Climbing & Campfire",
         "location": "Vagamon",
         "description": "Rock Climbing & Campfire Arrive at Vagamon — check-in at an adventure camp Afternoon orientation and basic rock climbing session Evening campfire at the meadow with stargazing Overnight stay at adventure camp",
         "activities": [
@@ -1880,17 +2239,29 @@ export const tourPackages: TourPackage[] = [
           "Vagamon — check-in at an adventure camp",
           "Afternoon orientation and basic rock climbing session",
           "Evening campfire at the meadow with stargazing"
+        ],
+        "bullets": [
+          "Arrive at Vagamon — check-in at an adventure camp",
+          "Afternoon orientation and basic rock climbing session",
+          "Evening campfire at the meadow with stargazing",
+          "Overnight stay at adventure camp"
         ]
       },
       {
         "day": 2,
-        "title": "Paragliding &",
+        "title": "Paragliding & Zip-Line",
         "location": "Vagamon",
         "description": "Paragliding & Zip-Line Full day adventure — morning paragliding session (6:00–9:00 AM — best wind window) Afternoon zip-lining and Burma Bridge challenge course in the pine forest Trek to Kurisumala Monastery for panoramic hilltop views Departure",
         "activities": [
           "Full day adventure — morning paragliding session (6:00–9:00 AM — best wind window)",
           "Afternoon zip-lining and",
           "Bridge challenge course in the pine forest"
+        ],
+        "bullets": [
+          "Full day adventure — morning paragliding session (6:00–9:00 AM — best wind window)",
+          "Afternoon zip-lining and Burma Bridge challenge course in the pine forest",
+          "Trek to Kurisumala Monastery for panoramic hilltop views",
+          "Departure"
         ]
       }
     ],
@@ -1943,7 +2314,7 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Tiruchendur",
+        "title": "Tiruchendur Murugan Temple",
         "location": "Tiruchendur & Rameshwaram Pilgrimage Tour",
         "description": "Tiruchendur Murugan Temple Arrive at Tiruchendur — check-in Evening at Tiruchendur Murugan Temple — one of the six sacred abodes of Lord Murugan Built into the sea cliff — witness the evening pooja with the ocean as backdrop Overnight stay",
         "activities": [
@@ -1953,11 +2324,15 @@ export const tourPackages: TourPackage[] = [
           "Tiruchendur — check-in",
           "Evening at",
           "Tiruchendur"
+        ],
+        "bullets": [
+          "Arrive at Tiruchendur — check-in Evening at Tiruchendur Murugan Temple — one of the six sacred abodes of Lord Murugan Built into the sea cliff — witness the evening pooja with the ocean as backdrop",
+          "Overnight stay"
         ]
       },
       {
         "day": 2,
-        "title": "Rameshwaram &",
+        "title": "Rameshwaram",
         "location": "Tiruchendur & Rameshwaram Pilgrimage Tour",
         "description": "Rameshwaram & Departure Morning full temple circuit at Tiruchendur Drive to Rameshwaram (170 km) Agni Theertham — sacred sea bath Ramanathaswamy Temple darshan and 22 Theerthams Dhanushkodi ghost town visit Pamban Bridge photo stop Departure",
         "activities": [
@@ -1966,6 +2341,12 @@ export const tourPackages: TourPackage[] = [
           "Tiruchendur",
           "Drive to",
           "Rameshwaram (170 km)"
+        ],
+        "bullets": [
+          "Departure Morning full temple circuit at Tiruchendur",
+          "Drive to Rameshwaram (170 km) Agni Theertham — sacred sea bath Ramanathaswamy",
+          "Temple darshan and 22 Theerthams Dhanushkodi ghost town visit Pamban Bridge photo stop",
+          "Departure"
         ]
       }
     ],
@@ -2018,7 +2399,7 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Temple",
+        "title": "Temple Climb",
         "location": "Palani Murugan Temple Tour - Tamil Nadu",
         "description": "Temple Climb & Evening Darshan Arrive at Palani — check-in Afternoon at Thiru Avinankudi Temple at the base of the hill Evening ascend via the 693 steps or rope car to the main temple Darshan of Lord Dhandayuthapani Witness the evening alankaram Return to hotel — overnight stay",
         "activities": [
@@ -2028,6 +2409,12 @@ export const tourPackages: TourPackage[] = [
           "Arrive at",
           "Palani — check-in",
           "Afternoon at"
+        ],
+        "bullets": [
+          "Evening Darshan Arrive at Palani — check-in Afternoon at Thiru Avinankudi Temple at the base of the hill",
+          "Evening ascend via the 693 steps or rope car to the main temple",
+          "Darshan of Lord Dhandayuthapani Witness the evening alankaram",
+          "Return to hotel — overnight stay"
         ]
       },
       {
@@ -2042,6 +2429,13 @@ export const tourPackages: TourPackage[] = [
           "Panchamirtham prasad",
           "Explore the temple's mandapams and hill surroundings",
           "Visit the local herbal medicine market"
+        ],
+        "bullets": [
+          "Darshan & Departure",
+          "Morning early darshan and receive the sacred Panchamirtham prasad",
+          "Explore the temple's mandapams and hill surroundings",
+          "Visit the local herbal medicine market",
+          "Departure"
         ]
       }
     ],
@@ -2102,26 +2496,39 @@ export const tourPackages: TourPackage[] = [
           "Wonderla (",
           "Kochi /",
           "Bengaluru /"
+        ],
+        "bullets": [
+          "Full Day Arrive at Wonderla (Kochi / Bengaluru / Hyderabad) — check into a nearby hotel",
+          "Afternoon at Wonderla Park — signature thrill rides (Recoil, Cyclone) Water park section — wave pool, rain disco, lazy river",
+          "Evening Fantasy Parade and live entertainment show",
+          "Overnight stay"
         ]
       },
       {
         "day": 2,
-        "title": "Park",
+        "title": "Park Revisit",
         "location": "Wonderla Adventure Park Tour - Kochi, Kerala",
         "description": "Park Revisit & Departure Morning return to the park for rides missed on",
         "activities": [
           "Revisit &",
           "Departure",
           "Morning return to the park for rides missed on"
+        ],
+        "bullets": [
+          "Departure Morning return to the park for rides missed on"
         ]
       },
       {
         "day": 1,
-        "title": "Kids'",
+        "title": "Kids' Zone for younger guests",
         "location": "Wonderla Adventure Park Tour - Kochi, Kerala",
         "description": "Kids' Zone for younger guests Lunch at the park restaurant Afternoon departure",
         "activities": [
           "Zone for younger guests",
+          "Lunch at the park restaurant",
+          "Afternoon departure"
+        ],
+        "bullets": [
           "Lunch at the park restaurant",
           "Afternoon departure"
         ]
@@ -2176,7 +2583,7 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Hanuman",
+        "title": "Hanuman Garhi & Sarayu Aarti",
         "location": "Ayodhya",
         "description": "Hanuman Garhi & Sarayu Aarti Arrive at Ayodhya (via Lucknow) — check-in Afternoon at Hanuman Garhi Temple — the hilltop fortress-temple of Lord Hanuman Evening Sarayu Ghat Aarti — a moving lamp ceremony on the sacred river Overnight stay",
         "activities": [
@@ -2185,11 +2592,16 @@ export const tourPackages: TourPackage[] = [
           "Arrive at",
           "Ayodhya (via",
           "Lucknow) — check-in"
+        ],
+        "bullets": [
+          "Arrive at Ayodhya (via Lucknow) — check-in Afternoon at Hanuman Garhi Temple — the hilltop fortress-temple of Lord Hanuman",
+          "Evening Sarayu Ghat Aarti — a moving lamp ceremony on the sacred river",
+          "Overnight stay"
         ]
       },
       {
         "day": 2,
-        "title": "Ram",
+        "title": "Ram Mandir",
         "location": "Ayodhya",
         "description": "Ram Mandir & Departure Morning at Ram Janmabhoomi — visit the grand Ram Mandir Kanak Bhavan (Sone ka Ghar) — ornate temple with golden interiors Nageshwarnath Temple Treta ke Thakur — site where Ram performed Ashwamedha Yagna Guptar Ghat — where Lord Rama took Jal Samadhi Departure",
         "activities": [
@@ -2197,6 +2609,10 @@ export const tourPackages: TourPackage[] = [
           "Departure",
           "Morning at",
           "Janmabhoomi — visit the grand"
+        ],
+        "bullets": [
+          "Departure Morning at Ram Janmabhoomi — visit the grand Ram Mandir Kanak Bhavan (Sone ka Ghar) — ornate temple with golden interiors Nageshwarnath Temple Treta ke Thakur — site where Ram performed Ashwamedha Yagna Guptar Ghat — where Lord Rama took Jal Samadhi",
+          "Departure"
         ]
       }
     ],
@@ -2249,7 +2665,7 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Black",
+        "title": "Black Thunder",
         "location": "Black Thunder Water Park Tour - Tamil Nadu",
         "description": "Black Thunder Full Day Arrive at Mettupalayam / Coimbatore — check-in Afternoon at Black Thunder Park — Black Hole and Twister water slides Wave pool and lazy river Amusement rides and games Evening shows Return to hotel for dinner Overnight stay",
         "activities": [
@@ -2257,11 +2673,16 @@ export const tourPackages: TourPackage[] = [
           "Arrive at",
           "Mettupalayam /",
           "Coimbatore — check-in"
+        ],
+        "bullets": [
+          "Full Day Arrive at Mettupalayam / Coimbatore — check-in Afternoon at Black Thunder Park — Black Hole and Twister water slides Wave pool and lazy river Amusement rides and games",
+          "Evening shows Return to hotel for dinner",
+          "Overnight stay"
         ]
       },
       {
         "day": 2,
-        "title": "Park",
+        "title": "Park Revisit or Ooty Option",
         "location": "Black Thunder Water Park Tour - Tamil Nadu",
         "description": "Park Revisit or Ooty Option Morning continue park exploration and kids' water play zone Optional Ooty day excursion (30 km by Toy Train or road) Departure",
         "activities": [
@@ -2270,6 +2691,10 @@ export const tourPackages: TourPackage[] = [
           "Morning continue park exploration and kids' water play zone",
           "Optional",
           "Ooty day excursion (30 km by"
+        ],
+        "bullets": [
+          "Morning continue park exploration and kids' water play zone Optional Ooty day excursion (30 km by Toy Train or road)",
+          "Departure"
         ]
       }
     ],
@@ -2322,7 +2747,7 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Apple",
+        "title": "Apple Orchards",
         "location": "Kanthalur",
         "description": "Apple Orchards & Sunset Arrive at Kanthalur (accessible from Munnar or Kodaikanal) Check into a homestay or eco-resort Afternoon walk through apple orchards — unique sight in tropical Kerala Kanthalur Kalayar Temple visit Evening sunset from the plateau with views stretching into Tamil Nadu Over",
         "activities": [
@@ -2332,11 +2757,17 @@ export const tourPackages: TourPackage[] = [
           "Kanthalur (accessible from",
           "Munnar or",
           "Kodaikanal)"
+        ],
+        "bullets": [
+          "Sunset Arrive at Kanthalur (accessible from Munnar or Kodaikanal)",
+          "Check into a homestay or eco-resort",
+          "Afternoon walk through apple orchards — unique sight in tropical Kerala Kanthalur Kalayar Temple visit",
+          "Evening sunset from the plateau with views stretching into Tamil Nadu Over"
         ]
       },
       {
         "day": 2,
-        "title": "Trek &",
+        "title": "Trek",
         "location": "Kanthalur",
         "description": "Trek & Departure Morning trek to nearby Rajamala meadows or Vattavada (strawberry village) Freshly picked local produce breakfast Nature trail through shola forests Departure",
         "activities": [
@@ -2346,6 +2777,10 @@ export const tourPackages: TourPackage[] = [
           "Vattavada (strawberry village)",
           "Freshly picked local produce breakfast",
           "Nature trail through shola forests"
+        ],
+        "bullets": [
+          "Departure Morning trek to nearby Rajamala meadows or Vattavada (strawberry village) Freshly picked local produce breakfast Nature trail through shola forests",
+          "Departure"
         ]
       }
     ],
@@ -2408,11 +2843,17 @@ export const tourPackages: TourPackage[] = [
           "Thiruvananthapuram — check-in",
           "Arrange traditional attire (available for rental nearby)",
           "Afternoon at"
+        ],
+        "bullets": [
+          "Darshan & Palace Arrive in Thiruvananthapuram — check-in Arrange traditional attire (available for rental nearby)",
+          "Afternoon at Padmanabhaswamy Temple — darshan and exploration of mandapas and sacred pond",
+          "Evening at Kuthiramalika Palace Museum",
+          "Dinner at a traditional Kerala restaurant Over"
         ]
       },
       {
         "day": 2,
-        "title": "City",
+        "title": "City Temples",
         "location": "Padmanabhaswamy Temple Tour - Thiruvananthapuram",
         "description": "City Temples & Departure Morning at Attukal Devi Temple (known as the Sabarimala of Women) Neyyattinkara Balasubramania Swamy Temple Visit Napier Museum Departure",
         "activities": [
@@ -2421,6 +2862,11 @@ export const tourPackages: TourPackage[] = [
           "Morning at",
           "Attukal",
           "Temple (known as the"
+        ],
+        "bullets": [
+          "Departure Morning at Attukal Devi Temple (known as the Sabarimala of Women) Neyyattinkara Balasubramania Swamy Temple",
+          "Visit Napier Museum",
+          "Departure"
         ]
       }
     ],
@@ -2473,7 +2919,7 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Tirupathi",
+        "title": "Tirupathi Town Temples",
         "location": "Tirupathi Balaji Temple Tour - Andhra Pradesh",
         "description": "Tirupathi Town Temples Arrive at Tirupathi — check-in Afternoon at Sri Govindarajaswamy Temple in town Visit Kapila Theertham — sacred waterfall at the base of Tirumala Evening at Akasha Ganga and Papavinasam waterfalls Overnight stay",
         "activities": [
@@ -2481,6 +2927,12 @@ export const tourPackages: TourPackage[] = [
           "Arrive at",
           "Tirupathi — check-in",
           "Afternoon at"
+        ],
+        "bullets": [
+          "Arrive at Tirupathi — check-in Afternoon at Sri Govindarajaswamy Temple in town",
+          "Visit Kapila Theertham — sacred waterfall at the base of Tirumala",
+          "Evening at Akasha Ganga and Papavinasam waterfalls",
+          "Overnight stay"
         ]
       },
       {
@@ -2494,6 +2946,13 @@ export const tourPackages: TourPackage[] = [
           "Early morning drive or walk up the",
           "Tirumala",
           "Road to the sacred hills"
+        ],
+        "bullets": [
+          "Darshan & Departure",
+          "Early morning drive or walk up the Tirumala Ghat Road to the sacred hills",
+          "Darshan at Sri Venkateswara Temple with specially arranged",
+          "Darshan tickets Head tonsuring (optional) Sri Padmavathi Ammavari Temple at Tiruchanur (7 km)",
+          "Departure"
         ]
       }
     ],
@@ -2546,7 +3005,7 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Arrive",
+        "title": "Arrive Kullu",
         "location": "Kullu Manali - Himachal Pradesh",
         "description": "Arrive Kullu Fly to Chandigarh or Kullu Airport Drive to Kullu — check-in Evening at Kullu shawl and handicraft market",
         "activities": [
@@ -2554,11 +3013,15 @@ export const tourPackages: TourPackage[] = [
           "Chandigarh or",
           "Airport",
           "Drive to"
+        ],
+        "bullets": [
+          "Fly to Chandigarh or Kullu Airport",
+          "Drive to Kullu — check-in Evening at Kullu shawl and handicraft market"
         ]
       },
       {
         "day": 2,
-        "title": "Kullu",
+        "title": "Kullu Sightseeing Bijli Mahadev Temple (10 km",
         "location": "Kullu Manali - Himachal Pradesh",
         "description": "Kullu Sightseeing Bijli Mahadev Temple (10 km trek or drive) — lightning temple with spectacular valley views Great Himalayan National Park entrance River rafting on the Beas — thrilling rapids through apple orchards",
         "activities": [
@@ -2566,11 +3029,14 @@ export const tourPackages: TourPackage[] = [
           "Mahadev",
           "Temple (10 km trek or drive) — lightning temple with spectacular valley views",
           "Himalayan"
+        ],
+        "bullets": [
+          "Trek or drive) — lightning temple with spectacular valley views Great Himalayan National Park entrance River rafting on the Beas — thrilling rapids through apple orchards"
         ]
       },
       {
         "day": 3,
-        "title": "Drive to",
+        "title": "Drive to Manali Drive to Manali (40 km)",
         "location": "Kullu Manali - Himachal Pradesh",
         "description": "Drive to Manali Drive to Manali (40 km) — check-in Afternoon at Hadimba Devi Temple — unique 1553 CE wooden pagoda temple in a cedar forest Manu Temple and Manali town walk Old Manali cafés and backpacker scene",
         "activities": [
@@ -2579,11 +3045,14 @@ export const tourPackages: TourPackage[] = [
           "Manali (40 km) — check-in",
           "Afternoon at",
           "Hadimba"
+        ],
+        "bullets": [
+          "Check-in Afternoon at Hadimba Devi Temple — unique 1553 CE wooden pagoda temple in a cedar forest Manu Temple and Manali town walk Old Manali cafés and backpacker scene"
         ]
       },
       {
         "day": 4,
-        "title": "Solang",
+        "title": "Solang Valley",
         "location": "Kullu Manali - Himachal Pradesh",
         "description": "Solang Valley Full day Solang Valley — skiing in winter, zorbing and cable car in summer Beas Kund trek (optional) Evening Mall Road, Manali for shopping",
         "activities": [
@@ -2592,6 +3061,10 @@ export const tourPackages: TourPackage[] = [
           "Solang",
           "Valley — skiing in winter, zorbing and cable car in summer",
           "Kund trek (optional)"
+        ],
+        "bullets": [
+          "Full day Solang Valley — skiing in winter, zorbing and cable car in summer Beas Kund trek (optional)",
+          "Evening Mall Road, Manali for shopping"
         ]
       },
       {
@@ -2604,11 +3077,14 @@ export const tourPackages: TourPackage[] = [
           "Pass (open",
           "November) — 51 km from",
           "Manali at 3,978 m"
+        ],
+        "bullets": [
+          "Visit Rahala Falls and Marhi"
         ]
       },
       {
         "day": 6,
-        "title": "Naggar &",
+        "title": "Naggar",
         "location": "Kullu Manali - Himachal Pradesh",
         "description": "Naggar & Departure Morning at Naggar Castle (15th century) and Roerich Art Gallery Jana Waterfall Departure from Kullu/Chandigarh",
         "activities": [
@@ -2617,6 +3093,10 @@ export const tourPackages: TourPackage[] = [
           "Naggar",
           "Castle (15th century) and",
           "Roerich"
+        ],
+        "bullets": [
+          "Departure Morning at Naggar Castle (15th century) and Roerich Art Gallery Jana Waterfall",
+          "Departure from Kullu/Chandigarh"
         ]
       }
     ],
@@ -2669,7 +3149,7 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Arrive",
+        "title": "Arrive Delhi",
         "location": "Golden Triangle Tour - Delhi, Agra & Jaipur",
         "description": "Arrive Delhi Arrive in Delhi — check-in Afternoon at India Gate and Rashtrapati Bhavan Evening at Connaught Place for dinner and exploration",
         "activities": [
@@ -2677,6 +3157,10 @@ export const tourPackages: TourPackage[] = [
           "Delhi — check-in",
           "Afternoon at",
           "Gate and"
+        ],
+        "bullets": [
+          "Arrive in Delhi — check-in Afternoon at India Gate and Rashtrapati Bhavan",
+          "Evening at Connaught Place for dinner and exploration"
         ]
       },
       {
@@ -2689,11 +3173,15 @@ export const tourPackages: TourPackage[] = [
           "Fort (UNESCO),",
           "Masjid and",
           "Chandni"
+        ],
+        "bullets": [
+          "Afternoon at Humayun's Tomb (UNESCO) and Qutub Minar (UNESCO)",
+          "Evening at Akshardham Temple"
         ]
       },
       {
         "day": 3,
-        "title": "Delhi to",
+        "title": "Delhi to Agra",
         "location": "Golden Triangle Tour - Delhi, Agra & Jaipur",
         "description": "Delhi to Agra Drive to Agra (200 km, 3 hours) Afternoon at Agra Fort — majestic red sandstone fort Evening at Mehtab Bagh — moonlit view of the Taj Mahal across the Yamuna",
         "activities": [
@@ -2701,11 +3189,16 @@ export const tourPackages: TourPackage[] = [
           "Agra (200 km, 3 hours)",
           "Afternoon at",
           "Fort — majestic red sandstone fort"
+        ],
+        "bullets": [
+          "Drive to Agra (200 km, 3 hours)",
+          "Afternoon at Agra Fort — majestic red sandstone fort",
+          "Evening at Mehtab Bagh — moonlit view of the Taj Mahal across the Yamuna"
         ]
       },
       {
         "day": 4,
-        "title": "Taj",
+        "title": "Taj Mahal & Jaipur",
         "location": "Golden Triangle Tour - Delhi, Agra & Jaipur",
         "description": "Taj Mahal & Jaipur Sunrise at the Taj Mahal — experience the most beautiful monument in the world Visit the interior of the Taj Midday at Fatehpur Sikri — Akbar's well-preserved ghost capital Drive to Jaipur",
         "activities": [
@@ -2714,21 +3207,32 @@ export const tourPackages: TourPackage[] = [
           "Sunrise at the",
           "Mahal — experience the most beautiful monument in the world",
           "Visit the interior of the"
+        ],
+        "bullets": [
+          "Sunrise at the Taj Mahal — experience the most beautiful monument in the world",
+          "Visit the interior of the Taj Midday at Fatehpur Sikri — Akbar's well-preserved ghost capital",
+          "Drive to Jaipur"
         ]
       },
       {
         "day": 5,
-        "title": "Jaipur —",
+        "title": "Jaipur",
         "location": "Golden Triangle Tour - Delhi, Agra & Jaipur",
         "description": "Jaipur — Pink City Amber Fort — majestic hilltop fort with elephant rides and mirror palace City Palace — the residence of Jaipur's royal family Hawa Mahal — the Palace of Winds Jantar Mantar (UNESCO) — world's largest stone observatory",
         "activities": [
           "Fort — majestic hilltop fort with elephant rides and mirror palace",
           "Palace — the residence of"
+        ],
+        "bullets": [
+          "Jaipur — Pink City Amber",
+          "Fort — majestic hilltop fort with elephant rides and mirror palace City",
+          "Palace — the residence of Jaipur's royal family Hawa",
+          "Mahal — the Palace of Winds Jantar Mantar (UNESCO) — world's largest stone observatory"
         ]
       },
       {
         "day": 6,
-        "title": "Jaipur &",
+        "title": "Jaipur",
         "location": "Golden Triangle Tour - Delhi, Agra & Jaipur",
         "description": "Jaipur & Departure Morning at Jal Mahal and Birla Mandir Johari Bazaar — Jaipur's famous gem and jewellery market Departure from Jaipur",
         "activities": [
@@ -2736,6 +3240,10 @@ export const tourPackages: TourPackage[] = [
           "Morning at",
           "Mahal and",
           "Mandir"
+        ],
+        "bullets": [
+          "Departure Morning at Jal Mahal and Birla Mandir Johari Bazaar — Jaipur's famous gem and jewellery market",
+          "Departure from Jaipur"
         ]
       }
     ],
@@ -2788,7 +3296,7 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Palace &",
+        "title": "Palace & Gardens",
         "location": "Bangalore",
         "description": "Palace & Gardens Arrive in Bangalore — check-in Afternoon at Bangalore Palace — Tudor-style royal palace Lalbagh Botanical Garden — 240 acres of exotic flora and the famous Glass House Evening Cubbon Park walk and Vidhana Soudha illumination Overnight stay",
         "activities": [
@@ -2798,11 +3306,16 @@ export const tourPackages: TourPackage[] = [
           "Afternoon at",
           "Bangalore",
           "Palace —"
+        ],
+        "bullets": [
+          "Arrive in Bangalore — check-in Afternoon at Bangalore Palace — Tudor-style royal palace Lalbagh Botanical Garden — 240 acres of exotic flora and the famous Glass House",
+          "Evening Cubbon Park walk and Vidhana Soudha illumination",
+          "Overnight stay"
         ]
       },
       {
         "day": 2,
-        "title": "Temples &",
+        "title": "Temples",
         "location": "Bangalore",
         "description": "Temples & Shopping Morning at ISKCON Temple Bangalore Bull Temple (Dodda Ganesha Temple) Afternoon at Tipu Sultan's Summer Palace MG Road and Brigade Road shopping Departure",
         "activities": [
@@ -2811,6 +3324,11 @@ export const tourPackages: TourPackage[] = [
           "Temple",
           "Bangalore",
           "Temple ("
+        ],
+        "bullets": [
+          "Shopping Morning at ISKCON Temple Bangalore Bull Temple (Dodda Ganesha Temple)",
+          "Afternoon at Tipu Sultan's Summer Palace MG Road and Brigade Road shopping",
+          "Departure"
         ]
       }
     ],
@@ -2863,7 +3381,7 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Beach &",
+        "title": "Beach & Island Tour",
         "location": "Varkala",
         "description": "Beach & Island Tour Arrive at Varkala — check-in at a cliff-top resort Munroe Island canoe tour Evening at Varkala Cliff beach Cliff-top dinner with ocean views Overnight stay",
         "activities": [
@@ -2872,11 +3390,17 @@ export const tourPackages: TourPackage[] = [
           "Varkala — check-in at a cliff-top resort",
           "Munroe",
           "Island canoe tour"
+        ],
+        "bullets": [
+          "Arrive at Varkala — check-in at a cliff-top resort",
+          "Munroe Island canoe tour",
+          "Evening at Varkala Cliff beach Cliff-top dinner with ocean views",
+          "Overnight stay"
         ]
       },
       {
         "day": 2,
-        "title": "Temple &",
+        "title": "Temple & Jatayu",
         "location": "Varkala",
         "description": "Temple & Jatayu Morning at Janardhana Swamy Temple Papanasam Beach sacred bath Visit Jatayu Earth's Center Sivagiri Mutt ashram Departure",
         "activities": [
@@ -2885,6 +3409,12 @@ export const tourPackages: TourPackage[] = [
           "Janardhana",
           "Temple",
           "Papanasam"
+        ],
+        "bullets": [
+          "Morning at Janardhana Swamy Temple",
+          "Papanasam Beach sacred bath",
+          "Jatayu Earth's Center Sivagiri Mutt ashram",
+          "Departure"
         ]
       }
     ],
@@ -2937,7 +3467,7 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Waterfalls &",
+        "title": "Waterfalls & Forest Arrive near Athirapally",
         "location": "Athirapally Waterfall Tour - Kerala",
         "description": "Waterfalls & Forest Arrive near Athirapally — check-in at a forest resort Afternoon at Athirapally Falls — walk to the base Evening at Vazhachal Falls Night at resort with sounds of the forest Overnight stay",
         "activities": [
@@ -2947,11 +3477,18 @@ export const tourPackages: TourPackage[] = [
           "Afternoon at",
           "Athirapally",
           "Falls — walk to the base"
+        ],
+        "bullets": [
+          "Check-in at a forest resort",
+          "Afternoon at Athirapally Falls — walk to the base",
+          "Evening at Vazhachal Falls",
+          "Night at resort with sounds of the forest",
+          "Overnight stay"
         ]
       },
       {
         "day": 2,
-        "title": "Bird",
+        "title": "Bird Watching",
         "location": "Athirapally Waterfall Tour - Kerala",
         "description": "Bird Watching & Departure Early morning bird watching walk in Sholayar Forest Reserve Look for the Great Indian Hornbill and Malabar Grey Hornbill Visit Charpa Falls Return via scenic forest drive Departure",
         "activities": [
@@ -2961,6 +3498,11 @@ export const tourPackages: TourPackage[] = [
           "Sholayar",
           "Forest",
           "Reserve"
+        ],
+        "bullets": [
+          "Departure Early morning bird watching walk in Sholayar Forest Reserve Look for the Great Indian Hornbill and Malabar Grey Hornbill",
+          "Visit Charpa Falls Return via scenic forest drive",
+          "Departure"
         ]
       }
     ],
@@ -3013,7 +3555,7 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Madikeri &",
+        "title": "Madikeri & Coffee Estate",
         "location": "Coorg",
         "description": "Madikeri & Coffee Estate Arrive at Madikeri, Coorg — check into a coffee estate resort Afternoon at Raja's Seat sunset viewpoint with manicured gardens Visit Madikeri Fort and Omkareshwara Temple Authentic Kodava dinner Overnight stay",
         "activities": [
@@ -3023,11 +3565,17 @@ export const tourPackages: TourPackage[] = [
           "Madikeri,",
           "Coorg — check into a coffee estate resort",
           "Afternoon at"
+        ],
+        "bullets": [
+          "Arrive at Madikeri, Coorg — check into a coffee estate resort",
+          "Afternoon at Raja's Seat sunset viewpoint with manicured gardens",
+          "Visit Madikeri Fort and Omkareshwara Temple Authentic Kodava dinner",
+          "Overnight stay"
         ]
       },
       {
         "day": 2,
-        "title": "Elephant",
+        "title": "Elephant Camp, Falls",
         "location": "Coorg",
         "description": "Elephant Camp, Falls & Departure Morning at Dubare Elephant Camp — help bathe and feed elephants Abbey Falls trek through coffee and spice plantations Shopping for Coorg coffee and spices Departure",
         "activities": [
@@ -3036,6 +3584,11 @@ export const tourPackages: TourPackage[] = [
           "Morning at",
           "Dubare",
           "Elephant"
+        ],
+        "bullets": [
+          "Departure Morning at Dubare Elephant Camp — help bathe and feed elephants Abbey Falls trek through coffee and spice plantations",
+          "Shopping for Coorg coffee and spices",
+          "Departure"
         ]
       }
     ],
@@ -3088,7 +3641,7 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Temple &",
+        "title": "Temple & Beach",
         "location": "Gokarna",
         "description": "Temple & Beach Sunset Arrive at Gokarna — check into a beachside resort Afternoon Mahabaleshwara Temple darshan — see the sacred Atmalinga Evening at Gokarna Main Beach sunset Overnight stay",
         "activities": [
@@ -3097,6 +3650,13 @@ export const tourPackages: TourPackage[] = [
           "Gokarna — check into a beachside resort",
           "Afternoon",
           "Mahabaleshwara"
+        ],
+        "bullets": [
+          "Sunset Arrive at Gokarna — check into a beachside resort",
+          "Afternoon Mahabaleshwara",
+          "Temple darshan — see the sacred Atmalinga",
+          "Evening at Gokarna Main Beach sunset",
+          "Overnight stay"
         ]
       },
       {
@@ -3109,6 +3669,10 @@ export const tourPackages: TourPackage[] = [
           "Departure",
           "Morning sunrise at",
           "Coastal trek to"
+        ],
+        "bullets": [
+          "Trek & Departure Morning sunrise at Kudle Beach Coastal trek to Om Beach — shaped like the sacred OM symbol Continue to Half Moon Beach and Paradise Beach",
+          "Afternoon departure"
         ]
       }
     ],
@@ -3161,17 +3725,23 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Full",
+        "title": "Full Day Film City",
         "location": "Ramoji Film City",
         "description": "Full Day Film City Arrive at Ramoji Film City — check into on-campus hotel Full day exploration — film sets, Eureka zone, Ramoji Square Live stunt shows, street performances and amusement rides Evening grand cultural show with dance and lights Overnight stay",
         "activities": [
           "Arrive at",
           "Ramoji"
+        ],
+        "bullets": [
+          "Arrive at Ramoji Film City — check into on-campus hotel",
+          "Full day exploration — film sets, Eureka zone, Ramoji Square Live stunt shows, street performances and amusement rides",
+          "Evening grand cultural show with dance and lights",
+          "Overnight stay"
         ]
       },
       {
         "day": 2,
-        "title": "Filmi",
+        "title": "Filmi Duniya",
         "location": "Ramoji Film City",
         "description": "Filmi Duniya & Departure Morning revisit favourite zones and rides Filmi Duniya — learn how films are made, try on costumes and see props Explore themed garden zones and butterfly garden Lunch and departure",
         "activities": [
@@ -3180,6 +3750,11 @@ export const tourPackages: TourPackage[] = [
           "Morning revisit favourite zones and rides",
           "Duniya — learn how films are made, try on costumes and see props",
           "Explore themed garden zones and butterfly garden"
+        ],
+        "bullets": [
+          "Departure Morning revisit favourite zones and rides Filmi Duniya — learn how films are made, try on costumes and see props",
+          "Explore themed garden zones and butterfly garden",
+          "Lunch and departure"
         ]
       }
     ],
@@ -3242,11 +3817,15 @@ export const tourPackages: TourPackage[] = [
           "Mysore",
           "Palace —",
           "Durbar"
+        ],
+        "bullets": [
+          "Arrive in Mysore — check-in Afternoon at Mysore Palace — Durbar Hall, royal armoury and Kalyana Mantapa",
+          "Overnight stay"
         ]
       },
       {
         "day": 2,
-        "title": "Chamundi",
+        "title": "Chamundi Hills",
         "location": "Mysore",
         "description": "Chamundi Hills & Departure Morning at Chamundi Hills — 1,000-step climb to Chamundeshwari Temple View the giant Mahishasura statue Brindavan Gardens — terraced gardens with musical fountain show Local market for sandalwood and silk Departure",
         "activities": [
@@ -3256,6 +3835,10 @@ export const tourPackages: TourPackage[] = [
           "Chamundi",
           "Hills — 1,000-step climb to",
           "Chamundeshwari"
+        ],
+        "bullets": [
+          "Departure Morning at Chamundi Hills — 1,000-step climb to Chamundeshwari Temple View the giant Mahishasura statue Brindavan Gardens — terraced gardens with musical fountain show Local market for sandalwood and silk",
+          "Departure"
         ]
       }
     ],
@@ -3308,7 +3891,7 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Charminar &",
+        "title": "Charminar & Old City",
         "location": "Hyderabad",
         "description": "Charminar & Old City Arrive in Hyderabad — check-in Afternoon at Charminar — the 1591 monument at the heart of old city Mecca Masjid — one of India's oldest and largest mosques Laad Bazaar — famous for lac bangles and pearls Evening at Hussain Sagar lakefront Dinner with authentic Dum Biry",
         "activities": [
@@ -3316,11 +3899,15 @@ export const tourPackages: TourPackage[] = [
           "Hyderabad — check-in",
           "Afternoon at",
           "Charminar — the 1591 monument at the heart of old city"
+        ],
+        "bullets": [
+          "Arrive in Hyderabad — check-in Afternoon at Charminar — the 1591 monument at the heart of old city Mecca Masjid — one of India's oldest and largest mosques Laad Bazaar — famous for lac bangles and pearls",
+          "Evening at Hussain Sagar lakefront Dinner with authentic Dum Biry"
         ]
       },
       {
         "day": 2,
-        "title": "Golconda &",
+        "title": "Golconda",
         "location": "Hyderabad",
         "description": "Golconda & Departure Morning at Golconda Fort — 12th-century hilltop fort famous for its acoustics Qutb Shahi Tombs — seven magnificent domed mausoleums Salar Jung Museum — one of the world's largest one-man art collections Shopping for Hyderabadi pearls and Kalamkari craft Departure",
         "activities": [
@@ -3328,6 +3915,11 @@ export const tourPackages: TourPackage[] = [
           "Morning at",
           "Golconda",
           "Fort — 12th-century hilltop fort famous for its acoustics"
+        ],
+        "bullets": [
+          "Departure Morning at Golconda Fort — 12th-century hilltop fort famous for its acoustics Qutb Shahi Tombs — seven magnificent domed mausoleums Salar Jung Museum — one of the world's largest one-man art collections",
+          "Shopping for Hyderabadi pearls and Kalamkari craft",
+          "Departure"
         ]
       }
     ],
@@ -3380,7 +3972,7 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Spice",
+        "title": "Spice Plantation & Cultural Show",
         "location": "Thekkady",
         "description": "Spice Plantation & Cultural Show Arrive at Thekkady — check into a spice plantation resort Guided spice plantation walk — cardamom, black pepper, nutmeg and clove Afternoon Periyar Lake boat cruise Evening Kalaripayattu martial arts performance Overnight stay",
         "activities": [
@@ -3389,11 +3981,17 @@ export const tourPackages: TourPackage[] = [
           "Arrive at",
           "Thekkady — check into a spice plantation resort",
           "Guided spice plantation walk — cardamom, black pepper, nutmeg and clove"
+        ],
+        "bullets": [
+          "Arrive at Thekkady — check into a spice plantation resort Guided spice plantation walk — cardamom, black pepper, nutmeg and clove",
+          "Afternoon Periyar Lake boat cruise",
+          "Evening Kalaripayattu martial arts performance",
+          "Overnight stay"
         ]
       },
       {
         "day": 2,
-        "title": "Safari &",
+        "title": "Safari",
         "location": "Thekkady",
         "description": "Safari & Departure Early morning jeep safari into Periyar Tiger Reserve core zone Shopping for spices, honey and Ayurvedic products Departure",
         "activities": [
@@ -3402,6 +4000,11 @@ export const tourPackages: TourPackage[] = [
           "Periyar",
           "Reserve core zone",
           "Shopping for spices, honey and"
+        ],
+        "bullets": [
+          "Departure Early morning jeep safari into Periyar Tiger Reserve core zone",
+          "Shopping for spices, honey and Ayurvedic products",
+          "Departure"
         ]
       }
     ],
@@ -3454,7 +4057,7 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Coffee",
+        "title": "Coffee Estate & Bonfire",
         "location": "Chikmagalur",
         "description": "Coffee Estate & Bonfire Arrive at Chikmagalur — check into a coffee plantation resort Afternoon coffee estate guided tour — learn about Indian coffee See the harvesting, pulping and drying process Enjoy a fresh pour-over of estate-grown coffee Evening campfire at the resort Overnight stay",
         "activities": [
@@ -3464,11 +4067,17 @@ export const tourPackages: TourPackage[] = [
           "Chikmagalur — check into a coffee plantation resort",
           "Afternoon coffee estate guided tour — learn about",
           "Indian coffee"
+        ],
+        "bullets": [
+          "Arrive at Chikmagalur — check into a coffee plantation resort",
+          "Afternoon coffee estate guided tour — learn about Indian coffee See the harvesting, pulping and drying process Enjoy a fresh pour-over of estate-grown coffee",
+          "Evening campfire at the resort",
+          "Overnight stay"
         ]
       },
       {
         "day": 2,
-        "title": "Peak,",
+        "title": "Peak, Falls",
         "location": "Chikmagalur",
         "description": "Peak, Falls & Departure Morning Mullayanagiri Peak trek (1,930 m) — Karnataka's rooftop Baba Budan Giri Hills and Dattatreya Peetha Hebbe Falls — beautiful two-tiered waterfall Shopping for premium Arabica and Robusta coffee beans Departure",
         "activities": [
@@ -3478,6 +4087,11 @@ export const tourPackages: TourPackage[] = [
           "Mullayanagiri",
           "Peak trek (1,930 m) —",
           "Karnataka's rooftop"
+        ],
+        "bullets": [
+          "Departure Morning Mullayanagiri Peak trek (1,930 m) — Karnataka's rooftop Baba Budan Giri Hills and Dattatreya Peetha Hebbe Falls — beautiful two-tiered waterfall",
+          "Shopping for premium Arabica and Robusta coffee beans",
+          "Departure"
         ]
       }
     ],
@@ -3530,7 +4144,7 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Three",
+        "title": "Three Hills & Pine Forest",
         "location": "Vagamon",
         "description": "Three Hills & Pine Forest Arrive at Vagamon — check into a meadow resort Afternoon explore the Three Hills — Murugan Hill, Kurisumala and Thangal Hill Evening walk through the famous pine forest Dinner at the resort Overnight stay",
         "activities": [
@@ -3539,11 +4153,18 @@ export const tourPackages: TourPackage[] = [
           "Arrive at",
           "Vagamon — check into a meadow resort",
           "Afternoon explore the"
+        ],
+        "bullets": [
+          "Arrive at Vagamon — check into a meadow resort",
+          "Afternoon explore the Three Hills — Murugan Hill, Kurisumala and Thangal Hill",
+          "Evening walk through the famous pine forest",
+          "Dinner at the resort",
+          "Overnight stay"
         ]
       },
       {
         "day": 2,
-        "title": "Lake &",
+        "title": "Lake",
         "location": "Vagamon",
         "description": "Lake & Departure Morning paragliding over Vagamon Meadows (subject to weather) Visit Vagamon Lake and surrounding green pastures Kuttikkanam viewpoint Afternoon departure",
         "activities": [
@@ -3552,6 +4173,11 @@ export const tourPackages: TourPackage[] = [
           "Vagamon",
           "Meadows (subject to weather)",
           "Vagamon"
+        ],
+        "bullets": [
+          "Departure Morning paragliding over Vagamon Meadows (subject to weather)",
+          "Visit Vagamon Lake and surrounding green pastures Kuttikkanam viewpoint",
+          "Afternoon departure"
         ]
       }
     ],
@@ -3604,18 +4230,24 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Ashram,",
+        "title": "Ashram, Auroville & Beach",
         "location": "Pondicherry - French Town & Beaches",
         "description": "Ashram, Auroville & Beach Arrive in Pondicherry — check-in at hotel Visit Sri Aurobindo Ashram Auroville and Matrimandir visit Vinayagar Temple darshan Evening at Promenade Beach and Rock Beach French Quarter heritage walk Overnight stay",
         "activities": [
           "Auroville &",
           "Arrive in",
           "Pondicherry — check-in at hotel"
+        ],
+        "bullets": [
+          "Arrive in Pondicherry — check-in at hotel",
+          "Visit Sri Aurobindo Ashram Auroville and Matrimandir visit Vinayagar",
+          "Temple darshan Evening at Promenade Beach and Rock Beach French Quarter heritage walk",
+          "Overnight stay"
         ]
       },
       {
         "day": 2,
-        "title": "Pichavaram &",
+        "title": "Pichavaram",
         "location": "Pondicherry - French Town & Beaches",
         "description": "Pichavaram & Departure Morning visit to Pichavaram mangrove forest — boat ride through green canopy Explore Paradise Beach (by boat) Lunch at a seaside restaurant Departure",
         "activities": [
@@ -3625,6 +4257,12 @@ export const tourPackages: TourPackage[] = [
           "Explore",
           "Paradise",
           "Beach (by boat)"
+        ],
+        "bullets": [
+          "Departure Morning visit to Pichavaram mangrove forest — boat ride through green canopy",
+          "Explore Paradise Beach (by boat)",
+          "Lunch at a seaside restaurant",
+          "Departure"
         ]
       }
     ],
@@ -3677,7 +4315,7 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Temple &",
+        "title": "Temple & Heritage",
         "location": "Thiruvananthapuram Tour - Kerala Capital City",
         "description": "Temple & Heritage Arrive in Thiruvananthapuram — check-in Morning at Padmanabhaswamy Temple (traditional attire required) Visit Napier Museum and Kerala Zoo Evening at Kuthiramalika Palace Museum Overnight stay",
         "activities": [
@@ -3687,11 +4325,17 @@ export const tourPackages: TourPackage[] = [
           "Morning at",
           "Padmanabhaswamy",
           "Temple (traditional attire required)"
+        ],
+        "bullets": [
+          "Arrive in Thiruvananthapuram — check-in Morning at Padmanabhaswamy Temple (traditional attire required)",
+          "Visit Napier Museum and Kerala Zoo",
+          "Evening at Kuthiramalika Palace Museum",
+          "Overnight stay"
         ]
       },
       {
         "day": 2,
-        "title": "Kovalam",
+        "title": "Kovalam Beach",
         "location": "Thiruvananthapuram Tour - Kerala Capital City",
         "description": "Kovalam Beach & Departure Morning at Kovalam Beach — sunrise swim or Ayurvedic massage Visit the famous Lighthouse Enjoy panoramic ocean view Evening fresh seafood dinner at a beach shack Departure",
         "activities": [
@@ -3701,6 +4345,12 @@ export const tourPackages: TourPackage[] = [
           "Kovalam",
           "Beach — sunrise swim or",
           "Ayurvedic massage"
+        ],
+        "bullets": [
+          "Departure Morning at Kovalam Beach — sunrise swim or Ayurvedic massage",
+          "Visit the famous Lighthouse Enjoy panoramic ocean view",
+          "Evening fresh seafood dinner at a beach shack",
+          "Departure"
         ]
       }
     ],
@@ -3753,7 +4403,7 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Wonderla",
+        "title": "Wonderla Amusement Park",
         "location": "Kochi",
         "description": "Wonderla Amusement Park Arrive at Kochi — check-in Full day at Wonderla Amusement Park — thrill rides, water park and live shows Evening leisure Overnight stay",
         "activities": [
@@ -3762,11 +4412,15 @@ export const tourPackages: TourPackage[] = [
           "Kochi — check-in",
           "Full day at",
           "Wonderla"
+        ],
+        "bullets": [
+          "Arrive at Kochi — check-in Full day at Wonderla Amusement Park — thrill rides, water park and live shows",
+          "Evening leisure Overnight stay"
         ]
       },
       {
         "day": 2,
-        "title": "City",
+        "title": "City Tour",
         "location": "Kochi",
         "description": "City Tour & Departure Morning Fort Kochi heritage walk — Chinese Fishing Nets, St. Francis Church Mattancherry Dutch Palace and Jew Town Shopping at Lulu Mall Departure",
         "activities": [
@@ -3775,6 +4429,11 @@ export const tourPackages: TourPackage[] = [
           "Morning",
           "Kochi heritage walk —",
           "Chinese"
+        ],
+        "bullets": [
+          "Departure Morning Fort Kochi heritage walk — Chinese Fishing Nets, St. Francis Church Mattancherry Dutch Palace and Jew Town",
+          "Shopping at Lulu Mall",
+          "Departure"
         ]
       }
     ],
@@ -3827,7 +4486,7 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Arrival &",
+        "title": "Arrival",
         "location": "Rameshwaram",
         "description": "Arrival & Temple Darshan Arrive at Rameshwaram — hotel check-in and freshen up Darshan at Ramanathaswamy Temple Participate in the sacred rituals at Agni Theertham Take ritual baths at 22 Theerthams inside the temple Overnight stay at hotel",
         "activities": [
@@ -3837,11 +4496,16 @@ export const tourPackages: TourPackage[] = [
           "Rameshwaram — hotel check-in and freshen up",
           "Darshan at",
           "Ramanathaswamy"
+        ],
+        "bullets": [
+          "Temple Darshan Arrive at Rameshwaram — hotel check-in and freshen up",
+          "Darshan at Ramanathaswamy Temple Participate in the sacred rituals at Agni Theertham Take ritual baths at 22 Theerthams inside the temple",
+          "Overnight stay at hotel"
         ]
       },
       {
         "day": 2,
-        "title": "Dhanushkodi &",
+        "title": "Dhanushkodi",
         "location": "Rameshwaram",
         "description": "Dhanushkodi & Departure Morning visit to Dhanushkodi ghost town Scenic drive past Pamban Bridge APJ Abdul Kalam Memorial Five-Faced Hanuman Temple (Panchamukha Anjaneya Temple) Drop-off at airport, railway station, or your next destination",
         "activities": [
@@ -3851,6 +4515,10 @@ export const tourPackages: TourPackage[] = [
           "Scenic drive past",
           "Pamban",
           "Bridge APJ"
+        ],
+        "bullets": [
+          "Departure Morning visit to Dhanushkodi ghost town Scenic drive past Pamban Bridge APJ Abdul Kalam Memorial Five-Faced Hanuman Temple (Panchamukha Anjaneya Temple)",
+          "Drop-off at airport, railway station, or your next destination"
         ]
       }
     ],
@@ -3903,7 +4571,7 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Arrival in",
+        "title": "Arrival in Courtallam",
         "location": "Courtallam",
         "description": "Arrival in Courtallam Morning visit to the Main Falls — therapeutic shower in gushing waters Afternoon explore the Five Falls (Aintharuvi) Evening leisure at the resort Overnight stay",
         "activities": [
@@ -3911,11 +4579,17 @@ export const tourPackages: TourPackage[] = [
           "Morning visit to the",
           "Falls — therapeutic shower in gushing waters",
           "Afternoon explore the"
+        ],
+        "bullets": [
+          "Morning visit to the Main Falls — therapeutic shower in gushing waters",
+          "Afternoon explore the Five Falls (Aintharuvi)",
+          "Evening leisure at the resort",
+          "Overnight stay"
         ]
       },
       {
         "day": 2,
-        "title": "Old",
+        "title": "Old Falls",
         "location": "Courtallam",
         "description": "Old Falls & Departure Morning visit to Old Courtallam Falls through forest trail Darshan at Kutralanathar Temple Lunch at a local restaurant Light shopping for local pickles, honey and herbal products Return journey to Madurai",
         "activities": [
@@ -3924,6 +4598,11 @@ export const tourPackages: TourPackage[] = [
           "Morning visit to",
           "Courtallam",
           "Falls through forest trail"
+        ],
+        "bullets": [
+          "Departure Morning visit to Old Courtallam Falls through forest trail",
+          "Darshan at Kutralanathar Temple",
+          "Lunch at a local restaurant Light shopping for local pickles, honey and herbal products Return journey to Madurai"
         ]
       }
     ],
@@ -3976,7 +4655,7 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Arrival in",
+        "title": "Arrival in Kodaikanal",
         "location": "Kodaikanal",
         "description": "Arrival in Kodaikanal Kodaikanal Lake — enjoy boating on the iconic star-shaped lake Bryant Park Botanical Garden — stroll through rare flowers and exotic plants Coaker's Walk — kilometre-long scenic pathway with breathtaking panoramic valley views Pillar Rocks — three giant vertical rock form",
         "activities": [
@@ -3985,11 +4664,17 @@ export const tourPackages: TourPackage[] = [
           "Lake — enjoy boating on the iconic star-shaped lake",
           "Bryant",
           "Botanical"
+        ],
+        "bullets": [
+          "Kodaikanal Lake — enjoy boating on the iconic star-shaped lake",
+          "Bryant Park Botanical Garden — stroll through rare flowers and exotic plants",
+          "Coaker's Walk — kilometre-long scenic pathway with breathtaking panoramic valley views",
+          "Pillar Rocks — three giant vertical rock form"
         ]
       },
       {
         "day": 2,
-        "title": "Murugan",
+        "title": "Murugan Temple, Poomparai & Pine Forest",
         "location": "Kodaikanal",
         "description": "Murugan Temple, Poomparai & Pine Forest Morning darshan at Kurinchi Andavar Murugan Temple Scenic drive to Poomparai village — charming village surrounded by terraced farmlands and valley vistas Walk through the famous Kodaikanal Pine Forest — towering pine trees with misty morning light Silver",
         "activities": [
@@ -3998,6 +4683,10 @@ export const tourPackages: TourPackage[] = [
           "Forest",
           "Morning darshan at",
           "Kurinchi"
+        ],
+        "bullets": [
+          "Morning darshan at Kurinchi Andavar Murugan Temple Scenic drive to Poomparai village — charming village surrounded by terraced farmlands and valley vistas Walk through the famous",
+          "Kodaikanal Pine Forest — towering pine trees with misty morning light Silver"
         ]
       }
     ],
@@ -4050,7 +4739,7 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Big",
+        "title": "Big Temple & Royal Palace",
         "location": "Thanjavur",
         "description": "Big Temple & Royal Palace Arrive in Thanjavur — check-in Afternoon at Brihadeeswara Temple (Big Temple) — 66-metre vimana, world's largest Shivalinga Evening visit to Thanjavur Royal Palace and art gallery Light shopping for Tanjore paintings and handicrafts Overnight stay",
         "activities": [
@@ -4059,11 +4748,16 @@ export const tourPackages: TourPackage[] = [
           "Arrive in",
           "Thanjavur — check-in",
           "Afternoon at"
+        ],
+        "bullets": [
+          "Arrive in Thanjavur — check-in Afternoon at Brihadeeswara Temple (Big Temple) — 66-metre vimana, world's largest Shivalinga",
+          "Evening visit to Thanjavur Royal Palace and art gallery Light shopping for Tanjore paintings and handicrafts",
+          "Overnight stay"
         ]
       },
       {
         "day": 2,
-        "title": "Kallanai &",
+        "title": "Kallanai",
         "location": "Thanjavur",
         "description": "Kallanai & Departure Morning visit to Kallanai Dam (Grand Anicut) Poondi Matha Temple Departure",
         "activities": [
@@ -4071,6 +4765,10 @@ export const tourPackages: TourPackage[] = [
           "Morning visit to",
           "Kallanai",
           "Anicut)"
+        ],
+        "bullets": [
+          "Departure Morning visit to Kallanai Dam (Grand Anicut) Poondi Matha Temple",
+          "Departure"
         ]
       }
     ],
@@ -4130,11 +4828,15 @@ export const tourPackages: TourPackage[] = [
           "Wayanad 900",
           "Soochipara",
           "Falls ("
+        ],
+        "bullets": [
+          "Arrival in Wayanad 900 Kandi Eco",
+          "Park — trekking trails and rare flora at 900 metres altitude with breathtaking valley and forest views Soochipara Falls (Sentinel Rock Waterfalls) — spectacular three-tiered waterfall amidst dense Western Ghats forests Cool off with a refreshing swim in the natural p"
         ]
       },
       {
         "day": 2,
-        "title": "Edakkal",
+        "title": "Edakkal Caves, Heritage Museum & Banasura Dam",
         "location": "Wayanad",
         "description": "Edakkal Caves, Heritage Museum & Banasura Dam Morning visit to Edakkal Caves Climb to the cave entrance — moderate 1 km trek with scenic views Wayanad Heritage Museum at Ambalavayal Banasura Sagar Dam — India's largest earthen dam Shopping for Wayanad coffee, bamboo products and tribal han",
         "activities": [
@@ -4143,6 +4845,10 @@ export const tourPackages: TourPackage[] = [
           "Museum &",
           "Banasura",
           "Morning visit to"
+        ],
+        "bullets": [
+          "Morning visit to Edakkal Caves Climb to the cave entrance — moderate 1 km trek with scenic views Wayanad Heritage Museum at Ambalavayal Banasura Sagar Dam — India's largest earthen dam",
+          "Shopping for Wayanad coffee, bamboo products and tribal han"
         ]
       }
     ],
@@ -4195,18 +4901,27 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Kanyakumari",
+        "title": "Kanyakumari Arrival",
         "location": "Kanyakumari",
         "description": "Kanyakumari Arrival Direct reception and pickup upon arrival by your dedicated private chauffeur Kumari Amman Temple darshan Ferry ride to Vivekananda Rock Memorial and Thiruvalluvar Statue Afternoon visit to Gandhi Memorial Evening leisure at the beach and sunset Visit Suchindram Thanumalayan Temple Check-in and overnight stay",
         "activities": [
           "Arrival",
           "Kumari",
           "Temple darshan"
+        ],
+        "bullets": [
+          "Direct reception and pickup upon arrival by your dedicated private chauffeur",
+          "Kumari Amman Temple darshan",
+          "Ferry ride to Vivekananda Rock Memorial and Thiruvalluvar Statue",
+          "Afternoon visit to Gandhi Memorial",
+          "Evening leisure at the beach and sunset",
+          "Visit Suchindram Thanumalayan Temple",
+          "Check-in and overnight stay"
         ]
       },
       {
         "day": 2,
-        "title": "Palace,",
+        "title": "Palace, Falls",
         "location": "Kanyakumari",
         "description": "Palace, Falls & Departure Morning excursion to Padmanabhapuram Palace and Udiragiri Fort Visit the scenic bridge and falls Lunch at a local restaurant Drop-off at airport, railway station, or your next destination",
         "activities": [
@@ -4216,6 +4931,12 @@ export const tourPackages: TourPackage[] = [
           "Padmanabhapuram",
           "Palace and",
           "Udiragiri"
+        ],
+        "bullets": [
+          "Departure Morning excursion to Padmanabhapuram Palace and Udiragiri Fort",
+          "Visit the scenic bridge and falls",
+          "Lunch at a local restaurant",
+          "Drop-off at airport, railway station, or your next destination"
         ]
       }
     ],
@@ -4268,7 +4989,7 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Madurai",
+        "title": "Madurai City Sightseeing",
         "location": "Madurai",
         "description": "Madurai City Sightseeing Arrive in Madurai — check-in at hotel Morning visit to Meenakshi Amman Temple Thirumalai Nayakkar Palace Gandhi Memorial Museum Overnight stay",
         "activities": [
@@ -4277,11 +4998,17 @@ export const tourPackages: TourPackage[] = [
           "Madurai — check-in at hotel",
           "Morning visit to",
           "Meenakshi"
+        ],
+        "bullets": [
+          "Arrive in Madurai — check-in at hotel",
+          "Morning visit to Meenakshi Amman Temple Thirumalai Nayakkar Palace",
+          "Gandhi Memorial Museum",
+          "Overnight stay"
         ]
       },
       {
         "day": 2,
-        "title": "Azhagar",
+        "title": "Azhagar Hills",
         "location": "Madurai",
         "description": "Azhagar Hills & Departure Morning excursion to Azhagar Kovil (Kallazhagar Temple) Visit Pazhamudhir Cholai temple Evening at Tiruparankundram Shopping at local silk and handicraft stores Departure",
         "activities": [
@@ -4291,6 +5018,13 @@ export const tourPackages: TourPackage[] = [
           "Azhagar",
           "Kovil (",
           "Kallazhagar"
+        ],
+        "bullets": [
+          "Departure Morning excursion to Azhagar Kovil (Kallazhagar Temple)",
+          "Visit Pazhamudhir Cholai temple",
+          "Evening at Tiruparankundram",
+          "Shopping at local silk and handicraft stores",
+          "Departure"
         ]
       }
     ],
@@ -4350,17 +5084,24 @@ export const tourPackages: TourPackage[] = [
           "Welcome & transfer",
           "Local landmark exploration",
           "Overnight stay"
+        ],
+        "bullets": [
+          "Arrival at destination or airport/station.",
+          "Check-in and private sightseeing tour."
         ]
       },
       {
         "day": 2,
-        "title": "Yercaud - Hill Station, Tamil Nadu Excursion & Return",
+        "title": "Morning sightseeing, scenic viewpoints, local market visits, and",
         "location": "Yercaud",
         "description": "Morning sightseeing, scenic viewpoints, local market visits, and departure assistance.",
         "activities": [
           "Scenic morning tour",
           "Cultural exploration",
           "Drop-off"
+        ],
+        "bullets": [
+          "Departure assistance."
         ]
       }
     ],
@@ -4413,7 +5154,7 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Toy",
+        "title": "Toy Train & Tea Factory",
         "location": "Ooty",
         "description": "Toy Train & Tea Factory Arrive at Ooty Early morning Nilgiri Mountain Railway (Toy Train) ride — UNESCO World Heritage experience Visit a working tea factory and taste freshly brewed Nilgiri tea Evening leisure at Ooty Lake Overnight stay",
         "activities": [
@@ -4421,16 +5162,27 @@ export const tourPackages: TourPackage[] = [
           "Factory",
           "Arrive at",
           "Early morning"
+        ],
+        "bullets": [
+          "Arrive at Ooty Early morning Nilgiri Mountain Railway (Toy Train) ride — UNESCO World Heritage experience",
+          "Visit a working tea factory and taste freshly brewed Nilgiri tea",
+          "Evening leisure at Ooty Lake",
+          "Overnight stay"
         ]
       },
       {
         "day": 2,
-        "title": "Ooty and",
+        "title": "Ooty and Toy Train",
         "location": "Ooty",
         "description": "Ooty and Toy Train Morning visit to Rose Garden — home to 20,000+ varieties of roses Visit Emerald Lake and Avalanche Lake (seasonal) Light shopping for Nilgiri tea, spices and eucalyptus oil Departure",
         "activities": [
           "Morning visit to",
           "Garden — home to 20,000+ varieties of roses"
+        ],
+        "bullets": [
+          "Morning visit to Rose Garden — home to 20,000+ varieties of roses",
+          "Visit Emerald Lake and Avalanche Lake (seasonal) Light shopping for Nilgiri tea, spices and eucalyptus oil",
+          "Departure"
         ]
       }
     ],
@@ -4490,11 +5242,15 @@ export const tourPackages: TourPackage[] = [
           "Munnar",
           "Mattupetty",
           "Dam — scenic boating on the reservoir surrounded by tea estates"
+        ],
+        "bullets": [
+          "Visit the famous cattle breeding station Echo",
+          "Point — experience the natural echo over the Madupetty Lake Eravikulam National Park (Rajamalai) — spot the endangered Nilgiri Tahr (Hima"
         ]
       },
       {
         "day": 2,
-        "title": "Jeep",
+        "title": "Jeep Safari, Top Station & Waterfalls",
         "location": "Munnar",
         "description": "Jeep Safari, Top Station & Waterfalls Early morning jeep safari through winding tea estate roads and misty forest trails Top Station — highest viewpoint in Munnar with stunning views stretching into Tamil Nadu Attukal Waterfalls — gentle trek through shola forest to a scenic cascade Cheeyappara",
         "activities": [
@@ -4502,6 +5258,11 @@ export const tourPackages: TourPackage[] = [
           "Station &",
           "Waterfalls",
           "Early morning jeep safari through winding tea estate roads and misty forest trails"
+        ],
+        "bullets": [
+          "Early morning jeep safari through winding tea estate roads and misty forest trails Top",
+          "Station — highest viewpoint in Munnar with stunning views stretching into Tamil Nadu Attukal",
+          "Waterfalls — gentle trek through shola forest to a scenic cascade Cheeyappara"
         ]
       }
     ],
@@ -4554,18 +5315,22 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Arrive",
+        "title": "Arrive Port Blair",
         "location": "Andaman & Nicobar Islands",
         "description": "Arrive Port Blair Fly to Port Blair — check-in Afternoon at Cellular Jail (Kala Pani) — historic prison of India's freedom fighters Evening Cellular Jail Light and Sound Show — deeply moving tribute to the freedom struggle",
         "activities": [
           "Fly to",
           "Blair — check-in",
           "Afternoon at"
+        ],
+        "bullets": [
+          "Fly to Port Blair — check-in Afternoon at Cellular Jail (Kala Pani) — historic prison of India's freedom fighters",
+          "Evening Cellular Jail Light and Sound Show — deeply moving tribute to the freedom struggle"
         ]
       },
       {
         "day": 2,
-        "title": "Havelock",
+        "title": "Havelock Island Ferry to Havelock Island (1 hour)",
         "location": "Andaman & Nicobar Islands",
         "description": "Havelock Island Ferry to Havelock Island (1 hour) — check into a beach resort Afternoon at Radhanagar Beach (Beach 7) — rated one of Asia's finest beaches Sunset walk along the beach",
         "activities": [
@@ -4575,11 +5340,16 @@ export const tourPackages: TourPackage[] = [
           "Island (1 hour) — check into a beach resort",
           "Afternoon at",
           "Radhanagar"
+        ],
+        "bullets": [
+          "Check into a beach resort",
+          "Afternoon at Radhanagar Beach (Beach 7) — rated one of Asia's finest beaches",
+          "Sunset walk along the beach"
         ]
       },
       {
         "day": 3,
-        "title": "Scuba",
+        "title": "Scuba Diving",
         "location": "Andaman & Nicobar Islands",
         "description": "Scuba Diving & Snorkelling Morning scuba diving at Elephant Beach — one of the best coral diving sites in India Snorkelling tour Kayaking through mangroves Afternoon at Kalapathar Beach — dramatic black pebble beach at sunset",
         "activities": [
@@ -4588,6 +5358,11 @@ export const tourPackages: TourPackage[] = [
           "Morning scuba diving at",
           "Elephant",
           "Beach — one of the best coral diving sites in"
+        ],
+        "bullets": [
+          "Snorkelling Morning scuba diving at Elephant Beach — one of the best coral diving sites in India",
+          "Snorkelling tour Kayaking through mangroves",
+          "Afternoon at Kalapathar Beach — dramatic black pebble beach at sunset"
         ]
       },
       {
@@ -4601,21 +5376,28 @@ export const tourPackages: TourPackage[] = [
           "Island (45 minutes)",
           "Natural",
           "Bridge and"
+        ],
+        "bullets": [
+          "Afternoon glass-bottom boat ride over shallow coral gardens Sea walking experience"
         ]
       },
       {
         "day": 5,
-        "title": "Back to",
+        "title": "Back to Port Blair",
         "location": "Andaman & Nicobar Islands",
         "description": "Back to Port Blair Return to Port Blair Corbyn's Cove Beach Water Sports Complex — jet skiing and banana boat Samudrika Naval Marine Museum Ross Island (Netaji Subhash Chandra Bose Island) — abandoned British colonial ruins",
         "activities": [
           "Return to",
           "Corbyn's"
+        ],
+        "bullets": [
+          "Return to Port Blair Corbyn's Cove Beach Water Sports",
+          "Complex — jet skiing and banana boat Samudrika Naval Marine Museum Ross Island (Netaji Subhash Chandra Bose Island) — abandoned British colonial ruins"
         ]
       },
       {
         "day": 6,
-        "title": "North",
+        "title": "North Bay",
         "location": "Andaman & Nicobar Islands",
         "description": "North Bay & Departure Morning at North Bay Island — coral reef snorkelling, sea walking and underwater observatory Afternoon souvenir shopping for shells, pearls and Andaman wood crafts Departure",
         "activities": [
@@ -4623,6 +5405,11 @@ export const tourPackages: TourPackage[] = [
           "Departure",
           "Morning at",
           "Island — coral reef snorkelling, sea walking and underwater observatory"
+        ],
+        "bullets": [
+          "Departure Morning at North Bay Island — coral reef snorkelling, sea walking and underwater observatory",
+          "Afternoon souvenir shopping for shells, pearls and Andaman wood crafts",
+          "Departure"
         ]
       }
     ],
@@ -4675,7 +5462,7 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Houseboat",
+        "title": "Houseboat Cruise",
         "location": "Alleppey Houseboat Tour - Kerala Backwaters",
         "description": "Houseboat Cruise Arrive at Alappuzha Board private houseboat (kettuvallam) Cruise through narrow canals Observe rural Kerala life and watch birds Freshly cooked Kerala meals on board Vembanad Lake sunset Overnight stay on the houseboat",
         "activities": [
@@ -4685,11 +5472,15 @@ export const tourPackages: TourPackage[] = [
           "Board private houseboat (kettuvallam)",
           "Cruise through narrow canals",
           "Observe rural"
+        ],
+        "bullets": [
+          "Arrive at Alappuzha Board private houseboat (kettuvallam) Cruise through narrow canals Observe rural Kerala life and watch birds Freshly cooked Kerala meals on board Vembanad Lake sunset",
+          "Overnight stay on the houseboat"
         ]
       },
       {
         "day": 2,
-        "title": "Beach &",
+        "title": "Beach",
         "location": "Alleppey Houseboat Tour - Kerala Backwaters",
         "description": "Beach & Departure Morning at Alappuzha Beach and Lighthouse Visit Krishnapuram Palace Museum Light shopping for local products Departure",
         "activities": [
@@ -4698,6 +5489,11 @@ export const tourPackages: TourPackage[] = [
           "Alappuzha",
           "Beach and",
           "Lighthouse"
+        ],
+        "bullets": [
+          "Departure Morning at Alappuzha Beach and Lighthouse",
+          "Visit Krishnapuram Palace Museum Light shopping for local products",
+          "Departure"
         ]
       }
     ],
@@ -4750,7 +5546,7 @@ export const tourPackages: TourPackage[] = [
     "itinerary": [
       {
         "day": 1,
-        "title": "Arrival in",
+        "title": "Arrival in Alappuzha (Alleppey)",
         "location": "Alappuzha & Varkala Tour - Kerala Backwaters",
         "description": "Arrival in Alappuzha (Alleppey) Arrive at Alappuzha (Alleppey) — afternoon check-in at private houseboat Cruise through the shimmering network of narrow backwater canals Observe rural Kerala life — toddy tapping, coir making and paddy cultivation along the banks Vembanad Lake — cruise through Kerala",
         "activities": [
@@ -4760,11 +5556,15 @@ export const tourPackages: TourPackage[] = [
           "Alappuzha (",
           "Alleppey) — afternoon check-in at private houseboat",
           "Cruise through the shimmering network of narrow backwater canals"
+        ],
+        "bullets": [
+          "Arrive at Alappuzha (Alleppey) — afternoon check-in at private houseboat Cruise through the shimmering network of narrow backwater canals Observe rural Kerala life — toddy tapping, coir making and paddy cultivation along the banks Vembanad",
+          "Lake — cruise through Kerala"
         ]
       },
       {
         "day": 2,
-        "title": "Varkala",
+        "title": "Varkala Cliff Beach",
         "location": "Alappuzha & Varkala Tour - Kerala Backwaters",
         "description": "Varkala Cliff Beach Morning check-out from houseboat Drive to Varkala Papanasam Beach — sacred bathing beach believed to wash away sins, at the base of the red laterite cliffs North Cliff promenade walk — yoga studios, Ayurveda centres and cliff-top shacks Cliff-top lunch with panoramic Arabian Sea",
         "activities": [
@@ -4772,6 +5572,10 @@ export const tourPackages: TourPackage[] = [
           "Drive to",
           "Varkala",
           "Papanasam"
+        ],
+        "bullets": [
+          "Morning check-out from houseboat",
+          "Drive to Varkala Papanasam Beach — sacred bathing beach believed to wash away sins, at the base of the red laterite cliffs North Cliff promenade walk — yoga studios, Ayurveda centres and cliff-top shacks Cliff-top lunch with panoramic Arabian Sea"
         ]
       }
     ],
