@@ -113,12 +113,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": true,
     "overview": "Visit the southernmost tip of India and explore Thiruvananthapuram Padmanabhaswamy Temple. Book your Kerala tour with Gateway Holidays.",
     "highlights": [
-      "Vivekananda",
-      "Rock",
-      "Memorial",
-      "Thiruvalluvar",
-      "Statue",
-      "Kumari"
+      "Vivekananda Rock Memorial & Dhyana Mandapam",
+      "133-Foot Thiruvalluvar Statue & Confluence of 3 Oceans",
+      "Sree Padmanabhaswamy Temple Dravidian Architecture",
+      "Kovalam Crescent Beach & Sunset Lighthouse",
+      "Napier Museum & Traditional Kerala Heritage"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -202,12 +201,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": true,
     "overview": "Enjoy island cruises, dolphin spotting, water sports and pristine beaches in Goa. Book your Goa Island and Beach tour package with Gateway Holidays.",
     "highlights": [
-      "Grand",
-      "Island snorkelling & dolphin spotting",
-      "Butterfly",
-      "Beach",
-      "Palolem",
-      "Beach"
+      "Grand Island Speedboat Cruise & Dolphin Spotting",
+      "Snorkelling over Vibrant Coral Reefs with Guides",
+      "Secret Coves & Soft Sands of Butterfly Beach",
+      "Palolem Beach Crescent Shoreline & Sunset Cafes",
+      "UNESCO World Heritage Churches of Old Goa"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -323,12 +321,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": true,
     "overview": "Explore pristine coral islands, turquoise lagoons and underwater coral reefs in Lakshadweep. Book your Lakshadweep tour with Gateway Holidays.",
     "highlights": [
-      "Venkateswara",
-      "Temple",
-      "Tirumala",
-      "Hills",
-      "Kapila",
-      "Theertham waterfall"
+      "Agatti Island Turquoise Lagoon & White Coral Sand",
+      "Scuba Diving & Snorkelling with Marine Turtles",
+      "Day Excursion to Uninhabited Bangaram & Thinnakara Islands",
+      "Glass-Bottom Boat Safari & Lagoon Kayaking",
+      "Beach Bonfire Dinner under Starlit Island Skies"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -468,12 +465,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": true,
     "overview": "Explore Sigiriya Rock, Kandy Temple of the Tooth, Nuwara Eliya tea gardens and more in Sri Lanka. Book your Sri Lanka tour with Gateway Holidays.",
     "highlights": [
-      "Sigiriya",
-      "Rock",
-      "Fortress",
-      "Temple of the",
-      "Tooth",
-      "Relic"
+      "Sigiriya Ancient Lion Rock Citadel & Water Gardens (UNESCO)",
+      "Sacred Temple of the Tooth Relic in Royal Kandy",
+      "Peradeniya Royal Botanical Orchid Gardens",
+      "Misty Tea Plantations & Waterfalls of Nuwara Eliya",
+      "Whale & Dolphin Watching Ocean Cruise in Mirissa"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -622,12 +618,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": true,
     "overview": "Explore Marina Bay Sands, Gardens by the Bay, Sentosa Island and Universal Studios in Singapore. Book your Singapore tour with Gateway Holidays.",
     "highlights": [
-      "Gardens by the",
-      "Supertree",
-      "Grove",
-      "Universal",
-      "Studios",
-      "Singapore"
+      "Gardens by the Bay & Supertree Grove Light Show",
+      "Universal Studios Singapore at Sentosa Island",
+      "Marina Bay Sands SkyPark Observation Deck",
+      "Night Safari — World's First Nocturnal Wildlife Experience",
+      "Iconic Merlion Park & Historic Singapore River Cruise"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -765,12 +760,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": true,
     "overview": "Visit Petronas Twin Towers, Langkawi beaches, cultural heritage and scenic rainforests in Malaysia. Book your Malaysia tour with Gateway Holidays.",
     "highlights": [
-      "Petronas",
-      "Twin",
-      "Towers",
-      "Batu",
-      "Caves",
-      "Penang UNESCO"
+      "Petronas Twin Towers & Skybridge Panoramic View",
+      "Batu Caves 272-Step Giant Limestone Shrine",
+      "Cameron Highlands Verdant BOH Tea Plantations",
+      "Georgetown Penang UNESCO Heritage Street Art & Food",
+      "Putrajaya Futuristic Islamic Architecture & Waterfront"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -902,12 +896,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": true,
     "overview": "Cruise Ha Long Bay, explore Hoi An ancient town and Ho Chi Minh City landmarks in Vietnam. Book your Vietnam tour with Gateway Holidays.",
     "highlights": [
-      "Halong",
-      "Bay cruise",
-      "Ancient",
-      "Town",
-      "Hanoi",
-      "Quarter"
+      "Ha Long Bay Overnight Luxury Cruise among Karst Islands",
+      "Hoi An Ancient Lantern Town by Night (UNESCO)",
+      "Hanoi Old Quarter Street Life & French Architecture",
+      "Mekong Delta Wooden Boat Safari & Floating Markets",
+      "Cu Chi Historic Underground Tunnel Complex"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -1050,12 +1043,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": true,
     "overview": "Explore Bali rice terraces, Tanah Lot temple, Ubud and pristine beaches. Book your Bali, Indonesia tour package with Gateway Holidays.",
     "highlights": [
-      "Tanah",
-      "Lot &",
-      "Uluwatu cliff temples",
-      "Tegallalang",
-      "Rice",
-      "Terrace,"
+      "Tanah Lot & Uluwatu Dramatic Ocean Cliff Temples",
+      "Tegallalang Layered Rice Terraces in Ubud",
+      "Mount Batur Active Volcano Sunrise Panorama",
+      "Ubud Sacred Monkey Forest Sanctuary & Artisan Markets",
+      "Kecak Sunset Fire Dance Performance at Cliff Top"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -1196,12 +1188,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Trek through tea gardens, shola forests and Anamudi peak in Munnar, Western Ghats. Book your Munnar trekking adventure with Gateway Holidays.",
     "highlights": [
-      "Anamudi",
-      "Peak trek — highest peak in",
-      "South",
-      "India",
-      "Meesapulimala trek — above the clouds",
-      "Kolukkumalai — world's highest tea estate"
+      "Anamudi Peak Trekking in Shola Forests — Highest in South India",
+      "Meesapulimala High-Altitude Trekking Above the Clouds",
+      "Kolukkumalai Sunrise at World's Highest Organic Tea Estate",
+      "Lush Tea Estate Nature Trails & Bird Watching",
+      "Chokramudi Mountain Ridge Adventure Trek"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -1279,12 +1270,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Explore Varkala cliff beach and canoe through serene backwaters of Munroe Island, Kollam. Book your Kerala coastal tour with Gateway Holidays.",
     "highlights": [
-      "Munroe",
-      "Island backwater canoe tour",
-      "Coir making & village life experience",
-      "Varkala",
-      "Cliff",
-      "Mangrove forest"
+      "Munroe Island Narrow Backwater Canoe Expedition",
+      "Traditional Coir Spinning & Authentic Village Life",
+      "Varkala Red Laterite Cliff Promenade & Ocean Sunset",
+      "Holy Papanasam Beach Cleansing Waters",
+      "Janardhana Swamy 2,000-Year-Old Coastal Temple"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -1380,12 +1370,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Try rock climbing, zip lining, rappelling and water activities at Kanakapura adventure park. Book your Karnataka adventure tour with Gateway Holidays.",
     "highlights": [
-      "Rock climbing on granite boulders",
-      "White-water rafting on",
-      "Cauvery",
-      "River",
-      "Kayaking & coracle rides",
-      "Jungle camping on the riverbank"
+      "Natural Granite Boulder Rock Climbing & Rappelling",
+      "Cauvery River White-Water Rafting & Kayaking",
+      "Zip-lining Across Scenic Lake & Aerial Rope Courses",
+      "Riverside Jungle Tent Camping with Evening Campfire",
+      "Coracle Boat Rides & Outdoor Team Challenges"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -1468,12 +1457,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Experience Bangkok temples, Phuket beaches, Chiang Mai elephant sanctuary and Krabi limestone cliffs. Book your Thailand tour with Gateway Holidays.",
     "highlights": [
-      "Pho &",
-      "Arun temples",
-      "Grand",
-      "Palace &",
-      "Emerald",
-      "Buddha"
+      "Wat Pho Reclining Buddha & Wat Arun Temple of Dawn",
+      "Bangkok Grand Palace & Sacred Emerald Buddha",
+      "Phi Phi Islands Speedboat Excursion & Maya Bay",
+      "Ethical Elephant Sanctuary Interaction & Bathing",
+      "Krabi Railay Beach Dramatic Limestone Sea Cliffs"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -1626,12 +1614,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Enjoy outdoor trekking, nature walks and adventure activities in and around Mysore, Karnataka. Book your Mysore adventure tour with Gateway Holidays.",
     "highlights": [
-      "Nagarhole",
-      "National",
-      "Park jeep safari",
-      "Shivanasamudra",
-      "Falls — twin waterfalls",
-      "Kabini"
+      "Nagarhole National Park Open Jeep Wildlife Safari",
+      "Shivanasamudra Twin Waterfalls Thunderous Cascades",
+      "Kabini River Boat Safari for Asian Elephants & Tigers",
+      "Chamundi Hill Trail Nature Trek & Panoramic City View",
+      "Ranganathittu Bird Sanctuary Boating among Migratory Birds"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -1711,12 +1698,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Experience Dal Lake houseboats, Gulmarg snowfields, Pahalgam meadows and Mughal gardens in Kashmir. Book your Kashmir tour with Gateway Holidays.",
     "highlights": [
-      "Shikara ride on",
-      "Lake",
-      "Gulmarg",
-      "Gondola",
-      "Pahalgam —",
-      "Valley of"
+      "Romantic Shikara Boat Ride on Serene Dal Lake",
+      "Gulmarg Gondola — World's Highest Cable Car Ride",
+      "Pahalgam Valley of Shepherds & Scenic Betaab Valley",
+      "Sonamarg Meadow of Gold & Thajiwas Glacier Sledging",
+      "Royal Mughal Gardens of Nishat Bagh & Shalimar Bagh"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -1860,12 +1846,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Explore the magnificent Meenakshi Amman Temple and cultural heritage of Madurai. Book your Madurai temple tour package with Gateway Holidays.",
     "highlights": [
-      "Gopurams — tallest rises to 52 metres 1,000-",
-      "Pillar",
-      "Hall (",
-      "Aaayiram",
-      "Kaal",
-      "Mandapam)"
+      "Historic Meenakshi Amman Temple & 14 Sculptured Gopurams",
+      "Aayiram Kaal Mandapam (1,000-Pillar Hall) & Musical Pillars",
+      "Thirumalai Nayakkar Palace Grand Stucco Architecture",
+      "Alagar Kovil Hillside Temple & Pazhamudircholai Shrine",
+      "Madurai Heritage Food Walk & Famous Jigarthanda"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -1947,12 +1932,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Visit the UNESCO World Heritage Brihadeeswarar Temple and royal heritage of Thanjavur. Book your Thanjavur Big Temple tour with Gateway Holidays.",
     "highlights": [
-      "66-metre",
-      "Vimana — tallest",
-      "Chola tower",
-      "World's largest",
-      "Shivalinga inside the sanctum",
-      "Chola murals — recovered after 1,000 years 25-tonne"
+      "Brihadeeswarar Temple 66-Metre Tall Granitic Vimana (UNESCO)",
+      "Massive 25-Tonne Monolithic Nandi Bull Carved from Single Stone",
+      "1,000-Year-Old Chola Fresco Paintings & Inscription Galleries",
+      "Thanjavur Royal Palace, Durbar Hall & Art Gallery",
+      "Saraswathi Mahal Ancient Palm-Leaf Manuscript Library"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -2032,12 +2016,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Visit the sacred Basilica of Our Lady of Health at Velankanni, Tamil Nadu. Book your Velankanni Shrine pilgrimage tour with Gateway Holidays.",
     "highlights": [
-      "Basilica of",
-      "Lady of",
-      "Good",
-      "Health",
-      "Velankanni",
-      "Beach"
+      "Basilica of Our Lady of Good Health Gothic Cathedral",
+      "Miraculous Our Lady's Tank & Sacred Holy Path Walking",
+      "Velankanni Golden Sand Coastline & Sunrise Views",
+      "Daily Rosary Procession & Multi-Lingual Holy Masses",
+      "Historic Coastal Pilgrimage Circuit of Central Tamil Nadu"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -2117,12 +2100,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Visit the world largest bird sculpture at Jatayu Nature Park and relax at Varkala cliff beach. Book your Kerala tour with Gateway Holidays.",
     "highlights": [
-      "Jatayu",
-      "Sculpture — world's largest bird statue",
-      "Ropeway ride to the summit",
-      "Digital",
-      "Ramayana museum",
-      "Adventure park"
+      "World's Largest Bird Sculpture at Jatayu Nature Park",
+      "Swiss Cable Car (Ropeway) Scenic Ride to Hill Summit",
+      "Digital Audio-Visual Ramayana Museum & 6D Theatre",
+      "Varkala Cliff Beach Ocean Sunset & Bohemian Cafes",
+      "Papanasam Beach Holy Springs & Janardhana Swamy Temple"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -2204,12 +2186,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Experience paragliding, trekking, zipline and camping in the lush meadows of Vagamon, Kerala. Book your adventure tour with Gateway Holidays.",
     "highlights": [
-      "Rock climbing & rappelling",
-      "Vagamon",
-      "Pine",
-      "Forest trek",
-      "Zip-lining &",
-      "Burma"
+      "Tandem Paragliding Over Vagamon's Rolling Green Meadows",
+      "Zip-lining Across Misty Valleys & Burma Bridge Walk",
+      "Pine Valley Forest Canopy Stroll & Nature Photography",
+      "Vagamon Lake Pedal Boating Surrounded by Tea Gardens",
+      "Off-Road Jeep Safari to Kurisumala Viewpoint"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -2289,12 +2270,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Seek blessings at Thiruchendur Murugan Temple and Ramanathaswamy Temple in Rameshwaram. Book your Tamil Nadu pilgrimage tour with Gateway Holidays.",
     "highlights": [
-      "Tiruchendur",
-      "Murugan",
-      "Temple on the sea",
-      "Ramanathaswamy",
-      "Temple & 22",
-      "Theerthams"
+      "Tiruchendur Murugan Sea-Shore Temple Coastal Darshan",
+      "Rameshwaram Ramanathaswamy 1,200-Metre Sculpted Corridors",
+      "Sacred Bath in 22 Temple Theerthams & Agni Theertham",
+      "Dhanushkodi Land's End & Ghost Town Ram Setu Point",
+      "Historic Pamban Sea Bridge Iconic Train Ride View"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -2374,12 +2354,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Seek blessings at the hilltop Palani Dhandayuthapani Swamy Temple in Tamil Nadu. Book your Palani Murugan Temple pilgrimage tour with Gateway Holidays.",
     "highlights": [
-      "Dhandayuthapani",
-      "Swamy idol",
-      "Sacred",
-      "Panchamirtham prasad",
-      "Thiru",
-      "Avinankudi"
+      "Dhandayuthapani Swamy Hilltop Sanctum Navapashanam Idol",
+      "Scenic Winch Train & Modern Ropeway Ascent",
+      "World-Famous Palani Panchamirtham Sacred Prasadam",
+      "Thiru Avinankudi Ancient Foothills Temple",
+      "Idumban Hill Shrine & Panoramic Western Ghats Vistas"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -2463,12 +2442,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Enjoy thrilling rides, water slides and live shows at Wonderla Adventure Park in Kochi. Book your Wonderla tour package with Gateway Holidays.",
     "highlights": [
-      "50+ rides including roller coasters & water rides",
-      "Wave pool & rain disco",
-      "Kids'",
-      "Adventure",
-      "Zone",
-      "Cyclone rides"
+      "50+ World-Class Land & Water Theme Park Rides",
+      "Massive Heated Wave Pool & High-Energy Rain Disco",
+      "Recoil — India's First Reverse Looping Roller Coaster",
+      "Dedicated Kids Adventure Zone & Water Play Kingdom",
+      "Musical Laser Fountain Show & Multi-Cuisine Food Courts"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -2558,12 +2536,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Visit the sacred Ram Mandir and holy ghats of Saryu River in Ayodhya. Book your Ayodhya pilgrimage tour package with Gateway Holidays.",
     "highlights": [
-      "Mandir",
-      "Janmabhoomi",
-      "Hanuman",
-      "Garhi",
-      "Temple",
-      "Sarayu"
+      "Grand Shri Ram Janmabhoomi Mandir Splendid Darshan",
+      "Hanuman Garhi Ancient Fort Temple Protective Blessings",
+      "Evening Grand Maha Aarti on the Sacred Saryu River Ghats",
+      "Kanak Bhawan Royal Palace Temple Golden Murties",
+      "Ram Ki Paidi Waterfront Promenade & Heritage Light Show"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -2640,12 +2617,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Experience thrilling water rides and wave pools at Black Thunder, Tamil Nadu top water theme park. Book your tour with Gateway Holidays.",
     "highlights": [
-      "Giant water slides &",
-      "Black",
-      "Hole ride",
-      "Wave",
-      "Pool and",
-      "Lazy"
+      "Wave Pool with Nilgiri Hills Backdrop & Real Surf Waves",
+      "Thrilling Multi-Lane Speed Slides & Black Hole Coaster",
+      "Relaxing Lazy River Float Through Lush Tropics",
+      "Wild River Rafting & High-Velocity Water Chutes",
+      "Kids Water Play Land & Rain Dance Pavilion"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -2722,12 +2698,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Explore strawberry farms, spice gardens and adventure activities in Kanthalur near Munnar, Kerala. Book your tour with Gateway Holidays.",
     "highlights": [
-      "Apple orchards of",
-      "Kerala's own",
-      "Kashmir",
-      "Kanthalur",
-      "Kalayar",
-      "Temple"
+      "Orchard Strolls Through Apple, Orange & Strawberry Farms",
+      "Kanthalur Sandalwood Forest Off-Road Jeep Safari",
+      "Muniyara Megalithic Prehistoric Dolmen Stone Chambers",
+      "Thoovanam Waterfalls Guided Deep Jungle Trek",
+      "Chinnar Wildlife Sanctuary Watchtower Panoramic Safari"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -2808,12 +2783,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Visit the magnificent Sri Padmanabhaswamy Temple in Thiruvananthapuram, one of India richest temples. Book your pilgrimage tour with Gateway Holidays.",
     "highlights": [
-      "Main sanctum —",
-      "Lord",
-      "Vishnu in reclining pose 17th-century",
-      "Dravidian-",
-      "Kerala style architecture",
-      "Thiruvananthapuram city temple circuit"
+      "Anantha Padmanabhaswamy 18-Foot Reclining Vishnu Darshan",
+      "Magnificent 100-Foot 7-Tier Dravidian Gopuram",
+      "Kuthira Malika (Mansion of Horses) Teakwood Palace",
+      "Kovalam Beach Lighthouse & Ocean Panorama",
+      "Napier Museum & Sri Chitra Art Gallery Treasures"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -2894,12 +2868,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Visit Lord Venkateswara at Tirupathi, the most visited pilgrimage site in India. Book your Tirupathi Balaji Temple tour with Gateway Holidays.",
     "highlights": [
-      "Venkateswara",
-      "Temple",
-      "Tirumala",
-      "Hills",
-      "Kapila",
-      "Theertham waterfall"
+      "Lord Sri Venkateswara Swamy Tirumala Sanctum Darshan",
+      "Seven Sacred Seshachalam Hills Scenic Mountain Drive",
+      "Authentic Tirupati Laddu Prasadam Experience",
+      "Kapila Theertham Sacred Waterfall Shiva Temple",
+      "Sri Padmavathi Ammavari Temple at Tiruchanur"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -2980,12 +2953,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Experience snow-capped mountains, Rohtang Pass and river rafting in Kullu and Manali. Book your Himachal Pradesh tour with Gateway Holidays.",
     "highlights": [
-      "Rohtang",
-      "Pass",
-      "Solang",
-      "Valley",
-      "Hadimba",
-      "Devi"
+      "Rohtang Pass (13,050 Ft) Snow Adventures & Himalayan Views",
+      "Solang Valley Paragliding, Zorbing & Cable Car",
+      "Hadimba Devi Ancient Pagoda Temple in Cedar Woods",
+      "Vashisht Natural Sulphur Hot Springs & River Walks",
+      "Thrilling White-Water River Rafting in Kullu Valley"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -3124,12 +3096,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Discover the Taj Mahal, Red Fort, Amber Fort and iconic landmarks on the Golden Triangle tour. Book your Delhi-Agra-Jaipur package with Gateway Holidays.",
     "highlights": [
-      "Mahal",
-      "Fort &",
-      "Humayun's",
-      "Tomb",
-      "Amber",
-      "Fort &"
+      "Monument of Eternal Love: Taj Mahal at Golden Sunrise",
+      "Amber Fort Hilltop Palace & Sheesh Mahal in Jaipur",
+      "Massive Red Fort, Qutub Minar & Humayun's Tomb in Delhi",
+      "Hawa Mahal (Palace of Winds) & Pink City Royal Heritage",
+      "Agra Fort UNESCO World Heritage Emperor Chambers"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -3271,12 +3242,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Explore Bangalore Lalbagh Garden, Cubbon Park, Vidhana Soudha and vibrant markets. Book your Bangalore city tour with Gateway Holidays.",
     "highlights": [
-      "Bangalore",
-      "Palace",
-      "Cubbon",
-      "Park &",
-      "Vidhana",
-      "Soudha ISKCON"
+      "Tudor-Style Bangalore Palace Royal Heritage Walk",
+      "Lalbagh Botanical Garden Glass House & Century-Old Trees",
+      "Granite Neo-Dravidian Vidhana Soudha & Cubbon Park",
+      "Grand ISKCON Temple Darshan atop Hare Krishna Hill",
+      "Vibrant MG Road, Brigade Road & Commercial Street Shopping"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -3356,12 +3326,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Relax on Varkala stunning cliff beach, explore Papanasam beach and Janardanaswamy Temple. Book your Varkala tour with Gateway Holidays.",
     "highlights": [
-      "Varkala",
-      "Cliff",
-      "Janardhana",
-      "Swamy",
-      "Temple",
-      "Papanasam"
+      "Majestic Red Laterite Cliff Promenade Overlooking the Sea",
+      "Papanasam Beach Holy Cleansing Waters & Sunset Point",
+      "2,000-Year-Old Janardhana Swamy Coastal Temple",
+      "Anjengo Fort & 130-Foot British Colonial Lighthouse",
+      "Cliffside Candlelight Seafood Cafes & Ayurvedic Wellness"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -3442,12 +3411,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Visit Athirapally, the Niagara of India, and Vazhachal forest waterfalls in Thrissur district. Book your Athirapally tour with Gateway Holidays.",
     "highlights": [
-      "Athirapally",
-      "Falls",
-      "Vazhachal",
-      "Falls",
-      "Charpa",
-      "Falls"
+      "Athirapally Waterfalls — 'The Niagara of India' (80-Foot Plunge)",
+      "Vazhachal Dense Forest Cascades & River Walks",
+      "Charpa Waterfalls Picturesque Roadside Forest Cascade",
+      "Scenic Sholayar Rainforest Ghat Road Drive",
+      "Thumboormuzhy Dam, Butterfly Garden & Hanging Bridge"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -3530,12 +3498,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Explore Coorg coffee plantations, Abbey Falls, Dubare elephant camp and Namdroling monastery. Book your Coorg tour with Gateway Holidays.",
     "highlights": [
-      "Abbey",
-      "Falls",
-      "Raja's",
-      "Seat — sunset viewpoint",
-      "Dubare",
-      "Elephant"
+      "Abbey Falls Cascading Amidst Dense Spice Plantations",
+      "Raja's Seat Panoramic Western Ghats Sunset Viewpoint",
+      "Dubare Elephant Camp River Crossing & Mahout Encounters",
+      "Namdroling Golden Temple Tibetan Buddhist Monastery",
+      "Aromatic Arabica Coffee & Black Pepper Estate Walks"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -3616,12 +3583,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Relax on Om Beach, Half Moon Beach and visit the Mahabaleshwar Temple in Gokarna. Book your Gokarna tour package with Gateway Holidays.",
     "highlights": [
-      "Mahabaleshwara",
-      "Temple",
-      "Beach",
-      "Half",
-      "Moon",
-      "Beach"
+      "Sacred Mahabaleshwar Temple Atmalinga Pilgrimage",
+      "Famous Om-Shaped Coastline & Golden Sands of Om Beach",
+      "Scenic Cliff Trail Hike Connecting Half Moon & Paradise Beaches",
+      "Kudle Beach Laid-Back Atmosphere & Oceanfront Cafes",
+      "Breathtaking Coastal Sunset Over the Arabian Sea"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -3700,12 +3666,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Explore the world largest film studio at Ramoji Film City, Hyderabad. Book your Ramoji Film City guided tour package with Gateway Holidays.",
     "highlights": [
-      "World's largest film studio",
-      "Ramoji's themed streets",
-      "Filmi",
-      "Duniya",
-      "Gardens, rides & evening cultural show",
-      "Local sightseeing"
+      "Guinness World Record Largest Film Studio Tour",
+      "Grand Themed Sets: European Streets, Railway Stations & Forts",
+      "Action-Packed Live Stunt Shows & Movie Magic Demonstrations",
+      "Filmi Duniya Dark Ride Through Global Wonders",
+      "Eureka Grand Evening Carnival Parade & Light Spectacular"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -3782,12 +3747,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Visit Mysore Palace, Chamundeshwari Temple and Brindavan Gardens in the royal city. Book your Mysore city tour package with Gateway Holidays.",
     "highlights": [
-      "Mysore",
-      "Palace",
-      "Chamundi",
-      "Hills &",
-      "Mahishasura",
-      "Statue"
+      "Illuminated Grand Mysore Palace with 100,000 Golden Lights",
+      "Chamundeshwari Hilltop Temple & Mahishasura Statue",
+      "Brindavan Gardens Musical Dancing Fountain Evening Show",
+      "St. Philomena's Soaring Neo-Gothic Roman Cathedral",
+      "Heritage Devaraja Market & Famous Mysore Pak Tasting"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -3866,12 +3830,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Explore Charminar, Golconda Fort, Hussain Sagar Lake and Ramoji Film City in Hyderabad. Book your Hyderabad city tour with Gateway Holidays.",
     "highlights": [
-      "Charminar",
-      "Golconda",
-      "Fort",
-      "Qutb",
-      "Shahi",
-      "Tombs"
+      "Historic 16th-Century Charminar & Laad Bazaar Pearl Shopping",
+      "Magnificent Golconda Fort Acoustic Whispers & Sound Show",
+      "Qutb Shahi Royal Tombs Grand Persian-Deccan Domes",
+      "Hussain Sagar Lake Monolithic Buddha Statue Boat Cruise",
+      "Authentic World-Renowned Hyderabadi Dum Biryani Feast"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -3947,12 +3910,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Enjoy a boat safari on Periyar Lake and explore spice plantations in Thekkady. Book your Thekkady wildlife tour with Gateway Holidays.",
     "highlights": [
-      "Periyar",
-      "Lake boat cruise",
-      "Periyar",
-      "Tiger",
-      "Reserve jeep safari",
-      "Spice plantation tour"
+      "Periyar Tiger Reserve Lake Boat Safari for Wild Elephants",
+      "Guided Organic Spice Plantation Walk (Cardamom, Clove, Cinnamon)",
+      "Thrilling Kalaripayattu Ancient Martial Arts Live Performance",
+      "Traditional Kathakali Classical Masked Dance Show",
+      "Bamboo Rafting & Guided Wildlife Trekking in Periyar"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -4032,12 +3994,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Trek Mullayanagiri peak, explore coffee estates and Baba Budangiri hills in Chikmagalur. Book your Chikmagalur tour with Gateway Holidays.",
     "highlights": [
-      "Mullayanagiri",
-      "Peak",
-      "Baba",
-      "Budan",
-      "Giri",
-      "Hills"
+      "Mullayanagiri — Highest Mountain Summit in Karnataka",
+      "Baba Budangiri Mystic Shrine & Manikyadhara Waterfalls",
+      "Aromatic Coffee Plantation Walking Tours & Fresh Brew Tasting",
+      "Hebbe Falls Twin Stream Jungle 4x4 Jeep Safari",
+      "Z Point Kemmangundi Breathtaking Sunset Ridge Trail"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -4119,12 +4080,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Explore Vagamon misty meadows, pine forests and tea gardens in Kerala. Book your Vagamon hill station tour package with Gateway Holidays.",
     "highlights": [
-      "Vagamon",
-      "Meadows",
-      "Vagamon",
-      "Lake",
-      "Pine",
-      "Forest &"
+      "Endless Rolling Velvet Green Vagamon Pine Forest Trails",
+      "Misty Vagamon Pine Valley Tree Canopy Stroll",
+      "Kurisumala Hill Spiritual Hermitage & Dairy Farm",
+      "Vagamon Lake Pedal Boating Surrounded by Green Slopes",
+      "Thangal Para Giant Spherical Sacred Rock Formation"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -4205,12 +4165,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Explore Pondicherry French Quarter, Auroville, serene beaches and colonial heritage. Book your Pondicherry tour package with Gateway Holidays.",
     "highlights": [
-      "French",
-      "Quarter (",
-      "White",
-      "Town)",
-      "Auroville",
-      "Aurobindo"
+      "French Quarter (White Town) Colonial Heritage Walking Tour",
+      "Auroville Universal City of Peace & Golden Matrimandir",
+      "Sri Aurobindo Ashram Peaceful Spiritual Meditation",
+      "Promenade Beach Seaside Boulevard & French War Memorial",
+      "Paradise Beach Isolated Island Catamaran Boat Ride"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -4290,12 +4249,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Explore Padmanabhaswamy Temple, Kovalam beach and Napier Museum in Thiruvananthapuram. Book your Trivandrum city tour with Gateway Holidays.",
     "highlights": [
-      "Padmanabhaswamy",
-      "Temple",
-      "Napier",
-      "Museum &",
-      "Kovalam",
-      "Beach"
+      "Sree Padmanabhaswamy World's Richest Royal Temple",
+      "Kovalam Crescent Beaches & Sunset Lighthouse Panorama",
+      "Napier Museum Indo-Saracenic Art & Bronze Galleries",
+      "Poovar Island Golden Sand Island & Mangrove Boat Cruise",
+      "Chalai Heritage Spice Bazaars & Traditional Travancore Food"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -4378,12 +4336,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Discover Fort Kochi Chinese fishing nets, Mattancherry Palace and vibrant cultural shows. Book your Kochi city tour package with Gateway Holidays.",
     "highlights": [
-      "Chinese",
-      "Fishing",
-      "Nets",
-      "Francis",
-      "Church",
-      "Mattancherry"
+      "Iconic Chinese Fishing Nets Along Fort Kochi Shoreline",
+      "Mattancherry Palace (Dutch Palace) Ramayana Murals",
+      "Historic Paradesi Jewish Synagogue & Antique Jew Town",
+      "St. Francis Church — Oldest European Church Built in India",
+      "Live Kathakali Masked Dance & Classical Kerala Art Night"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -4461,12 +4418,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Visit the sacred Ramanathaswamy Temple, Dhanushkodi ruins and Pamban Bridge in Rameshwaram. Book your pilgrimage tour with Gateway Holidays.",
     "highlights": [
-      "Ramanathaswamy",
-      "Temple",
-      "Dhanushkodi",
-      "Pamban",
-      "Railway",
-      "Bridge"
+      "Ramanathaswamy Temple 1,200-Metre Grand Sculpted Corridor",
+      "Holy Dip in 22 Sacred Theerthams & Agni Theertham Sea Shore",
+      "Dhanushkodi Land's End, Ghost Town & Ram Setu Point",
+      "Engineering Feat: Pamban Sea Bridge Iconic Rail Crossing",
+      "Dr. A.P.J. Abdul Kalam National Memorial & Museum"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -4546,12 +4502,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Enjoy the refreshing falls at Courtallam, the spa of South India. Book your Courtallam waterfall tour package with Gateway Holidays.",
     "highlights": [
-      "Main",
-      "Falls",
-      "Five",
-      "Falls",
-      "Courtallam",
-      "Kutralanathar"
+      "Healing Herbal Waters of Main Falls & Peraruvi Cascade",
+      "Five Falls (Aintharuvi) Splitting into 5 Natural Forest Streams",
+      "Shenbaga Devi Forest Waterfall Hike & Temple",
+      "Ancient Thirukutralanathar Temple at the Waterfall Base",
+      "Old Courtallam (Pazhaya Courtallam) Natural Rock Pool Bath"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -4630,12 +4585,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Discover misty valleys, Bryant Park, Pillar Rocks and Coakers Walk in Kodaikanal. Book your Kodaikanal hill station tour with Gateway Holidays.",
     "highlights": [
-      "Kodaikanal",
-      "Lake",
-      "Bryant",
-      "Park",
-      "Botanical",
-      "Garden"
+      "Star-Shaped Kodaikanal Lake Pedal Boating & Lakeside Cycling",
+      "Coaker's Walk Panoramic Misty Mountain Valley Trail",
+      "Pillar Rocks 400-Foot Vertical Granite Natural Towers",
+      "Bryant Park Colourful English Gardens & Greenhouses",
+      "Silver Cascade & Bear Shola Pine Forest Waterfalls"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -4714,12 +4668,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Visit the UNESCO-listed Brihadeeswarar Temple and Royal Palace in Thanjavur. Book your Thanjavur cultural tour package with Gateway Holidays.",
     "highlights": [
-      "Brihadeeswara",
-      "Temple",
-      "Thanjavur",
-      "Royal",
-      "Palace &",
-      "Gallery"
+      "Brihadeeswarar 'Big Temple' 1,000-Year-Old Chola Wonder (UNESCO)",
+      "Massive 25-Tonne Monolithic Nandi Bull Carved from Single Rock",
+      "Thanjavur Royal Maratha Palace, Durbar Hall & Art Gallery",
+      "Saraswathi Mahal Ancient Palm-Leaf Manuscript Library",
+      "Traditional Tanjore 22K Gold Foil Painting & Bronze Art Workshop"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -4796,12 +4749,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Trek Chembra Peak, explore Edakkal Caves and discover Wayanad wildlife sanctuaries. Book your Wayanad tour package with Gateway Holidays.",
     "highlights": [
-      "Kandi",
-      "Park",
-      "Soochipara",
-      "Falls",
-      "Edakkal",
-      "Caves"
+      "Banasura Sagar Dam — Largest Earthen Dam in India",
+      "Prehistoric Neolithic Rock Carvings at Edakkal Caves",
+      "Soochipara Waterfalls Scenic Forest Trail & Natural Plunge Pool",
+      "Chembra Peak Trekking Trail to Natural Heart-Shaped Lake",
+      "Wayanad Wildlife Sanctuary Jeep Safari for Elephants & Deer"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -4876,12 +4828,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Experience the sunrise at Kanyakumari, visit Vivekananda Rock Memorial and Thiruvalluvar Statue. Book your Kanyakumari tour with Gateway Holidays.",
     "highlights": [
-      "Sunset at the confluence of seas",
-      "Vivekananda",
-      "Rock",
-      "Memorial",
-      "Thiruvalluvar",
-      "Statue"
+      "Breathtaking Sunrise & Sunset over the Confluence of 3 Oceans",
+      "Vivekananda Rock Memorial Mid-Sea Meditation Hall",
+      "Majestic 133-Foot Thiruvalluvar Statue Sea Ferry Cruise",
+      "Bhagavathy Amman 3,000-Year-Old Coastal Seashore Temple",
+      "Gandhi Memorial & Triveni Sangam Sacred Meeting Shore"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -4964,12 +4915,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Explore the iconic Meenakshi Amman Temple, local markets and cultural heritage of Madurai. Book your Madurai sightseeing tour with Gateway Holidays.",
     "highlights": [
-      "Meenakshi",
-      "Amman",
-      "Temple",
-      "Thirumalai",
-      "Nayakkar",
-      "Palace"
+      "Meenakshi Sundareswarar Temple Grand 14 Sculptured Gopurams",
+      "Thirumalai Nayakkar Palace Grand Stucco Pillar Hall & Light Show",
+      "Vandiyur Mariamman Teppakulam Giant Temple Tank",
+      "Gandhi Memorial Freedom Struggle Museum & Historic Library",
+      "World-Famous Madurai Jigarthanda & Street Food Experience"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -5052,12 +5002,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Explore Yercaud Shevaroy Hills, coffee estates, Killiyur Falls and scenic lake. Book your Yercaud hill station tour with Gateway Holidays.",
     "highlights": [
-      "Yercaud",
-      "Lake",
-      "Anna",
-      "Park &",
-      "Botanical",
-      "Garden"
+      "Scenic Emerald Yercaud Lake Boating in the Shevaroy Hills",
+      "Lady's Seat & Gent's Seat Panoramic Ghat Sunset Overlooks",
+      "Killiyur Falls 300-Foot Forest Cascade Trek",
+      "Shevaroyan Hilltop Cave Temple & Tribal Deity Shrine",
+      "Anna Park, Orchidarium & Rose Garden Horticultural Walk"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -5129,12 +5078,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Ride the Nilgiri Mountain Railway, visit Botanical Gardens and Doddabetta Peak in Ooty. Book your Ooty hill station tour with Gateway Holidays.",
     "highlights": [
-      "Ooty",
-      "Botanical",
-      "Gardens",
-      "Lake boating",
-      "Tea factory visit",
-      "Train ride"
+      "Historic Nilgiri Mountain Toy Train Steam Engine Ride (UNESCO)",
+      "Government Botanical Gardens 20-Million-Year Fossil Tree",
+      "Scenic Ooty Lake Boating, Cycling & Lakeside Walk",
+      "Doddabetta Peak — Highest Mountain Summit in the Nilgiris",
+      "Pykara Waterfalls & Speedboat Lake Cruise through Pine Woods"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -5210,12 +5158,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Explore Munnar lush tea plantations, Eravikulam National Park and Chokramudi Peak. Book affordable Munnar tour packages with Gateway Holidays.",
     "highlights": [
-      "Mattupetty",
-      "Echo",
-      "Point",
-      "Eravikulam",
-      "National",
-      "Park"
+      "Eravikulam National Park & Endangered Nilgiri Tahr Sanctuary",
+      "Mattupetty Dam Speedboating & Echo Point Resonance",
+      "Tata Tea Museum & Fresh Orthodox Tea Tasting Factory Walk",
+      "Kundala Lake Pedal Boating & Neela Kurinji Flower Valleys",
+      "Top Station Breathtaking Western Ghats Cloud Sea Panorama"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -5290,12 +5237,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Snorkel in crystal-clear waters, visit Radhanagar Beach and Cellular Jail in Andaman. Book your island tour package with Gateway Holidays.",
     "highlights": [
-      "Radhanagar",
-      "Beach",
-      "Scuba diving & snorkelling",
-      "Cellular",
-      "Jail",
-      "Neil"
+      "Radhanagar Beach at Havelock — Voted Asia's Best Beach",
+      "Cellular Jail National Memorial & Moving Light & Sound Show",
+      "Elephant Beach Coral Reef Snorkelling, Sea Walk & Jet Skiing",
+      "Inter-Island Catamaran Cruise Across the Andaman Sea",
+      "Natural Coral Bridge & Laxmanpur Sunset Beach on Neil Island"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -5437,12 +5383,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Cruise the serene Kerala backwaters on a luxury houseboat in Alappuzha (Alleppey). Book your Alleppey houseboat tour with Gateway Holidays.",
     "highlights": [
-      "Vembanad",
-      "Lake",
-      "Alappuzha",
-      "Beach &",
-      "Lighthouse",
-      "Kumarakom"
+      "Traditional Kerala Luxury Houseboat Private Overnight Cruise",
+      "Vembanad Lake Serene Backwater Lagoon Excursion",
+      "Freshly Prepared Kerala Karimeen Pollichathu Onboard Lunch",
+      "Alappuzha Beach Sunset, 150-Year-Old Pier & Sea Lighthouse",
+      "Narrow Village Canals, Paddy Fields & Coir Making Demonstration"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
@@ -5521,12 +5466,11 @@ export const tourPackages: TourPackage[] = [
     "isFeatured": false,
     "overview": "Cruise Kerala backwaters on a luxury houseboat in Alappuzha and relax on scenic Varkala cliff beach. Book your Kerala tour with Gateway Holidays.",
     "highlights": [
-      "Vembanad",
-      "Lake",
-      "Papanasam",
-      "Beach",
-      "Varkala",
-      "North"
+      "Exclusive Alleppey Houseboat Backwater Cruise with Traditional Meals",
+      "Varkala Red Sandstone Cliff Promenade & Papanasam Beach Stay",
+      "Scenic Backwater Village Canoe Safari through Shallow Canals",
+      "Janardhana Swamy 2,000-Year-Old Ancient Coastal Shrine",
+      "Cliffside Ocean Sunset Dining & Rejuvenating Ayurvedic Massage"
     ],
     "inclusions": [
       "Dedicated AC private vehicle & certified polite chauffeur",
