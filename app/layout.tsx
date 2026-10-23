@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Plus_Jakarta_Sans, Outfit } from "next/font/google";
 import "./globals.css";
+import { FloatingWhatsAppDesk } from "@/components/ui/floating-whatsapp-desk";
 
 const jakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -182,6 +183,8 @@ export const metadata: Metadata = {
             dangerouslySetInnerHTML={{ __html: JSON.stringify(agencySchema) }}
           />
           {children}
+          {/* Desktop Floating WhatsApp Desk with Quick Replies (hidden on mobile) */}
+          <FloatingWhatsAppDesk />
         </body>
       </html>
     );
