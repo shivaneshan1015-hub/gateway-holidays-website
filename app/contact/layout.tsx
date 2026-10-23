@@ -5,14 +5,14 @@ import { businessInfo } from "@/data/business";
 export const metadata: Metadata = {
   title: "Contact Us — Anna Nagar, Madurai Head Office | Gateway Holidays",
   description:
-    "Get in touch with Gateway Holidays Madurai. Call +91 81110 18881 or visit our office at 4C, Opp. Ambika College, Anna Nagar, Madurai. 24/7 WhatsApp holiday support.",
+    "Get in touch with Gateway Holidays Madurai. Call +91 81227 12587 or visit our office at 4C, Opp. Ambika College, Anna Nagar, Madurai. 24/7 WhatsApp holiday support.",
   alternates: {
     canonical: "https://gatewayholidays.in/contact",
   },
   openGraph: {
     title: "Contact Gateway Holidays — Anna Nagar, Madurai",
     description:
-      "Call +91 81110 18881 or visit our office at 4C, Opp. Ambika College, Anna Nagar, Madurai. 24/7 WhatsApp holiday support.",
+      "Call +91 81227 12587 or visit our office at 4C, Opp. Ambika College, Anna Nagar, Madurai. 24/7 WhatsApp holiday support.",
     url: "https://gatewayholidays.in/contact",
     siteName: "Gateway Holidays",
     type: "website",

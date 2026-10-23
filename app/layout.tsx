@@ -113,7 +113,7 @@ export const metadata: Metadata = {
         image: "https://gatewayholidays.in/images/logo.png",
         description:
           "4.8★ Rated tour operator in Anna Nagar, Madurai. Customized South India hill stations, high-altitude adventure trekking tours, heritage temple circuits, and international escapes with private sanitized AC cabs and 24/7 personal trip concierge.",
-        telephone: "+91 81110 18881",
+        telephone: "+91 81227 12587",
         email: "info@gatewayholidays.in",
         address: {
           "@type": "PostalAddress",
