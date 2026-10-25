@@ -309,7 +309,7 @@ _Please share a customized itinerary & quotation._`;
                       </label>
                       <div className="px-3.5 py-2.5 rounded-xl bg-emerald-50 border border-emerald-200 text-emerald-800 text-xs flex items-center gap-2">
                         <ShieldCheck className="h-4 w-4 shrink-0 text-emerald-600" />
-                        <span>Private sanitized AC Cab & verified Chauffeur included</span>
+                        <span>Private sanitized AC Cab & verified Driver included</span>
                       </div>
                     </div>
                   </div>

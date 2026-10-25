@@ -162,7 +162,7 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              {/* Direct WhatsApp Concierge Card */}
+              {/* Direct WhatsApp Support Card */}
               <div className="p-6 rounded-3xl bg-emerald-50 border border-emerald-200 space-y-3">
                 <div className="flex items-center gap-2 text-emerald-800 font-bold text-sm">
                   <MessageCircle className="h-5 w-5 text-emerald-600" />

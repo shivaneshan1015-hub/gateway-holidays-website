@@ -289,7 +289,7 @@ export function BlogClient({ post, relatedPosts, relatedTours }: BlogClientProps
                     <div className="p-4 rounded-2xl bg-amber-50/70 border border-amber-200/80 space-y-1">
                       <p className="text-[11px] font-bold uppercase tracking-wider text-amber-800 flex items-center gap-1">
                         <Lightbulb className="h-3.5 w-3.5 text-amber-600" />
-                        <span>Local Chauffeur Tip</span>
+                        <span>Local Driver Tip</span>
                       </p>
                       <p className="text-xs text-slate-800 leading-relaxed">{section.insiderTip}</p>
                     </div>
@@ -319,7 +319,7 @@ export function BlogClient({ post, relatedPosts, relatedTours }: BlogClientProps
               <section className="p-6 sm:p-8 rounded-3xl bg-slate-900 text-white shadow-xl space-y-4">
                 <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-amber-400">
                   <ShieldCheck className="h-4 w-4" />
-                  <span>Gateway Holidays Chauffeur Advice</span>
+                  <span>Gateway Holidays Driver Advice</span>
                 </div>
                 <h3 className="text-xl sm:text-2xl font-bold">
                   Golden Rules for Smooth South India Touring
@@ -496,7 +496,7 @@ export function BlogClient({ post, relatedPosts, relatedTours }: BlogClientProps
             <SectionHeading
               badge="Handcrafted Itineraries"
               title="Recommended Packages for This Route"
-              subtitle="Turn this travel guide into a reality. All tours include private AC vehicle transfers, polite chauffeurs, and handpicked stays."
+              subtitle="Turn this travel guide into a reality. All tours include private AC vehicle transfers, polite drivers, and handpicked stays."
               center
             />
 

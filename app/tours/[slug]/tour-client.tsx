@@ -126,7 +126,7 @@ export function IndividualTourClient({
               className="flex-1 sm:flex-none px-5 py-2.5 rounded-xl bg-[#25D366] hover:bg-emerald-600 text-white font-bold text-xs flex items-center justify-center gap-2 shadow-sm transition-all cursor-pointer"
             >
               <MessageCircle className="h-4 w-4" />
-              <span>WhatsApp Concierge</span>
+              <span>WhatsApp Us</span>
             </a>
 
             <button

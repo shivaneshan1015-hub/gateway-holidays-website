@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Plan My Trip — Custom Holiday Planning | Gateway Holidays",
     description:
-      "Design your custom holiday package with dedicated private AC cabs and 24/7 personal trip concierge.",
+      "Design your custom holiday package with dedicated private AC cabs and 24/7 personal tour assistance.",
     url: "https://gatewayholidays.in/plan-my-trip",
     siteName: "Gateway Holidays",
     type: "website",

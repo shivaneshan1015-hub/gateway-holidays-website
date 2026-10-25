@@ -101,7 +101,7 @@ export function SpecialOffers({ onOpenEnquiry }: SpecialOffersProps) {
                 <li className="flex items-start gap-3 text-xs sm:text-sm text-slate-700">
                   <CheckCircle2 className="h-4 w-4 text-emerald-600 shrink-0 mt-0.5" />
                   <span>
-                    <strong>Delivered Upon Arrival:</strong> Handed over by your dedicated private cab chauffeur or local tour executive.
+                    <strong>Delivered Upon Arrival:</strong> Handed over by your dedicated private cab driver or local tour executive.
                   </span>
                 </li>
               </ul>

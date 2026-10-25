@@ -94,7 +94,7 @@ export function Navbar({ onOpenEnquiry }: NavbarProps) {
               rel="noopener noreferrer"
               className="text-[#25D366] hover:text-emerald-400 font-semibold flex items-center gap-1 transition-colors"
             >
-              <MessageCircle className="h-3 w-3" /> WhatsApp Concierge
+              <MessageCircle className="h-3 w-3" /> WhatsApp Support
             </a>
           </div>
         </div>

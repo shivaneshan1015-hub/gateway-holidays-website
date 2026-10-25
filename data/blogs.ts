@@ -128,7 +128,7 @@ export const blogPosts: BlogPost[] = [
         ],
         idealDuration: "2 Days / 1 Night or 3 Days / 2 Nights",
         insiderTip: "Walk along Coaker's Walk between 7:30 AM and 9:00 AM. You will experience the morning clouds rolling beneath your feet before day-tripper crowds arrive.",
-        routeAdvice: "The ghat road via Batlagundu is well-maintained and wide. Having an experienced hill-station chauffeur ensures a smooth, nausea-free ride through the 14 hairpins.",
+        routeAdvice: "The ghat road via Batlagundu is well-maintained and wide. Having an experienced hill-station driver ensures a smooth, nausea-free ride through the 14 hairpins.",
         ctaTourSlug: "kodaikanal",
         ctaTourTitle: "View Kodaikanal 2-Day Private Tour Package"
       },
@@ -226,7 +226,7 @@ export const blogPosts: BlogPost[] = [
       }
     ],
     proTips: [
-      "Book a private cab with a chauffeur experienced in Western Ghats hairpin roads to eliminate driving stress.",
+      "Book a private cab with a driver experienced in Western Ghats hairpin roads to eliminate driving stress.",
       "Start morning drives early (by 6:00 AM) to beat highway toll traffic and witness misty mountain sunrises.",
       "Carry light woolens even in summer for Kodaikanal, Munnar, and Vagamon, as evening temperatures drop sharply.",
       "Gateway Holidays arranges doorstep pickup from Madurai residences, hotels, airports, or railway stations with zero hassle."
@@ -237,7 +237,7 @@ export const blogPosts: BlogPost[] = [
       { label: "Best Hill Retreat", value: "Munnar (155 km / ~4.5 hours drive via Theni)" },
       { label: "Hidden Offbeat Meadow", value: "Vagamon (175 km / ~4.5 hours drive)" },
       { label: "Rejuvenating Waterfall Hub", value: "Courtallam (160 km / ~3.5 hours drive)" },
-      { label: "Recommended Transport", value: "Private AC Cab with dedicated chauffeur for ghat hairpin roads" },
+      { label: "Recommended Transport", value: "Private AC Cab with dedicated driver for ghat hairpin roads" },
     ],
     faqs: [
       {
@@ -311,7 +311,7 @@ export const blogPosts: BlogPost[] = [
         narrative: [
           "The journey begins on the wide, four-lane NH49 expressway. Traffic is generally light outside city limits, allowing comfortable cruising through peaceful coconut groves and salt pans.",
           "The highlight of the drive is undoubtedly the crossing of Pamban Road Bridge (Annai Indira Gandhi Bridge). Spanning over 2.3 kilometers, it elevates your vehicle nearly 30 meters above the sea. To your left, the turbulent Bay of Bengal shimmers; to your right, the calm waters of the Gulf of Mannar spread toward Sri Lanka.",
-          "Our chauffeurs stop at safe designated pedestrian bays on the bridge, allowing you to step out, feel the sea wind, and capture world-class photographs of the historic 1914 Scherzer rolling rail bridge below."
+          "Our drivers stop at safe designated pedestrian bays on the bridge, allowing you to step out, feel the sea wind, and capture world-class photographs of the historic 1914 Scherzer rolling rail bridge below."
         ],
         highlights: [
           "Pamban road bridge ocean viewpoint",
@@ -371,7 +371,7 @@ export const blogPosts: BlogPost[] = [
     ],
     proTips: [
       "Strict Dress Code: Men must wear Dhoti/Kurta or formal pants. Women must wear Sarees or Salwar with Dupatta. Jeans and shorts are strictly forbidden inside the temple.",
-      "Mobile phones and smart watches are barred inside Ramanathaswamy Temple by court regulation. Leave them in your private cab with our trusted chauffeur.",
+      "Mobile phones and smart watches are barred inside Ramanathaswamy Temple by court regulation. Leave them in your private cab with our trusted driver.",
       "Pre-book an overnight stay in Rameswaram rather than doing a rushed day trip. You will enjoy the evening temple serenity and catch the 5:00 AM crystal lingam darshan without stress."
     ],
     keyFacts: [
@@ -494,7 +494,7 @@ export const blogPosts: BlogPost[] = [
     proTips: [
       "Combine Madurai pickup with Kochi drop-off (or vice versa) to create a seamless one-way touring arc without backtracking.",
       "Houseboats dock by 5:30 PM under Kerala maritime regulations to protect local fishermen's evening nets; plan to board promptly at noon to maximize daylight cruising hours.",
-      "Gateway Holidays provides sanitized AC vehicles with polite chauffeurs who coordinate directly with the houseboat captain for smooth luggage boarding."
+      "Gateway Holidays provides sanitized AC vehicles with polite drivers who coordinate directly with the houseboat captain for smooth luggage boarding."
     ],
     keyFacts: [
       { label: "Optimal Duration", value: "4 Days / 3 Nights or 5 Days / 4 Nights" },
@@ -506,7 +506,7 @@ export const blogPosts: BlogPost[] = [
     faqs: [
       {
         question: "Can Gateway Holidays arrange pick up directly at Kochi Airport or Madurai?",
-        answer: "Yes, our private chauffeur can receive you directly at Cochin International Airport (COK), Madurai Airport/Railway station, or any doorstep in Tamil Nadu and Kerala."
+        answer: "Yes, our private driver can receive you directly at Cochin International Airport (COK), Madurai Airport/Railway station, or any doorstep in Tamil Nadu and Kerala."
       },
       {
         question: "Are Alleppey houseboats private or shared?",

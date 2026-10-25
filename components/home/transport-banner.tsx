@@ -34,7 +34,7 @@ export function TransportBanner({ onOpenEnquiry }: TransportBannerProps) {
             <div className="lg:col-span-8 space-y-4">
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold tracking-tight text-slate-900">
                 Stress-Free Travel with Dedicated{" "}
-                <span className="text-emerald-600">Private AC Cab</span> & Chauffeur
+                <span className="text-emerald-600">Private AC Cab</span> & Driver
               </h2>
 
               <p className="text-sm text-slate-600 leading-relaxed max-w-2xl font-normal">
@@ -111,7 +111,7 @@ export function TransportBanner({ onOpenEnquiry }: TransportBannerProps) {
                     className="w-full py-2.5 px-4 rounded-xl bg-white/10 hover:bg-white/20 text-slate-200 font-semibold text-xs flex items-center justify-center gap-2 transition-colors"
                   >
                     <PhoneCall className="h-3.5 w-3.5 text-emerald-400" />
-                    <span>Call Concierge: {businessInfo.phonePrimary}</span>
+                    <span>Call Us: {businessInfo.phonePrimary}</span>
                   </a>
                 </div>
               </div>

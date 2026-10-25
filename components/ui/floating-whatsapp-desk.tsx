@@ -45,7 +45,7 @@ const QUICK_PROMPTS: QuickPrompt[] = [
     label: "Private AC Cab with Driver",
     desc: "Sedan / Ertiga / Innova Crysta",
     message:
-      "Hello Gateway Holidays! We need an all-inclusive Private AC Cab with chauffeur for South India sightseeing. Please share car availability & tariff.",
+      "Hello Gateway Holidays! We need an all-inclusive Private AC Cab with driver for South India sightseeing. Please share car availability & tariff.",
   },
   {
     id: "custom",

@@ -169,7 +169,7 @@ export function Hero3D({ onOpenEnquiry }: Hero3DProps) {
                 className="w-full sm:w-auto px-6 py-4 rounded-2xl bg-[#25D366] hover:bg-emerald-600 text-white font-bold text-base shadow-lg shadow-emerald-500/20 hover:scale-[1.02] active:scale-[0.98] transition-all flex items-center justify-center gap-2.5 cursor-pointer"
               >
                 <MessageCircle className="h-5 w-5" />
-                <span>WhatsApp Concierge</span>
+                <span>WhatsApp Us</span>
               </a>
             </div>
 

@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     template: "%s | Gateway Holidays",
   },
   description:
-    "4.8★ Rated tour operator in Anna Nagar, Madurai. Customized South India hill stations, high-altitude adventure trekking tours, heritage temple circuits, and international escapes with private sanitized AC cabs and 24/7 personal trip concierge.",
+    "4.8★ Rated tour operator in Anna Nagar, Madurai. Customized South India hill stations, high-altitude adventure trekking tours, heritage temple circuits, and international escapes with private sanitized AC cabs and 24/7 personal tour assistance.",
   icons: {
     icon: [
       { url: "/favicon.ico" },
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
     siteName: "Gateway Holidays",
     title: "Gateway Holidays — Bespoke Tours & Private AC Cab Services",
     description:
-      "Your journey, crafted perfectly without the hassle. Private AC cabs, handpicked resorts, and 24/7 WhatsApp concierge from Anna Nagar, Madurai.",
+      "Your journey, crafted perfectly without the hassle. Private AC cabs, handpicked resorts, and 24/7 WhatsApp support from Anna Nagar, Madurai.",
     images: [
       {
         url: "/images/logo.png",
@@ -79,7 +79,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Gateway Holidays — Bespoke Tours & Private AC Cab Services",
     description:
-      "Private AC cabs, handpicked resorts, and 24/7 WhatsApp concierge from Anna Nagar, Madurai.",
+      "Private AC cabs, handpicked resorts, and 24/7 WhatsApp support from Anna Nagar, Madurai.",
   },
     robots: {
       index: true,
@@ -113,7 +113,7 @@ export const metadata: Metadata = {
         logo: "https://gatewayholidays.in/images/logo.png",
         image: "https://gatewayholidays.in/images/logo.png",
         description:
-          "4.8★ Rated tour operator in Anna Nagar, Madurai. Customized South India hill stations, high-altitude adventure trekking tours, heritage temple circuits, and international escapes with private sanitized AC cabs and 24/7 personal trip concierge.",
+          "4.8★ Rated tour operator in Anna Nagar, Madurai. Customized South India hill stations, high-altitude adventure trekking tours, heritage temple circuits, and international escapes with private sanitized AC cabs and 24/7 personal tour assistance.",
         telephone: "+91 81227 12587",
         email: "info@gatewayholidays.in",
         address: {

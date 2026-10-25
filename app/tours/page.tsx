@@ -91,7 +91,7 @@ function ToursContent() {
           </h1>
 
           <p className="text-sm sm:text-base text-slate-600 max-w-2xl mx-auto leading-relaxed">
-            Every itinerary is private, handcrafted, and includes a <strong className="text-slate-900 font-bold">dedicated AC cab</strong> with a vetted chauffeur. Explore our itineraries below or request a custom combination.
+            Every itinerary is private, handcrafted, and includes a <strong className="text-slate-900 font-bold">dedicated AC cab</strong> with an experienced driver. Explore our itineraries below or request a custom combination.
           </p>
 
           {/* Quick Search Input */}

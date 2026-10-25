@@ -120,12 +120,12 @@ export const tourPackages: TourPackage[] = [
       "Napier Museum & Traditional Kerala Heritage"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 1 Night in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -133,20 +133,20 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Handpicked Deluxe AC Hotels & Resorts",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
         "title": "Kanyakumari — Land's End Sightseeing",
         "location": "Kanyakumari & Thiruvananthapuram",
-        "description": "Kanyakumari — Land's End Sightseeing Direct reception and pickup upon arrival by your dedicated private chauffeur Kumari Amman Temple darshan Ferry ride to Vivekananda Rock Memorial and Thiruvalluvar Statue rising from the sea Gandhi Memorial Museum Evening drive to Padmanabhapuram Palace Check-in at hotel in Kanyakumari Evening sunset at th",
+        "description": "Kanyakumari — Land's End Sightseeing Direct reception and pickup upon arrival by your dedicated private driver Kumari Amman Temple darshan Ferry ride to Vivekananda Rock Memorial and Thiruvalluvar Statue rising from the sea Gandhi Memorial Museum Evening drive to Padmanabhapuram Palace Check-in at hotel in Kanyakumari Evening sunset at th",
         "activities": [
           "Land's",
           "Sightseeing",
           "Kumari"
         ],
         "bullets": [
-          "Direct reception and pickup upon arrival by your dedicated private chauffeur",
+          "Direct reception and pickup upon arrival by your dedicated private driver",
           "Kumari Amman Temple darshan",
           "Ferry ride to Vivekananda Rock Memorial and Thiruvalluvar Statue rising from the sea",
           "Gandhi Memorial Museum",
@@ -208,12 +208,12 @@ export const tourPackages: TourPackage[] = [
       "UNESCO World Heritage Churches of Old Goa"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 3 Nights in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -221,7 +221,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Handpicked Deluxe AC Hotels & Resorts",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -328,12 +328,12 @@ export const tourPackages: TourPackage[] = [
       "Beach Bonfire Dinner under Starlit Island Skies"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 4 Nights in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -341,7 +341,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Handpicked Deluxe AC Hotels & Resorts",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -472,12 +472,12 @@ export const tourPackages: TourPackage[] = [
       "Whale & Dolphin Watching Ocean Cruise in Mirissa"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 5 Nights in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -485,7 +485,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "4-Star Premium Resorts & City Hotels",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -625,12 +625,12 @@ export const tourPackages: TourPackage[] = [
       "Iconic Merlion Park & Historic Singapore River Cruise"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 4 Nights in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -638,7 +638,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "4-Star Premium Resorts & City Hotels",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -767,12 +767,12 @@ export const tourPackages: TourPackage[] = [
       "Putrajaya Futuristic Islamic Architecture & Waterfront"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 5 Nights in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -780,7 +780,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "4-Star Premium Resorts & City Hotels",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -903,12 +903,12 @@ export const tourPackages: TourPackage[] = [
       "Cu Chi Historic Underground Tunnel Complex"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 6 Nights in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -916,7 +916,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "4-Star Premium Resorts & City Hotels",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -1050,12 +1050,12 @@ export const tourPackages: TourPackage[] = [
       "Kecak Sunset Fire Dance Performance at Cliff Top"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 5 Nights in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -1063,7 +1063,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "4-Star Premium Resorts & City Hotels",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -1195,12 +1195,12 @@ export const tourPackages: TourPackage[] = [
       "Chokramudi Mountain Ridge Adventure Trek"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 1 Night in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -1208,7 +1208,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Scenic Hill Cottages & Plantation Stays",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -1277,12 +1277,12 @@ export const tourPackages: TourPackage[] = [
       "Janardhana Swamy 2,000-Year-Old Coastal Temple"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 2 Nights in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -1290,7 +1290,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Handpicked Deluxe AC Hotels & Resorts",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -1377,12 +1377,12 @@ export const tourPackages: TourPackage[] = [
       "Coracle Boat Rides & Outdoor Team Challenges"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 1 Night in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -1390,7 +1390,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Scenic Hill Cottages & Plantation Stays",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -1464,12 +1464,12 @@ export const tourPackages: TourPackage[] = [
       "Krabi Railay Beach Dramatic Limestone Sea Cliffs"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 6 Nights in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -1477,7 +1477,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "4-Star Premium Resorts & City Hotels",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -1621,12 +1621,12 @@ export const tourPackages: TourPackage[] = [
       "Ranganathittu Bird Sanctuary Boating among Migratory Birds"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 1 Night in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -1634,7 +1634,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Scenic Hill Cottages & Plantation Stays",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -1705,12 +1705,12 @@ export const tourPackages: TourPackage[] = [
       "Royal Mughal Gardens of Nishat Bagh & Shalimar Bagh"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 5 Nights in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -1718,7 +1718,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Handpicked Deluxe AC Hotels & Resorts",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -1853,12 +1853,12 @@ export const tourPackages: TourPackage[] = [
       "Madurai Heritage Food Walk & Famous Jigarthanda"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 1 Night in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -1866,7 +1866,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Handpicked Deluxe AC Hotels & Resorts",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -1939,12 +1939,12 @@ export const tourPackages: TourPackage[] = [
       "Saraswathi Mahal Ancient Palm-Leaf Manuscript Library"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 1 Night in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -1952,7 +1952,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Handpicked Deluxe AC Hotels & Resorts",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -2023,12 +2023,12 @@ export const tourPackages: TourPackage[] = [
       "Historic Coastal Pilgrimage Circuit of Central Tamil Nadu"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 1 Night in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -2036,7 +2036,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Handpicked Deluxe AC Hotels & Resorts",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -2107,12 +2107,12 @@ export const tourPackages: TourPackage[] = [
       "Papanasam Beach Holy Springs & Janardhana Swamy Temple"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 1 Night in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -2120,7 +2120,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Handpicked Deluxe AC Hotels & Resorts",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -2193,12 +2193,12 @@ export const tourPackages: TourPackage[] = [
       "Off-Road Jeep Safari to Kurisumala Viewpoint"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 1 Night in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -2206,7 +2206,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Scenic Hill Cottages & Plantation Stays",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -2277,12 +2277,12 @@ export const tourPackages: TourPackage[] = [
       "Historic Pamban Sea Bridge Iconic Train Ride View"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 1 Night in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -2290,7 +2290,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Handpicked Deluxe AC Hotels & Resorts",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -2361,12 +2361,12 @@ export const tourPackages: TourPackage[] = [
       "Idumban Hill Shrine & Panoramic Western Ghats Vistas"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 1 Night in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -2374,7 +2374,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Handpicked Deluxe AC Hotels & Resorts",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -2449,12 +2449,12 @@ export const tourPackages: TourPackage[] = [
       "Musical Laser Fountain Show & Multi-Cuisine Food Courts"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 1 Night in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -2462,7 +2462,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Scenic Hill Cottages & Plantation Stays",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -2543,12 +2543,12 @@ export const tourPackages: TourPackage[] = [
       "Ram Ki Paidi Waterfront Promenade & Heritage Light Show"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 1 Night in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -2556,7 +2556,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Handpicked Deluxe AC Hotels & Resorts",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -2624,12 +2624,12 @@ export const tourPackages: TourPackage[] = [
       "Kids Water Play Land & Rain Dance Pavilion"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 1 Night in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -2637,7 +2637,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Scenic Hill Cottages & Plantation Stays",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -2705,12 +2705,12 @@ export const tourPackages: TourPackage[] = [
       "Chinnar Wildlife Sanctuary Watchtower Panoramic Safari"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 1 Night in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -2718,7 +2718,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Scenic Hill Cottages & Plantation Stays",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -2790,12 +2790,12 @@ export const tourPackages: TourPackage[] = [
       "Napier Museum & Sri Chitra Art Gallery Treasures"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 1 Night in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -2803,7 +2803,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Handpicked Deluxe AC Hotels & Resorts",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -2875,12 +2875,12 @@ export const tourPackages: TourPackage[] = [
       "Sri Padmavathi Ammavari Temple at Tiruchanur"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 1 Night in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -2888,7 +2888,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Handpicked Deluxe AC Hotels & Resorts",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -2960,12 +2960,12 @@ export const tourPackages: TourPackage[] = [
       "Thrilling White-Water River Rafting in Kullu Valley"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 5 Nights in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -2973,7 +2973,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Handpicked Deluxe AC Hotels & Resorts",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -3103,12 +3103,12 @@ export const tourPackages: TourPackage[] = [
       "Agra Fort UNESCO World Heritage Emperor Chambers"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 5 Nights in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -3116,7 +3116,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Handpicked Deluxe AC Hotels & Resorts",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -3249,12 +3249,12 @@ export const tourPackages: TourPackage[] = [
       "Vibrant MG Road, Brigade Road & Commercial Street Shopping"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 1 Night in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -3262,7 +3262,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Handpicked Deluxe AC Hotels & Resorts",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -3333,12 +3333,12 @@ export const tourPackages: TourPackage[] = [
       "Cliffside Candlelight Seafood Cafes & Ayurvedic Wellness"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 1 Night in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -3346,7 +3346,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Handpicked Deluxe AC Hotels & Resorts",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -3418,12 +3418,12 @@ export const tourPackages: TourPackage[] = [
       "Thumboormuzhy Dam, Butterfly Garden & Hanging Bridge"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 1 Night in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -3431,7 +3431,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Handpicked Deluxe AC Hotels & Resorts",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -3505,12 +3505,12 @@ export const tourPackages: TourPackage[] = [
       "Aromatic Arabica Coffee & Black Pepper Estate Walks"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 1 Night in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -3518,7 +3518,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Handpicked Deluxe AC Hotels & Resorts",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -3590,12 +3590,12 @@ export const tourPackages: TourPackage[] = [
       "Breathtaking Coastal Sunset Over the Arabian Sea"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 4 Nights in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -3603,7 +3603,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Handpicked Deluxe AC Hotels & Resorts",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -3673,12 +3673,12 @@ export const tourPackages: TourPackage[] = [
       "Eureka Grand Evening Carnival Parade & Light Spectacular"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 1 Night in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -3686,7 +3686,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Handpicked Deluxe AC Hotels & Resorts",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -3754,12 +3754,12 @@ export const tourPackages: TourPackage[] = [
       "Heritage Devaraja Market & Famous Mysore Pak Tasting"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 1 Night in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -3767,7 +3767,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Handpicked Deluxe AC Hotels & Resorts",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -3837,12 +3837,12 @@ export const tourPackages: TourPackage[] = [
       "Authentic World-Renowned Hyderabadi Dum Biryani Feast"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 1 Night in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -3850,7 +3850,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Handpicked Deluxe AC Hotels & Resorts",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -3917,12 +3917,12 @@ export const tourPackages: TourPackage[] = [
       "Bamboo Rafting & Guided Wildlife Trekking in Periyar"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 1 Night in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -3930,7 +3930,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Handpicked Deluxe AC Hotels & Resorts",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -4001,12 +4001,12 @@ export const tourPackages: TourPackage[] = [
       "Z Point Kemmangundi Breathtaking Sunset Ridge Trail"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 1 Night in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -4014,7 +4014,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Handpicked Deluxe AC Hotels & Resorts",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -4087,12 +4087,12 @@ export const tourPackages: TourPackage[] = [
       "Thangal Para Giant Spherical Sacred Rock Formation"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 1 Night in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -4100,7 +4100,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Handpicked Deluxe AC Hotels & Resorts",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -4172,12 +4172,12 @@ export const tourPackages: TourPackage[] = [
       "Paradise Beach Isolated Island Catamaran Boat Ride"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 1 Night in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -4185,7 +4185,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Handpicked Deluxe AC Hotels & Resorts",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -4256,12 +4256,12 @@ export const tourPackages: TourPackage[] = [
       "Chalai Heritage Spice Bazaars & Traditional Travancore Food"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 1 Night in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -4269,7 +4269,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Handpicked Deluxe AC Hotels & Resorts",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -4343,12 +4343,12 @@ export const tourPackages: TourPackage[] = [
       "Live Kathakali Masked Dance & Classical Kerala Art Night"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 1 Night in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -4356,7 +4356,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Handpicked Deluxe AC Hotels & Resorts",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -4425,12 +4425,12 @@ export const tourPackages: TourPackage[] = [
       "Dr. A.P.J. Abdul Kalam National Memorial & Museum"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 1 Night in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -4438,7 +4438,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Handpicked Deluxe AC Hotels & Resorts",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -4509,12 +4509,12 @@ export const tourPackages: TourPackage[] = [
       "Old Courtallam (Pazhaya Courtallam) Natural Rock Pool Bath"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 1 Night in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -4522,7 +4522,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Handpicked Deluxe AC Hotels & Resorts",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -4592,12 +4592,12 @@ export const tourPackages: TourPackage[] = [
       "Silver Cascade & Bear Shola Pine Forest Waterfalls"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 1 Night in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -4605,7 +4605,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Handpicked Deluxe AC Hotels & Resorts",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -4675,12 +4675,12 @@ export const tourPackages: TourPackage[] = [
       "Traditional Tanjore 22K Gold Foil Painting & Bronze Art Workshop"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 1 Night in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -4688,7 +4688,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Handpicked Deluxe AC Hotels & Resorts",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -4756,12 +4756,12 @@ export const tourPackages: TourPackage[] = [
       "Wayanad Wildlife Sanctuary Jeep Safari for Elephants & Deer"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 1 Night in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -4769,7 +4769,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Handpicked Deluxe AC Hotels & Resorts",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -4835,12 +4835,12 @@ export const tourPackages: TourPackage[] = [
       "Gandhi Memorial & Triveni Sangam Sacred Meeting Shore"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 1 Night in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -4848,20 +4848,20 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Handpicked Deluxe AC Hotels & Resorts",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
         "title": "Kanyakumari Arrival",
         "location": "Kanyakumari",
-        "description": "Kanyakumari Arrival Direct reception and pickup upon arrival by your dedicated private chauffeur Kumari Amman Temple darshan Ferry ride to Vivekananda Rock Memorial and Thiruvalluvar Statue Afternoon visit to Gandhi Memorial Evening leisure at the beach and sunset Visit Suchindram Thanumalayan Temple Check-in and overnight stay",
+        "description": "Kanyakumari Arrival Direct reception and pickup upon arrival by your dedicated private driver Kumari Amman Temple darshan Ferry ride to Vivekananda Rock Memorial and Thiruvalluvar Statue Afternoon visit to Gandhi Memorial Evening leisure at the beach and sunset Visit Suchindram Thanumalayan Temple Check-in and overnight stay",
         "activities": [
           "Arrival",
           "Kumari",
           "Temple darshan"
         ],
         "bullets": [
-          "Direct reception and pickup upon arrival by your dedicated private chauffeur",
+          "Direct reception and pickup upon arrival by your dedicated private driver",
           "Kumari Amman Temple darshan",
           "Ferry ride to Vivekananda Rock Memorial and Thiruvalluvar Statue",
           "Afternoon visit to Gandhi Memorial",
@@ -4922,12 +4922,12 @@ export const tourPackages: TourPackage[] = [
       "World-Famous Madurai Jigarthanda & Street Food Experience"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 1 Night in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -4935,7 +4935,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Handpicked Deluxe AC Hotels & Resorts",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -5009,12 +5009,12 @@ export const tourPackages: TourPackage[] = [
       "Anna Park, Orchidarium & Rose Garden Horticultural Walk"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 1 Night in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -5022,7 +5022,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Handpicked Deluxe AC Hotels & Resorts",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -5085,12 +5085,12 @@ export const tourPackages: TourPackage[] = [
       "Pykara Waterfalls & Speedboat Lake Cruise through Pine Woods"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 1 Night in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -5098,7 +5098,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Handpicked Deluxe AC Hotels & Resorts",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -5165,12 +5165,12 @@ export const tourPackages: TourPackage[] = [
       "Top Station Breathtaking Western Ghats Cloud Sea Panorama"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 1 Night in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -5178,7 +5178,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Handpicked Deluxe AC Hotels & Resorts",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -5244,12 +5244,12 @@ export const tourPackages: TourPackage[] = [
       "Natural Coral Bridge & Laxmanpur Sunset Beach on Neil Island"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 5 Nights in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -5257,7 +5257,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Handpicked Deluxe AC Hotels & Resorts",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -5390,12 +5390,12 @@ export const tourPackages: TourPackage[] = [
       "Narrow Village Canals, Paddy Fields & Coir Making Demonstration"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 1 Night in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -5403,7 +5403,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Handpicked Deluxe AC Hotels & Resorts",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,
@@ -5473,12 +5473,12 @@ export const tourPackages: TourPackage[] = [
       "Cliffside Ocean Sunset Dining & Rejuvenating Ayurvedic Massage"
     ],
     "inclusions": [
-      "Dedicated AC private vehicle & certified polite chauffeur",
+      "Dedicated AC private vehicle & experienced, polite driver",
       "Accommodation for 1 Night in handpicked hotels / resorts",
       "Daily breakfast at hotel / resort",
       "All fuel, tolls, parking fees, and interstate permits included",
       "Complete sightseeing as per customized itinerary",
-      "24/7 on-tour customer concierge support from Gateway Holidays team"
+      "24/7 on-tour customer support from Gateway Holidays team"
     ],
     "exclusions": [
       "Monument entry fees, camera tickets, and adventure ride tickets",
@@ -5486,7 +5486,7 @@ export const tourPackages: TourPackage[] = [
       "Any personal expenses or optional activities"
     ],
     "stayStyle": "Handpicked Deluxe AC Hotels & Resorts",
-    "transportIncluded": "Private AC Cab & Dedicated Chauffeur Included (Pickup on Arrival)",
+    "transportIncluded": "Private AC Cab & Dedicated Driver Included (Pickup on Arrival)",
     "itinerary": [
       {
         "day": 1,

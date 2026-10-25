@@ -31,7 +31,7 @@ const trustPillars = [
   {
     icon: <Car className="h-7 w-7 text-emerald-600" />,
     title: "Private Sanitized AC Cab",
-    subtitle: "Dedicated chauffeur with every package",
+    subtitle: "Dedicated driver with every package",
     description:
       "Travel safely with your loved ones in a clean, sanitized air-conditioned vehicle. Active driver onboarding ensures polite, skilled drivers experienced in Ghat roads and local routes.",
     bulletPoints: [
@@ -43,7 +43,7 @@ const trustPillars = [
   },
   {
     icon: <Headphones className="h-7 w-7 text-[#E61E6E]" />,
-    title: "24/7 Personal WhatsApp Concierge",
+    title: "24/7 Personal WhatsApp Support",
     subtitle: "Real human coordinators, no bots",
     description:
       "From the moment your booking begins until you safely reach back home, our senior trip manager is available on direct WhatsApp and call to assist with hotel check-ins and live support.",

@@ -28,9 +28,9 @@ export function AboutUs({ onOpenEnquiry }: AboutUsProps) {
   const commitments = [
     {
       icon: <Car className="h-6 w-6 text-emerald-600" />,
-      title: "100% Private Chauffeured Cabs",
+      title: "100% Private Cabs with Driver",
       description:
-        "We never combine strangers or group tours. Every booking includes a private, well-maintained AC vehicle driven by courteous, route-savvy chauffeurs.",
+        "We never combine strangers or group tours. Every booking includes a private, well-maintained AC vehicle driven by courteous, route-savvy drivers.",
       badge: "Exclusive Privacy",
     },
     {
@@ -49,7 +49,7 @@ export function AboutUs({ onOpenEnquiry }: AboutUsProps) {
     },
     {
       icon: <HeartHandshake className="h-6 w-6 text-[#F25C05]" />,
-      title: "24/7 Madurai Travel Concierge",
+      title: "24/7 Madurai Tour Support",
       description:
         "You are never alone on the road. Our central Anna Nagar team monitors your journey live and provides immediate assistance whenever needed.",
       badge: "Round-the-Clock Support",

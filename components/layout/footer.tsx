@@ -132,7 +132,7 @@ export function Footer() {
                 </div>
                 <div className="flex items-center gap-1.5">
                   <HeartHandshake className="h-3.5 w-3.5 text-[#F25C05]" />
-                  <span>24/7 Dedicated Concierge</span>
+                  <span>24/7 Dedicated Tour Support</span>
                 </div>
               </div>
             </div>

@@ -90,7 +90,7 @@ export default function PlanMyTripPage() {
 *Duration:* ${duration}
 *Traveler Group:* ${travelType}
 *Stay Style:* ${stayPreference}
-*Private Cab:* Included (Dedicated AC vehicle & chauffeur)
+*Private Cab:* Included (Dedicated AC vehicle & driver)
 *Guest Name:* ${guestName || "Traveler"}
 *Phone:* ${guestPhone || "Direct WhatsApp"}
 *Special Requests:* ${specialNotes || "None"}
@@ -243,14 +243,14 @@ _Please send me a customized itinerary quotation._`;
                   <div>
                     <h2 className="text-xl font-bold text-slate-900">Step 2: Arrival Location, Stay & Duration</h2>
                     <p className="text-xs text-slate-500 mt-1">
-                      Wherever you arrive — directly at the destination airport, railway station, or from home — our chauffeur will receive you and manage all local arrangements seamlessly.
+                      Wherever you arrive — directly at the destination airport, railway station, or from home — our driver will receive you and manage all local arrangements seamlessly.
                     </p>
                   </div>
 
                   {/* Arrival Location */}
                   <div>
                     <label className="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">
-                      Where should our private chauffeur receive / pick you up?
+                      Where should our private driver receive / pick you up?
                     </label>
                     <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
                       {["Direct at Destination", "Madurai / Airport / Station", "Chennai", "Coimbatore", "Cochin / Kerala", "Bangalore", "Tiruchirappalli", "Doorstep / Other City"].map(
@@ -334,7 +334,7 @@ _Please send me a customized itinerary quotation._`;
                     <Car className="h-6 w-6 text-emerald-600 shrink-0" />
                     <div className="text-xs">
                       <p className="font-bold text-emerald-900">
-                        Dedicated Private AC Cab & Verified Chauffeur Included
+                        Dedicated Private AC Cab & Verified Driver Included
                       </p>
                       <p className="text-slate-600 mt-0.5">
                         Tolls, driver batta, interstate taxes, and parking fees are pre-included. No hidden meter charges.
