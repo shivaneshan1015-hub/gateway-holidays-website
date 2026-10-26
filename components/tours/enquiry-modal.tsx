@@ -17,6 +17,7 @@ import {
 } from "lucide-react";
 import { businessInfo } from "@/data/business";
 import { tourPackages } from "@/data/tours";
+import { CalendarDatePicker } from "@/components/ui/calendar-date-picker";
 
 interface EnquiryModalProps {
   isOpen: boolean;
@@ -39,6 +40,7 @@ export function EnquiryModal({
     email: "",
     destination: defaultDestination || selectedTour?.title || "",
     travelMonth: "",
+    travelStartDate: "",
     durationDays: selectedTour ? String(selectedTour.daysCount) : "4",
     adults: "2",
     children: "0",
@@ -213,16 +215,25 @@ _Please share a customized itinerary & quotation._`;
                     </div>
 
                     <div>
-                      <label className="block text-xs font-bold text-slate-800 mb-1.5 flex items-center gap-1.5">
+                      <label
+                        htmlFor="travel-date-picker"
+                        className="block text-xs font-bold text-slate-800 mb-1.5 flex items-center gap-1.5 cursor-pointer"
+                      >
                         <Calendar className="h-3.5 w-3.5 text-[#E61E6E]" /> Tentative Travel Month / Dates
                       </label>
-                      <input
-                        type="text"
+                      <CalendarDatePicker
+                        id="travel-date-picker"
                         name="travelMonth"
                         value={formData.travelMonth}
-                        onChange={handleChange}
-                        placeholder="e.g. Next weekend / Nov 15th"
-                        className="w-full px-3.5 py-2.5 rounded-xl bg-slate-50 border border-slate-300 text-slate-900 text-sm placeholder:text-slate-400 focus:outline-none focus:border-[#E61E6E] focus:bg-white focus:ring-1 focus:ring-[#E61E6E]"
+                        isoValue={formData.travelStartDate}
+                        onChange={(formatted, iso) => {
+                          setFormData((prev) => ({
+                            ...prev,
+                            travelMonth: formatted,
+                            travelStartDate: iso,
+                          }));
+                        }}
+                        placeholder="Select travel date from calendar"
                       />
                     </div>
                   </div>

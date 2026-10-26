@@ -36,6 +36,7 @@ async function directSupabaseIngestion(payload: {
     email?: string | null;
     destination?: string;
     travelMonth?: string;
+    travelStartDate?: string | null;
     durationDays?: string | number;
     adults?: string | number;
     children?: string | number;
@@ -180,9 +181,43 @@ async function directSupabaseIngestion(payload: {
     }
 
     if (newTrip) {
+      // Calculate start and end date if selected from calendar
+      let travelStartDateIso: string | null = null;
+      let travelEndDateIso: string | null = null;
+
+      if (lead.travelStartDate && /^\d{4}-\d{2}-\d{2}$/.test(lead.travelStartDate)) {
+        travelStartDateIso = lead.travelStartDate;
+        const [yr, mo, dy] = lead.travelStartDate.split("-").map(Number);
+        const startD = new Date(yr, mo - 1, dy);
+        if (!isNaN(startD.getTime())) {
+          const endD = new Date(startD);
+          endD.setDate(endD.getDate() + Math.max(1, parsedDuration) - 1);
+          const ey = endD.getFullYear();
+          const em = String(endD.getMonth() + 1).padStart(2, "0");
+          const ed = String(endD.getDate()).padStart(2, "0");
+          travelEndDateIso = `${ey}-${em}-${ed}`;
+        }
+      } else if (lead.travelMonth && !lead.travelMonth.toLowerCase().includes("flexible")) {
+        const parsedD = new Date(lead.travelMonth);
+        if (!isNaN(parsedD.getTime())) {
+          const y = parsedD.getFullYear();
+          const m = String(parsedD.getMonth() + 1).padStart(2, "0");
+          const d = String(parsedD.getDate()).padStart(2, "0");
+          travelStartDateIso = `${y}-${m}-${d}`;
+          const endD = new Date(parsedD);
+          endD.setDate(endD.getDate() + Math.max(1, parsedDuration) - 1);
+          const ey = endD.getFullYear();
+          const em = String(endD.getMonth() + 1).padStart(2, "0");
+          const ed = String(endD.getDate()).padStart(2, "0");
+          travelEndDateIso = `${ey}-${em}-${ed}`;
+        }
+      }
+
       await supabase.from("trip_requirements").insert({
         trip_id: newTrip.id,
         destination,
+        travel_start_date: travelStartDateIso,
+        travel_end_date: travelEndDateIso,
         duration_days: parsedDuration >= 1 ? parsedDuration : 4,
         traveller_count: parsedAdults + parsedChildren,
         adult_count: parsedAdults,
@@ -293,6 +328,7 @@ export async function POST(request: Request) {
         email: data.email ? String(data.email).trim() : null,
         destination: data.destination || "General Holiday Consultation",
         travelMonth: data.travelMonth || "Flexible",
+        travelStartDate: data.travelStartDate || null,
         durationDays: data.durationDays || "4",
         adults: data.adults || "2",
         children: data.children || "0",
