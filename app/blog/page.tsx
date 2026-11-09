@@ -58,6 +58,19 @@ export default function BlogHubPage() {
       name: "Gateway Holidays",
       url: "https://gatewayholidays.in",
       telephone: businessInfo.phonePrimary,
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: businessInfo.address,
+        addressLocality: businessInfo.city,
+        addressRegion: businessInfo.state,
+        postalCode: businessInfo.postalCode,
+        addressCountry: "IN",
+      },
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 9.9252,
+        longitude: 78.1198,
+      },
     },
     blogPost: blogPosts.map((post) => ({
       "@type": "BlogPosting",
@@ -66,7 +79,9 @@ export default function BlogHubPage() {
       datePublished: post.publishDate,
       dateModified: post.modifiedDate,
       url: `https://gatewayholidays.in/blog/${post.slug}`,
-      image: post.heroImage,
+      image: post.heroImage.startsWith("/")
+        ? `https://gatewayholidays.in${post.heroImage}`
+        : post.heroImage,
       author: {
         "@type": "Person",
         name: post.author.name,

@@ -80,7 +80,7 @@ export function WhyUs3D() {
         <SectionHeading
           badge="The Gateway Difference"
           title="Why Discerning Travelers Choose Gateway Holidays"
-          subtitle="We combine local Madurai hospitality with world-class holiday planning to make your vacation effortless, relaxing, and unforgettable."
+          subtitle="We combine local Madurai hospitality with carefully planned custom itineraries to make your vacation effortless, relaxing, and memorable."
           center
           light={false}
         />

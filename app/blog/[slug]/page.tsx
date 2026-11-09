@@ -28,6 +28,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
+  const absoluteImageUrl = post.heroImage.startsWith("/")
+    ? `https://gatewayholidays.in${post.heroImage}`
+    : post.heroImage;
+
   return {
     title: post.metaTitle,
     description: post.metaDescription,
@@ -46,7 +50,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       authors: [post.author.name],
       images: [
         {
-          url: post.heroImage,
+          url: absoluteImageUrl,
           width: 1200,
           height: 630,
           alt: post.title,
@@ -57,7 +61,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       card: "summary_large_image",
       title: post.metaTitle,
       description: post.metaDescription,
-      images: [post.heroImage],
+      images: [absoluteImageUrl],
     },
   };
 }
@@ -75,7 +79,11 @@ export default async function BlogPostPage({ params }: PageProps) {
     post.relatedTourSlugs.includes(t.slug)
   );
 
-  // Schema.org Structured Data
+  const absoluteImageUrl = post.heroImage.startsWith("/")
+    ? `https://gatewayholidays.in${post.heroImage}`
+    : post.heroImage;
+
+  // Schema.org Structured Data with deep AEO & GEO attribution
   const jsonLd = {
     "@context": "https://schema.org",
     "@graph": [
@@ -90,7 +98,7 @@ export default async function BlogPostPage({ params }: PageProps) {
         },
         headline: post.title,
         description: post.metaDescription,
-        image: post.heroImage,
+        image: absoluteImageUrl,
         datePublished: post.publishDate,
         dateModified: post.modifiedDate,
         author: {
@@ -103,6 +111,19 @@ export default async function BlogPostPage({ params }: PageProps) {
           name: "Gateway Holidays",
           url: "https://gatewayholidays.in",
           telephone: businessInfo.phonePrimary,
+          address: {
+            "@type": "PostalAddress",
+            streetAddress: businessInfo.address,
+            addressLocality: businessInfo.city,
+            addressRegion: businessInfo.state,
+            postalCode: businessInfo.postalCode,
+            addressCountry: "IN",
+          },
+          geo: {
+            "@type": "GeoCoordinates",
+            latitude: 9.9252,
+            longitude: 78.1198,
+          },
           logo: {
             "@type": "ImageObject",
             url: "https://gatewayholidays.in/images/logo.png",

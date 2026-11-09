@@ -69,7 +69,7 @@ export const blogPosts: BlogPost[] = [
       name: "Murali",
       role: "Founder & Lead Travel Planner, Gateway Holidays",
     },
-    heroImage: "https://images.unsplash.com/photo-1589182373726-e4f658ab50f0?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "/images/blogs/kodaikanal-pine-forest.webp",
     excerpt: "Living in or arriving at Madurai puts you within easy reach of misty hill stations, sacred coastal bridges, and emerald tea valleys. Here are the top 5 weekend road trip circuits.",
     quickAnswer: "The top 5 weekend getaways from Madurai are Kodaikanal (120 km / 3.5 hrs) for cool pine forests, Rameswaram & Dhanushkodi (172 km / 3 hrs) for coastal pilgrimage and the Pamban Bridge, Munnar (155 km / 4.5 hrs) for endless tea estates, Vagamon (175 km / 4.5 hrs) for quiet green meadows, and Courtallam (160 km / 3.5 hrs) for medicinal forest waterfalls.",
     quickSummaryPoints: [
@@ -113,7 +113,7 @@ export const blogPosts: BlogPost[] = [
         id: "kodaikanal",
         title: "1. Kodaikanal — The Princess of Hill Stations",
         badge: "120 km from Madurai • ~3.5 Hours Scenic Ghat Drive",
-        image: "https://images.unsplash.com/photo-1589182373726-e4f658ab50f0?auto=format&fit=crop&w=1000&q=80",
+        image: "/images/blogs/kodaikanal-pine-forest.webp",
         narrative: [
           "Resting at an altitude of 2,133 meters in the Palani Hills, Kodaikanal has been South India's favorite highland escape for over a century. The drive from Madurai winds through lush banana plantations before climbing dramatic hairpin curves enveloped in eucalyptus fragrance.",
           "Once you crest the summit, the air turns crisp and refreshingly cool. Stroll along Coaker's Walk for sweeping views across the Vaigai dam valley, pedal across the star-shaped Kodai Lake, or wander through silent stands of tall Himalayan pine trees.",
@@ -136,7 +136,7 @@ export const blogPosts: BlogPost[] = [
         id: "rameswaram",
         title: "2. Rameswaram & Dhanushkodi — Sacred Seas & The Pamban Bridge",
         badge: "172 km from Madurai • ~3 Hours Smooth 4-Lane Drive",
-        image: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1000&q=80",
+        image: "/images/blogs/rameswaram-temple-pamban.webp",
         narrative: [
           "Driving east from Madurai on the smooth NH49 takes you across the Gulf of Mannar onto Pamban Island. Crossing the Pamban Road Bridge, with the turquoise ocean churning beneath you and the century-old railway cantilever bridge running parallel, is an unforgettable experience.",
           "Rameswaram holds a timeless spiritual atmosphere. The Ramanathaswamy Temple is famous for its 1,212 hand-carved monolithic stone pillars and the purifying ritual bath across 22 sacred temple wells.",
@@ -159,7 +159,7 @@ export const blogPosts: BlogPost[] = [
         id: "munnar",
         title: "3. Munnar — Emerald Tea Carpets in the Western Ghats",
         badge: "155 km from Madurai • ~4.5 Hours Scenic Mountain Drive",
-        image: "https://images.unsplash.com/photo-1596402184320-417e7178b2cd?auto=format&fit=crop&w=1000&q=80",
+        image: "/images/blogs/munnar-tea-gardens.webp",
         narrative: [
           "Crossing the Tamil Nadu border into Kerala via Theni and the Bodimettu Ghat elevates you into Munnar. At 1,600 meters, Munnar is an endless sea of sculpted green tea plantations rolling across misty mountain amphitheaters.",
           "The climate here remains temperate year-round. Spend your afternoon cruising across Mattupetty Dam, spotting the rare Nilgiri Tahr mountain goat at Eravikulam National Park, and sipping freshly brewed orthodox tea at high-altitude tasting rooms.",
@@ -182,9 +182,9 @@ export const blogPosts: BlogPost[] = [
         id: "vagamon",
         title: "4. Vagamon — Untamed Pine Meadows & Cool Silence",
         badge: "175 km from Madurai • ~4.5 Hours Hill Drive",
-        image: "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=1000&q=80",
+        image: "/images/blogs/kolukkumalai-sunrise-clouds.webp",
         narrative: [
-          "If you desire the chill of Munnar without the tour buses and bustling bazaars, Vagamon in Idukki is South India's premier hidden sanctuary. Famous for its undulating grassy knolls and pine forest trails, Vagamon feels untouched by commercial tourism.",
+          "If you desire the chill of Munnar without the tour buses and bustling bazaars, Vagamon in Idukki is South India's tranquil hidden sanctuary. Famous for its undulating grassy knolls and pine forest trails, Vagamon feels untouched by commercial tourism.",
           "The landscape is dotted with quiet tea gardens, babbling rocky streams, and misty green hillocks. It has also emerged as South India's leading tandem paragliding destination due to steady thermal winds rising from the valleys.",
           "Spend hours walking barefoot across the Kurisumala and Vagamon Pine Valley trails, inhaling the resinous mountain fragrance and enjoying tranquil silence."
         ],
@@ -205,7 +205,7 @@ export const blogPosts: BlogPost[] = [
         id: "courtallam",
         title: "5. Courtallam — The Natural Medicinal Spa of South India",
         badge: "160 km from Madurai • ~3.5 Hours Comfortable Drive",
-        image: "https://images.unsplash.com/photo-1546182990-dffeafbe841d?auto=format&fit=crop&w=1000&q=80",
+        image: "/images/blogs/courtallam-waterfalls.webp",
         narrative: [
           "Known as the 'Spa of South India', Courtallam (Kutralam) in Tenkasi district is legendary for its cascading waterfalls that flow through dense herbal forests in the Western Ghats. The waters absorb minerals and medicinal properties from indigenous herbs, making a bath here deeply revitalizing.",
           "During the Southwest monsoon (June to September) and post-monsoon months, falls like Main Falls, Five Falls (Aintharuvi), and Old Courtallam roar with energizing mountain spray.",
@@ -269,7 +269,7 @@ export const blogPosts: BlogPost[] = [
       name: "Murali",
       role: "Founder & Lead Travel Planner, Gateway Holidays",
     },
-    heroImage: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "/images/blogs/rameswaram-temple-pamban.webp",
     excerpt: "Everything you need to know about the Madurai to Rameswaram sacred corridor — Ramanathaswamy Temple rituals, Pamban bridge viewpoints, and Dhanushkodi tips.",
     quickAnswer: "The distance from Madurai to Rameswaram is 172 km via NH49 (approx. 3 to 3.5 hours drive). The route is a smooth 4-lane national highway. The ideal pilgrimage itinerary is 2 Days / 1 Night, allowing ample time for the 22 holy Theertham baths, Ramanathaswamy Temple spathika lingam darshan (5:00 AM), Pamban Bridge photography, and Dhanushkodi / Arichal Munai border exploration.",
     quickSummaryPoints: [
@@ -307,11 +307,11 @@ export const blogPosts: BlogPost[] = [
         id: "highway-pamban",
         title: "1. The Highway Drive & Pamban Sea Bridge",
         badge: "172 km via NH49 • ~3 Hours 15 Minutes",
-        image: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1000&q=80",
+        image: "/images/blogs/rameswaram-temple-pamban.webp",
         narrative: [
           "The journey begins on the wide, four-lane NH49 expressway. Traffic is generally light outside city limits, allowing comfortable cruising through peaceful coconut groves and salt pans.",
           "The highlight of the drive is undoubtedly the crossing of Pamban Road Bridge (Annai Indira Gandhi Bridge). Spanning over 2.3 kilometers, it elevates your vehicle nearly 30 meters above the sea. To your left, the turbulent Bay of Bengal shimmers; to your right, the calm waters of the Gulf of Mannar spread toward Sri Lanka.",
-          "Our drivers stop at safe designated pedestrian bays on the bridge, allowing you to step out, feel the sea wind, and capture world-class photographs of the historic 1914 Scherzer rolling rail bridge below."
+          "Our drivers stop at safe designated pedestrian bays on the bridge, allowing you to step out, feel the sea wind, and capture panoramic photographs of the historic 1914 Scherzer rolling rail bridge below."
         ],
         highlights: [
           "Pamban road bridge ocean viewpoint",
@@ -328,7 +328,7 @@ export const blogPosts: BlogPost[] = [
         id: "theertham-rituals",
         title: "2. Ramanathaswamy Temple & The 22 Holy Theerthams",
         badge: "Central Island • Morning 5:00 AM – 1:00 PM & 3:00 PM – 9:00 PM",
-        image: "https://images.unsplash.com/photo-1621682372775-533449e550ed?auto=format&fit=crop&w=1000&q=80",
+        image: "/images/blogs/madurai-meenakshi-temple.webp",
         narrative: [
           "Sri Ramanathaswamy Temple is one of the twelve sacred Jyotirlinga shrines. According to the Ramayana, Lord Rama worshipped Lord Shiva here to absolve the sin of slaying Ravana in Lanka.",
           "The spiritual journey begins at Agni Theertham, the shallow coastal beach located 100 meters east of the temple gate. Pilgrims take a symbolic dip in the gentle ocean waters before proceeding inside.",
@@ -350,7 +350,7 @@ export const blogPosts: BlogPost[] = [
         id: "dhanushkodi-arichal-munai",
         title: "3. Dhanushkodi & Arichal Munai — The Edge of India",
         badge: "18 km from Rameswaram • Open 6:00 AM to 5:00 PM",
-        image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80",
+        image: "/images/blogs/dhanushkodi-beach-ruins.webp",
         narrative: [
           "Eighteen kilometers past Rameswaram town, the island narrows into a dramatic sand spit flanked by two oceans. This is Dhanushkodi, destroyed in a single night by the tragic 1964 cyclone.",
           "Today, the ruins of the Portuguese church, railway station, water tank, and customs office stand eerily preserved against the bright blue sea. A smooth national highway now runs all the way to Arichal Munai, the very southern tip of the sandbar.",
@@ -412,7 +412,7 @@ export const blogPosts: BlogPost[] = [
       name: "Murali",
       role: "Founder & Lead Travel Planner, Gateway Holidays",
     },
-    heroImage: "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "/images/blogs/kerala-backwaters-alleppey.webp",
     excerpt: "How to balance misty Western Ghats heights with tranquil palm-fringed backwater cruises for the ultimate rejuvenating vacation.",
     quickAnswer: "The classic Munnar & Alleppey circuit requires a minimum of 4 Days / 3 Nights (2 nights in Munnar for tea plantations and waterfalls, and 1 night on an Alleppey private houseboat). The drive from Munnar down to Alleppey takes approximately 4.5 hours through rubber plantations and backwater canals. Complete private AC cab transport is essential for seamless hill-to-coast transition.",
     quickSummaryPoints: [
@@ -450,7 +450,7 @@ export const blogPosts: BlogPost[] = [
         id: "munnar-highlands",
         title: "1. Munnar: Tea Carpets, Waterfalls & Mountain Mist",
         badge: "Days 1 & 2 • High-Altitude Sanctuary",
-        image: "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1000&q=80",
+        image: "/images/blogs/kerala-backwaters-alleppey.webp",
         narrative: [
           "Your holiday begins in Munnar. Sprawling across three mountain streams (Mudrapuzha, Nallathanni, and Kundala), Munnar was the favored summer retreat of the British administration in South India.",
           "Dedicate your first full morning to Eravikulam National Park, home to the largest surviving population of the endangered Nilgiri Tahr. The electric safari bus takes you high into the shola grasslands with Anamudi Peak (South India's highest summit at 2,695 meters) rising majestically behind.",
@@ -472,7 +472,7 @@ export const blogPosts: BlogPost[] = [
         id: "alleppey-houseboat",
         title: "2. Alleppey: The Venetian Backwaters & Private Houseboat",
         badge: "Day 3 • Authentic Kettuvallam Experience",
-        image: "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?auto=format&fit=crop&w=1000&q=80",
+        image: "/images/blogs/alleppey-luxury-houseboat.webp",
         narrative: [
           "Descending from Munnar through the rubber plantations of Kottayam brings you to Alleppey (Alappuzha) by noon. Here, your private wooden Kettuvallam houseboat awaits at the jetty.",
           "Check-in takes place at 12:00 PM with a fresh coconut water welcome. As your boat glides past Vembanad Lake, narrow village canals, and submerged paddy fields, your personal chef serves a freshly prepared Kerala lunch: hot red rice, avial, thoran, and fresh Karimeen Pollichathu (pearl spot fish baked in banana leaves).",
@@ -529,7 +529,7 @@ export const blogPosts: BlogPost[] = [
       name: "Murali",
       role: "Founder & Lead Travel Planner, Gateway Holidays",
     },
-    heroImage: "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "/images/blogs/kolukkumalai-sunrise-clouds.webp",
     excerpt: "Conquer rugged boulder trails in a 4x4 jeep at 4:30 AM to witness the sun rise over an infinite sea of clouds at 7,900 feet.",
     quickAnswer: "Kolukkumalai is the highest organic tea estate in the world at 7,900 ft above sea level, located on the Tamil Nadu-Kerala border near Suryanelli. The only way to reach the sunrise peak is via an authorized 4x4 rugged off-road Jeep ride (1.5 hours uphill over boulder terrain starting at 4:30 AM). Combining Kolukkumalai with Vagamon pine valleys and paragliding makes the ultimate 3-day adventure trip.",
     quickSummaryPoints: [
@@ -560,14 +560,14 @@ export const blogPosts: BlogPost[] = [
     ],
     introduction: [
       "South India is often renowned for tranquil backwaters and ancient stone temples, but high along the dramatic crest of the Western Ghats lies a world of rugged adventure that rivals the Himalayas.",
-      "Conquering the switchbacks of Kolukkumalai in a four-wheel-drive safari jeep in pre-dawn darkness to stand above an ocean of clouds at 7,900 feet — paired with paragliding over the open green meadows of Vagamon — is the premier adventure itinerary in South India."
+      "Conquering the switchbacks of Kolukkumalai in a four-wheel-drive safari jeep in pre-dawn darkness to stand above an ocean of clouds at 7,900 feet — paired with paragliding over the open green meadows of Vagamon — is one of the most rewarding adventure itineraries in South India."
     ],
     sections: [
       {
         id: "kolukkumalai-sunrise",
         title: "1. Kolukkumalai: The 4:30 AM 4x4 Off-Road Ascent",
         badge: "Suryanelli Base Camp • 7,900 Feet Altitude",
-        image: "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=1000&q=80",
+        image: "/images/blogs/kolukkumalai-sunrise-clouds.webp",
         narrative: [
           "The adventure begins while the valley sleeps. At 4:30 AM, heavy-duty 4x4 safari jeeps assemble at Suryanelli base camp near Chinnakanal. Normal vehicles cannot negotiate this terrain; the route is a punishing, unpaved boulder switchback carved through granite cliffs.",
           "Over the next 75 minutes, your skilled local driver navigates through dense pitch-black mist, splashing through mountain gullies until you reach the summit ridge of Kolukkumalai.",
@@ -589,7 +589,7 @@ export const blogPosts: BlogPost[] = [
         id: "vagamon-paragliding",
         title: "2. Vagamon: Tandem Paragliding & Pine Forest Hikes",
         badge: "Idukki District • High-Wind Hill Slopes",
-        image: "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=1000&q=80",
+        image: "/images/blogs/kolukkumalai-sunrise-clouds.webp",
         narrative: [
           "After conquering the heights of Kolukkumalai, travel south into Vagamon. Renowned for its steady thermal air currents and gentle grassy landing bowls, Vagamon hosts international paragliding festivals.",
           "Strapped safely into a harness with a certified tandem pilot, you take a short running leap off the hillside and immediately catch the thermal breeze. For 15 to 20 minutes, you glide weightlessly above tea slopes, rocky escarpments, and cascading mountain streams.",
@@ -645,9 +645,9 @@ export const blogPosts: BlogPost[] = [
       name: "Murali",
       role: "Founder & Lead Travel Planner, Gateway Holidays",
     },
-    heroImage: "https://images.unsplash.com/photo-1621682372775-533449e550ed?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "/images/blogs/madurai-meenakshi-temple.webp",
     excerpt: "Explore the towering colorful gopurams of Meenakshi Amman, the UNESCO 1,000-year granite miracle of Thanjavur Brihadeeswarar, and the sacred corridor of Rameswaram.",
-    quickAnswer: "The premier South India Temple Circuit covers Madurai (Meenakshi Amman Temple), Thanjavur (Brihadeeswarar Big Temple - UNESCO), Tiruchirappalli (Srirangam Ranganathaswamy Temple), and Rameswaram (Ramanathaswamy Temple). A complete circuit requires 4 to 5 Days by private AC vehicle, ensuring comfortable transfers and timely temple darshan without midday temple closures.",
+    quickAnswer: "The classic South India Temple Circuit covers Madurai (Meenakshi Amman Temple), Thanjavur (Brihadeeswarar Big Temple - UNESCO), Tiruchirappalli (Srirangam Ranganathaswamy Temple), and Rameswaram (Ramanathaswamy Temple). A complete circuit requires 4 to 5 Days by private AC vehicle, ensuring comfortable transfers and timely temple darshan without midday temple closures.",
     quickSummaryPoints: [
       {
         title: "Madurai Meenakshi Temple",
@@ -683,7 +683,7 @@ export const blogPosts: BlogPost[] = [
         id: "meenakshi-temple",
         title: "1. Madurai: Meenakshi Sundareswarar Temple",
         badge: "Heart of Madurai • 5:00 AM – 12:30 PM & 4:00 PM – 9:30 PM",
-        image: "https://images.unsplash.com/photo-1621682372775-533449e550ed?auto=format&fit=crop&w=1000&q=80",
+        image: "/images/blogs/madurai-meenakshi-temple.webp",
         narrative: [
           "The beating spiritual heart of Madurai for over 25 centuries, the Meenakshi Amman Temple is dedicated to Goddess Meenakshi (an avatar of Parvati) and her consort Sundareswarar (Lord Shiva).",
           "The complex features 14 towering gopurams (gateway towers), the tallest rising over 52 meters. Each gopuram is encrusted with thousands of intricately stuccoed and vibrantly painted deities, demons, and celestial beings. Inside, marvel at the sacred Golden Lotus tank (Pottramarai Kulam) and the celebrated Hall of a Thousand Pillars with its legendary musical columns that emit musical notes when gently tapped."
@@ -704,7 +704,7 @@ export const blogPosts: BlogPost[] = [
         id: "thanjavur-big-temple",
         title: "2. Thanjavur: Brihadeeswarar Temple (UNESCO)",
         badge: "190 km from Madurai • ~3.5 Hours Drive",
-        image: "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=1000&q=80",
+        image: "/images/blogs/thanjavur-brihadeeswarar-temple.webp",
         narrative: [
           "Built in 1010 CE by the great Chola Emperor Raja Raja Chola I, the Brihadeeswarar Temple (locally known as the Big Temple or Peruvudaiyar Kovil) is one of India's greatest architectural achievements.",
           "Constructed entirely from hard granite blocks without using any mortar, the towering Vimana (sanctum tower) rises 66 meters into the sky. It is capped by a single octagonal granite block weighing an estimated 80 tonnes. Inside the spacious open courtyard sits a colossal monolithic Nandi (sacred bull) carved from a single stone, measuring 6 meters long.",
@@ -726,7 +726,7 @@ export const blogPosts: BlogPost[] = [
         id: "srirangam",
         title: "3. Tiruchirappalli: Sri Ranganathaswamy Temple",
         badge: "Kaveri River Island • 135 km from Madurai",
-        image: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1000&q=80",
+        image: "/images/blogs/rameswaram-temple-pamban.webp",
         narrative: [
           "Enclosed on an island formed by the Kaveri and Kollidam rivers, Srirangam is celebrated as the foremost of the 108 Divya Desams dedicated to Lord Vishnu. Spanning 156 acres with seven concentric walled enclosures and 21 gopurams, it is widely considered the largest functioning Hindu temple complex in the world.",
           "The Rajagopuram (main Southern gate), towering 73 meters high, dominates the skyline for miles. Inside, devotees worship Lord Ranganatha reclining peacefully upon the coils of the five-headed serpent Adishesha."
