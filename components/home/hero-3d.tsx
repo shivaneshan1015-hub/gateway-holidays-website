@@ -27,7 +27,7 @@ const featuredSpots = [
   {
     name: "Munnar & Alleppey",
     category: "Kerala Mist & Houseboats",
-    image: "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=800&q=80",
+    image: "/images/categories/south-india.webp",
     slug: "munnar",
     tag: "Most Popular",
     color: "from-emerald-600/80 to-teal-900/90",
@@ -35,7 +35,7 @@ const featuredSpots = [
   {
     name: "Kolukkumalai Adventure",
     category: "Sunrise Jeep Safari & Clouds",
-    image: "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=800&q=80",
+    image: "/images/categories/adventure-trekking.webp",
     slug: "vagamon-adventure-tour",
     tag: "Adventure Special",
     color: "from-orange-600/80 to-amber-950/90",
@@ -43,7 +43,7 @@ const featuredSpots = [
   {
     name: "Rameswaram & Dhanushkodi",
     category: "Pamban Bridge & Sacred Island",
-    image: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=80",
+    image: "/images/categories/heritage-temple.webp",
     slug: "rameshwaram",
     tag: "Spiritual Circuit",
     color: "from-amber-600/80 to-orange-950/90",
@@ -51,7 +51,7 @@ const featuredSpots = [
   {
     name: "Bali Luxury Escape",
     category: "Private Pool Villa & Ubud Swing",
-    image: "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=800&q=80",
+    image: "/images/categories/international.webp",
     slug: "bali-tour",
     tag: "Passport Favorite",
     color: "from-rose-600/80 to-pink-950/90",

@@ -38,3 +38,4 @@ export default function imageLoader({
   // 4. Fallback for any other external domains
   return src;
 }
+
