@@ -19,7 +19,7 @@ export function SectionHeading({
   centered = false,
   center = false,
   className = "",
-  light = true,
+  light = false,
 }: SectionHeadingProps) {
   const isCentered = centered || center;
   const label = badge || eyebrow;

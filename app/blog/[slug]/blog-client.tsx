@@ -498,6 +498,7 @@ export function BlogClient({ post, relatedPosts, relatedTours }: BlogClientProps
               title="Recommended Packages for This Route"
               subtitle="Turn this travel guide into a reality. All tours include private AC vehicle transfers, polite drivers, and handpicked stays."
               center
+              light={false}
             />
 
             <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
