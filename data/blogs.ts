@@ -589,7 +589,7 @@ export const blogPosts: BlogPost[] = [
         id: "vagamon-paragliding",
         title: "2. Vagamon: Tandem Paragliding & Pine Forest Hikes",
         badge: "Idukki District • High-Wind Hill Slopes",
-        image: "https://images.unsplash.com/photo-1511497584788-87676104235f?auto=format&fit=crop&w=1000&q=80",
+        image: "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=1000&q=80",
         narrative: [
           "After conquering the heights of Kolukkumalai, travel south into Vagamon. Renowned for its steady thermal air currents and gentle grassy landing bowls, Vagamon hosts international paragliding festivals.",
           "Strapped safely into a harness with a certified tandem pilot, you take a short running leap off the hillside and immediately catch the thermal breeze. For 15 to 20 minutes, you glide weightlessly above tea slopes, rocky escarpments, and cascading mountain streams.",
