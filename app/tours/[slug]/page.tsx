@@ -51,6 +51,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 
   const canonicalUrl = `https://gatewayholidays.in/tours/${tour.slug}`;
+  const absoluteImageUrl = tour.image.startsWith("/")
+    ? `https://gatewayholidays.in${tour.image}`
+    : tour.image;
 
   return {
     title: `${tour.title} — ${tour.duration} Private Tour | Gateway Holidays`,
@@ -66,7 +69,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       type: "website",
       images: [
         {
-          url: tour.image,
+          url: absoluteImageUrl,
           width: 1200,
           height: 630,
           alt: tour.title,
@@ -77,7 +80,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       card: "summary_large_image",
       title: `${tour.title} | Gateway Holidays`,
       description: tour.subtitle,
-      images: [tour.image],
+      images: [absoluteImageUrl],
     },
   };
 }
@@ -91,8 +94,11 @@ export default async function TourDetailPage({ params }: PageProps) {
   }
 
   const relatedTours = getRelatedTours(tour.slug);
+  const absoluteImageUrl = tour.image.startsWith("/")
+    ? `https://gatewayholidays.in${tour.image}`
+    : tour.image;
 
-  // Schema.org Structured Data for Tour Packages (TouristTrip & Breadcrumbs)
+  // Schema.org Structured Data for Tour Packages (TouristTrip, Breadcrumbs & AEO FAQPage)
   // NOTE: Strict adherence to prompt constraint: NO price or offers added.
   const tourSchema = {
     "@context": "https://schema.org",
@@ -102,7 +108,7 @@ export default async function TourDetailPage({ params }: PageProps) {
         "@id": `https://gatewayholidays.in/tours/${tour.slug}#trip`,
         name: tour.title,
         description: tour.overview || tour.subtitle,
-        image: tour.image,
+        image: absoluteImageUrl,
         touristType: tour.theme,
         touristDestination: {
           "@type": "TouristDestination",
@@ -120,6 +126,11 @@ export default async function TourDetailPage({ params }: PageProps) {
             addressRegion: businessInfo.state,
             postalCode: businessInfo.postalCode,
             addressCountry: "IN",
+          },
+          geo: {
+            "@type": "GeoCoordinates",
+            latitude: 9.9252,
+            longitude: 78.1198,
           },
         },
         duration: `P${tour.daysCount}D`,
@@ -160,6 +171,35 @@ export default async function TourDetailPage({ params }: PageProps) {
           },
         ],
       },
+      {
+        "@type": "FAQPage",
+        mainEntity: [
+          {
+            "@type": "Question",
+            name: `What is included in the ${tour.title} package?`,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: `The ${tour.title} includes dedicated private AC cab transportation with experienced driver, fuel, highway tolls, parking fees, interstate permits, handpicked hotel/resort stays, daily breakfast, and 24/7 on-tour customer support from Gateway Holidays.`
+            }
+          },
+          {
+            "@type": "Question",
+            name: `What is the pickup and starting point for ${tour.title}?`,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: `Pickup is arranged upon arrival at Madurai Airport (IXM), Madurai Junction (MDU), or your doorstep in Southern Tamil Nadu. Custom pickups from Coimbatore, Trichy, or Cochin are also available.`
+            }
+          },
+          {
+            "@type": "Question",
+            name: `Can we customize the itinerary or hotel category for this ${tour.duration} tour?`,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: `Yes, all Gateway Holidays packages are 100% customizable. You can adjust the duration, add stopovers, upgrade to luxury pool villas, or modify sightseeing spots by connecting with our trip architect on WhatsApp.`
+            }
+          }
+        ]
+      }
     ],
   };
 

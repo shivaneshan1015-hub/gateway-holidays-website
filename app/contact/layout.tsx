@@ -30,10 +30,14 @@ export default function ContactLayout({ children }: { children: React.ReactNode 
         name: "Contact Gateway Holidays Madurai",
         description: "Official contact portal, office address, and direct phone lines for Gateway Holidays.",
         mainEntity: {
-          "@type": "TravelAgency",
+          "@type": ["TravelAgency", "LocalBusiness"],
           name: "Gateway Holidays",
           telephone: businessInfo.phonePrimary,
           email: businessInfo.email,
+          priceRange: "₹₹",
+          currenciesAccepted: "INR",
+          paymentAccepted: "Cash, Credit Card, Debit Card, UPI, Net Banking",
+          hasMap: businessInfo.googleMapsUrl,
           address: {
             "@type": "PostalAddress",
             streetAddress: businessInfo.address,
@@ -42,6 +46,24 @@ export default function ContactLayout({ children }: { children: React.ReactNode 
             postalCode: businessInfo.postalCode,
             addressCountry: "IN",
           },
+          geo: {
+            "@type": "GeoCoordinates",
+            latitude: 9.9252,
+            longitude: 78.1198,
+          },
+          openingHoursSpecification: [
+            {
+              "@type": "OpeningHoursSpecification",
+              dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+              opens: "10:00",
+              closes: "19:00",
+            },
+          ],
+          sameAs: [
+            businessInfo.socials.instagram,
+            businessInfo.socials.facebook,
+            businessInfo.googleMapsUrl,
+          ],
         },
       },
       {

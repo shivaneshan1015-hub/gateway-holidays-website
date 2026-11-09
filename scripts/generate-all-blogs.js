@@ -1407,3 +1407,4 @@ export function getRelatedBlogPosts(currentSlug: string): BlogPost[] {
 
 fs.writeFileSync(blogsPath, fileHeader, 'utf8');
 console.log(`✅ Successfully generated all ${blogs.length} comprehensive blogs in data/blogs.ts!`);
+

@@ -116,6 +116,10 @@ export const metadata: Metadata = {
           "4.8★ Rated tour operator in Anna Nagar, Madurai. Customized South India hill stations, high-altitude adventure trekking tours, heritage temple circuits, and international escapes with private sanitized AC cabs and 24/7 personal tour assistance.",
         telephone: "+91 81227 12587",
         email: "info@gatewayholidays.in",
+        priceRange: "₹₹",
+        currenciesAccepted: "INR",
+        paymentAccepted: "Cash, Credit Card, Debit Card, UPI, Net Banking",
+        hasMap: "https://share.google/Ph649ZSpRfBmBvfY3",
         address: {
           "@type": "PostalAddress",
           streetAddress: "4C, Opp. Ambika College, Anna Nagar",
@@ -127,7 +131,7 @@ export const metadata: Metadata = {
         geo: {
           "@type": "GeoCoordinates",
           latitude: 9.9252,
-          longitude: 78.1498,
+          longitude: 78.1198,
         },
         openingHoursSpecification: [
           {

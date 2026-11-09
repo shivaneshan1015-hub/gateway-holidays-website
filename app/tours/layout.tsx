@@ -48,7 +48,9 @@ export default function ToursLayout({ children }: { children: React.ReactNode })
           position: idx + 1,
           name: tour.title,
           url: `https://gatewayholidays.in/tours/${tour.slug}`,
-          image: tour.image,
+          image: tour.image.startsWith("/")
+            ? `https://gatewayholidays.in${tour.image}`
+            : tour.image,
           description: tour.subtitle,
         })),
       },

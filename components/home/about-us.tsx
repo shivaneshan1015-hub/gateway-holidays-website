@@ -87,7 +87,7 @@ export function AboutUs({ onOpenEnquiry }: AboutUsProps) {
             </h3>
 
             <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
-              At <strong>Gateway Holidays</strong>, we believe the best vacations aren&apos;t found in generic packaged itineraries. Whether it&apos;s a tranquil tea-plantation retreat in Munnar, sacred darshans in Rameswaram, high-altitude treks in Himachal, or an exotic island villa in Bali, our local experts craft every day around your personal rhythm.
+              At <strong>Gateway Holidays</strong>, we believe truly memorable vacations aren&apos;t found in generic packaged itineraries. Whether it&apos;s a tranquil tea-plantation retreat in Munnar, sacred darshans in Rameswaram, high-altitude treks in Himachal, or an exotic island villa in Bali, our local experts craft every day around your personal rhythm.
             </p>
 
             <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
