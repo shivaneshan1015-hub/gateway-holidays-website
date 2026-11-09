@@ -34,7 +34,6 @@ export default function ContactLayout({ children }: { children: React.ReactNode 
           name: "Gateway Holidays",
           telephone: businessInfo.phonePrimary,
           email: businessInfo.email,
-          priceRange: "₹₹",
           currenciesAccepted: "INR",
           paymentAccepted: "Cash, Credit Card, Debit Card, UPI, Net Banking",
           hasMap: businessInfo.googleMapsUrl,

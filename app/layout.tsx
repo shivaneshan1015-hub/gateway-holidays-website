@@ -116,7 +116,6 @@ export const metadata: Metadata = {
           "4.8★ Rated tour operator in Anna Nagar, Madurai. Customized South India hill stations, high-altitude adventure trekking tours, heritage temple circuits, and international escapes with private sanitized AC cabs and 24/7 personal tour assistance.",
         telephone: "+91 81227 12587",
         email: "info@gatewayholidays.in",
-        priceRange: "₹₹",
         currenciesAccepted: "INR",
         paymentAccepted: "Cash, Credit Card, Debit Card, UPI, Net Banking",
         hasMap: "https://share.google/Ph649ZSpRfBmBvfY3",
