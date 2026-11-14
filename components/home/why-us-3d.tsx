@@ -17,7 +17,7 @@ import { SectionHeading } from "@/components/ui/section-heading";
 const trustPillars = [
   {
     icon: <Compass className="h-7 w-7 text-[#F25C05]" />,
-    title: "100% Bespoke Itineraries",
+    title: "Itineraries Built Around You",
     subtitle: "Tailored to your family or group",
     description:
       "We never force you into rigid bus schedules or crowded tour groups. Every day is planned around your desired wake-up time, preferred temples, viewpoints, and meal breaks.",
@@ -30,10 +30,10 @@ const trustPillars = [
   },
   {
     icon: <Car className="h-7 w-7 text-emerald-600" />,
-    title: "Private Sanitized AC Cab",
+    title: "Private AC Cab for Your Group",
     subtitle: "Dedicated driver with every package",
     description:
-      "Travel safely with your loved ones in a clean, sanitized air-conditioned vehicle. Active driver onboarding ensures polite, skilled drivers experienced in Ghat roads and local routes.",
+      "Travel with your family in a clean, air-conditioned vehicle used only by your group, with a driver who knows the ghat roads and local routes.",
     bulletPoints: [
       "Doorstep home or airport/station pickup and drop",
       "Tolls, fuel, parking, and driver batta included",
@@ -43,27 +43,27 @@ const trustPillars = [
   },
   {
     icon: <Headphones className="h-7 w-7 text-[#E61E6E]" />,
-    title: "24/7 Personal WhatsApp Support",
-    subtitle: "Real human coordinators, no bots",
+    title: "Personal WhatsApp Support",
+    subtitle: "Talk to a real person",
     description:
-      "From the moment your booking begins until you safely reach back home, our senior trip manager is available on direct WhatsApp and call to assist with hotel check-ins and live support.",
+      "From your first message until you are back home, our Madurai team is on WhatsApp and phone to help with check-ins, route changes and questions.",
     bulletPoints: [
-      "Dedicated trip coordinator assigned to you",
-      "Real-time route & weather guidance",
-      "Instant assistance for special restaurant recommendations",
+      "One contact person for your trip",
+      "Route and weather updates",
+      "Local food and restaurant suggestions",
     ],
     borderAccent: "hover:border-[#E61E6E]/50",
   },
   {
     icon: <ShieldCheck className="h-7 w-7 text-amber-500" />,
-    title: "Zero Hidden Costs or Surprises",
-    subtitle: "Completely transparent consultation",
+    title: "Clear, Itemised Quotes",
+    subtitle: "Know what you are paying for",
     description:
-      "We provide clear, honest quotations detailing exactly what is included and excluded. No hidden booking commissions, no surprise meter charges, and no compromise on resort quality.",
+      "Every quote lists exactly what is included and what is not, so you can compare and decide with confidence.",
     bulletPoints: [
       "Detailed inclusions & exclusions in advance",
       "Handpicked 3-Star, 4-Star resorts or private pool villas",
-      "Verified local hotel tie-ups for hassle-free check-ins",
+      "Hotels we know and work with regularly",
     ],
     borderAccent: "hover:border-amber-400/50",
   },

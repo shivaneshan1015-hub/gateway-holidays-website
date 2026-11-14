@@ -17,7 +17,7 @@ import { businessInfo } from "@/data/business";
 import { SectionHeading } from "@/components/ui/section-heading";
 
 export const metadata: Metadata = {
-  title: "Travel Guides, Pilgrimage Insights & Holiday Tips | Gateway Holidays Blog",
+  title: "South India Travel Guides from Madurai",
   description:
     "Expert South India travel guides, weekend itineraries from Madurai, temple darshan advice, Kolukkumalai sunrise safari guides, and Kerala backwater planning.",
   keywords: [

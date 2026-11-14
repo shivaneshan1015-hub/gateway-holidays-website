@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { BlogShell } from "@/components/blog/blog-shell";
 
 export const metadata: Metadata = {
-  title: "Travel Guides, Weekend Getaways & Itinerary Insights | Gateway Holidays Blog",
+  title: "Travel Guides, Weekend Getaways & Itinerary Insights",
   description:
     "Expert travel guides, hill station itineraries, temple circuit tips, and local insider advice from Gateway Holidays Madurai.",
   alternates: {

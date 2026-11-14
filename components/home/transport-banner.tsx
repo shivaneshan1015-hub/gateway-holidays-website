@@ -38,7 +38,7 @@ export function TransportBanner({ onOpenEnquiry }: TransportBannerProps) {
               </h2>
 
               <p className="text-sm text-slate-600 leading-relaxed max-w-2xl font-normal">
-                Every Gateway Holidays tour is a private experience — we never bundle you with strangers. A dedicated, sanitized air-conditioned vehicle is arranged exclusively for your family or group from pickup to return.
+                Every Gateway Holidays tour is a private experience — we never bundle you with strangers. A dedicated, clean air-conditioned vehicle is arranged exclusively for your family or group from pickup to return.
               </p>
 
               {/* 4 Feature Reassurance Grid */}

@@ -1,9 +1,6 @@
 import { NextResponse } from "next/server";
 import { createClient } from "@supabase/supabase-js";
 
-const DEFAULT_SUPABASE_URL = "https://megxoqgkienzfcnhklsq.supabase.co";
-const DEFAULT_SERVICE_ROLE_KEY =
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1lZ3hvcWdraWVuemZjbmhrbHNxIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc5MTA2NzIyOCwiZXhwIjoyMTA2NjQzMjI4fQ.mH6WeO348wjk0lQ5-DWdKAJe8_W1k88EUsQNoXHExho";
 
 function normalizePhone(rawPhone: string): string {
   const digits = rawPhone.replace(/\D/g, "");
@@ -46,10 +43,12 @@ async function directSupabaseIngestion(payload: {
   };
 }): Promise<{ success: boolean; leadId?: string; customerId?: string; error?: string }> {
   try {
-    const supabaseUrl =
-      process.env.NEXT_PUBLIC_SUPABASE_URL || DEFAULT_SUPABASE_URL;
-    const serviceKey =
-      process.env.SUPABASE_SERVICE_ROLE_KEY || DEFAULT_SERVICE_ROLE_KEY;
+    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+    const serviceKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+    if (!supabaseUrl || !serviceKey) {
+      console.error("[enquiry] Supabase env vars are missing");
+      return { success: false, error: "Server is not configured" };
+    }
 
     const supabase = createClient(supabaseUrl, serviceKey, {
       auth: { persistSession: false, autoRefreshToken: false },
@@ -269,11 +268,19 @@ async function directSupabaseIngestion(payload: {
  * Sends async webhook notification to the CRM if running without delaying user response.
  */
 async function dispatchWebhookNotification(payload: unknown, submissionId: string) {
-  const crmSecret = process.env.CRM_WEBHOOK_SECRET || "gh-website-webhook-secret-2026";
+  const crmSecret = process.env.CRM_WEBHOOK_SECRET;
+  if (!crmSecret) {
+    console.error("[enquiry] CRM_WEBHOOK_SECRET is missing; skipping CRM webhook");
+    return;
+  }
   const endpoints = [
     process.env.CRM_WEBHOOK_URL,
-    "http://localhost:3001/api/webhooks/website",
-    "http://127.0.0.1:3001/api/webhooks/website",
+    ...(process.env.NODE_ENV === "production"
+      ? []
+      : [
+          "http://localhost:3001/api/webhooks/website",
+          "http://127.0.0.1:3001/api/webhooks/website",
+        ]),
   ].filter(Boolean) as string[];
 
   for (const url of endpoints) {

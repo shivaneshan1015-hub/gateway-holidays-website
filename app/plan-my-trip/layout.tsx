@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { businessInfo } from "@/data/business";
 
 export const metadata: Metadata = {
-  title: "Plan My Trip — Bespoke Itinerary & Cab Quotation | Gateway Holidays",
+  title: "Plan Your Trip: Custom Itinerary & Quote",
   description:
     "Design your custom holiday package with Gateway Holidays. Choose your travel dates, hill station or heritage destination, resort category, and AC cab preference for a personalized itinerary from Madurai.",
   alternates: {
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Plan My Trip — Custom Holiday Planning | Gateway Holidays",
     description:
-      "Design your custom holiday package with dedicated private AC cabs and 24/7 personal tour assistance.",
+      "Design your custom holiday package with a private AC cab, hotels of your choice and support on WhatsApp.",
     url: "https://gatewayholidays.in/plan-my-trip",
     siteName: "Gateway Holidays",
     type: "website",

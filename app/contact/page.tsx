@@ -98,7 +98,7 @@ export default function ContactPage() {
                 <div>
                   <h3 className="text-xl font-bold text-slate-900">Head Office Madurai</h3>
                   <p className="text-xs text-slate-500 mt-1">
-                    Licensed & Registered Tour Operator
+                    Anna Nagar, Madurai
                   </p>
                 </div>
 

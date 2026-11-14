@@ -115,7 +115,7 @@ export function Hero3D({ onOpenEnquiry }: Hero3DProps) {
                 ))}
               </div>
               <span className="text-amber-300">|</span>
-              <span className="font-bold text-slate-800">Anna Nagar Madurai&apos;s 4.9★ Rated Travel Curator</span>
+              <span className="font-bold text-slate-800">Rated {businessInfo.rating}★ on Google by {businessInfo.reviewCount} travellers</span>
             </div>
 
             {/* Main Headline */}
@@ -127,7 +127,7 @@ export function Hero3D({ onOpenEnquiry }: Hero3DProps) {
 
             {/* Sub-headline */}
             <p className="text-base sm:text-lg text-slate-600 max-w-2xl mx-auto lg:mx-0 leading-relaxed font-normal">
-              From misty South Indian hill stations and high-altitude <span className="text-[#F25C05] font-semibold">Adventure Treks</span> to sacred temple circuits and tropical island escapes. Every tour includes a <strong className="text-slate-900 font-bold">dedicated private AC cab</strong>, handpicked resorts, and 24/7 personal trip coordination.
+              From misty South Indian hill stations and high-altitude <span className="text-[#F25C05] font-semibold">Adventure Treks</span> to sacred temple circuits and tropical island escapes. Every tour includes a <strong className="text-slate-900 font-bold">dedicated private AC cab</strong>, handpicked hotels and trip support on WhatsApp.
             </p>
 
             {/* 3 Core Trust Badges */}
@@ -140,13 +140,13 @@ export function Hero3D({ onOpenEnquiry }: Hero3DProps) {
 
               <div className="p-3.5 rounded-2xl bg-white border border-slate-200 shadow-xs text-left">
                 <Compass className="h-5 w-5 text-[#F25C05] mb-1" />
-                <p className="text-xs font-bold text-slate-900">100% Customized</p>
+                <p className="text-xs font-bold text-slate-900">Fully Customisable</p>
                 <p className="text-[11px] text-slate-500">No fixed group rush</p>
               </div>
 
               <div className="p-3.5 rounded-2xl bg-white border border-slate-200 shadow-xs text-left">
                 <ShieldCheck className="h-5 w-5 text-[#E61E6E] mb-1" />
-                <p className="text-xs font-bold text-slate-900">Zero Hidden Fees</p>
+                <p className="text-xs font-bold text-slate-900">Itemised Quotes</p>
                 <p className="text-[11px] text-slate-500">Clear custom quotes</p>
               </div>
             </div>

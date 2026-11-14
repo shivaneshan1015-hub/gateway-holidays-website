@@ -39,6 +39,20 @@ export async function generateStaticParams() {
   }));
 }
 
+// "Munnar - Kerala Hill Station" + "1 Night / 2 Days" ->
+// "Munnar Tour Package from Madurai (1N/2D) | Gateway Holidays" (brand dropped if over 60 chars)
+function seoTourTitle(title: string, duration: string): string {
+  const place = title.split(/ [-—–] /)[0].replace(/ (Tour|Trip)$/i, "").trim();
+  const short = duration
+    .replace(/(\d+)\s*Nights?/i, "$1N")
+    .replace(/(\d+)\s*Days?/i, "$1D")
+    .replace(/\s*\/\s*/, "/");
+  const base = `${place} Tour Package from Madurai (${short})`;
+  const withBrand = `${base} | Gateway Holidays`;
+  if (withBrand.length <= 60) return withBrand;
+  return base.length <= 60 ? base : `${place} Tour Package from Madurai`;
+}
+
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
   const tour = getTourBySlug(slug);
@@ -56,8 +70,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     : tour.image;
 
   return {
-    title: `${tour.title} — ${tour.duration} Private Tour | Gateway Holidays`,
-    description: `${tour.subtitle}. Private AC Cab, handpicked resort stays, and 24/7 trip coordinator included. Customize your itinerary from Madurai.`,
+    title: { absolute: seoTourTitle(tour.title, tour.duration) },
+    description: tour.subtitle,
     alternates: {
       canonical: canonicalUrl,
     },
@@ -173,32 +187,11 @@ export default async function TourDetailPage({ params }: PageProps) {
       },
       {
         "@type": "FAQPage",
-        mainEntity: [
-          {
-            "@type": "Question",
-            name: `What is included in the ${tour.title} package?`,
-            acceptedAnswer: {
-              "@type": "Answer",
-              text: `The ${tour.title} includes dedicated private AC cab transportation with experienced driver, fuel, highway tolls, parking fees, interstate permits, handpicked hotel/resort stays, daily breakfast, and 24/7 on-tour customer support from Gateway Holidays.`
-            }
-          },
-          {
-            "@type": "Question",
-            name: `What is the pickup and starting point for ${tour.title}?`,
-            acceptedAnswer: {
-              "@type": "Answer",
-              text: `Pickup is arranged upon arrival at Madurai Airport (IXM), Madurai Junction (MDU), or your doorstep in Southern Tamil Nadu. Custom pickups from Coimbatore, Trichy, or Cochin are also available.`
-            }
-          },
-          {
-            "@type": "Question",
-            name: `Can we customize the itinerary or hotel category for this ${tour.duration} tour?`,
-            acceptedAnswer: {
-              "@type": "Answer",
-              text: `Yes, all Gateway Holidays packages are 100% customizable. You can adjust the duration, add stopovers, upgrade to luxury pool villas, or modify sightseeing spots by connecting with our trip architect on WhatsApp.`
-            }
-          }
-        ]
+        mainEntity: (tour.faqs ?? []).map((f) => ({
+          "@type": "Question",
+          name: f.question,
+          acceptedAnswer: { "@type": "Answer", text: f.answer },
+        }))
       }
     ],
   };

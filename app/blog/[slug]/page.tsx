@@ -33,7 +33,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     : post.heroImage;
 
   return {
-    title: post.metaTitle,
+    title: {
+      absolute:
+        post.metaTitle.length <= 41 ? `${post.metaTitle} | Gateway Holidays` : post.metaTitle,
+    },
     description: post.metaDescription,
     keywords: post.keywords,
     alternates: {

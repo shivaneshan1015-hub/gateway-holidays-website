@@ -3,16 +3,16 @@ import type { Metadata } from "next";
 import { businessInfo } from "@/data/business";
 
 export const metadata: Metadata = {
-  title: "Contact Us — Anna Nagar, Madurai Head Office | Gateway Holidays",
+  title: "Contact Us — Anna Nagar, Madurai",
   description:
-    "Get in touch with Gateway Holidays Madurai. Call +91 81227 12587 or visit our office at 4C, Opp. Ambika College, Anna Nagar, Madurai. 24/7 WhatsApp holiday support.",
+    "Get in touch with Gateway Holidays Madurai. Call +91 81227 12587 or visit our office at 4C, Opp. Ambika College, Anna Nagar, Madurai. Plan your trip with us on WhatsApp.",
   alternates: {
     canonical: "https://gatewayholidays.in/contact",
   },
   openGraph: {
     title: "Contact Gateway Holidays — Anna Nagar, Madurai",
     description:
-      "Call +91 81227 12587 or visit our office at 4C, Opp. Ambika College, Anna Nagar, Madurai. 24/7 WhatsApp holiday support.",
+      "Call +91 81227 12587 or visit our office at 4C, Opp. Ambika College, Anna Nagar, Madurai. Plan your trip with us on WhatsApp.",
     url: "https://gatewayholidays.in/contact",
     siteName: "Gateway Holidays",
     type: "website",

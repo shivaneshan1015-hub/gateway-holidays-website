@@ -28,6 +28,7 @@ import { TourPackage } from "@/data/tours";
 import { businessInfo } from "@/data/business";
 import { SectionHeading } from "@/components/ui/section-heading";
 import { EnquiryModal } from "@/components/tours/enquiry-modal";
+import { getImageCredit } from "@/data/image-credits";
 
 interface BlogClientProps {
   post: BlogPost;
@@ -146,6 +147,15 @@ export function BlogClient({ post, relatedPosts, relatedTours }: BlogClientProps
             sizes="(max-width: 1200px) 100vw, 1100px"
           />
         </div>
+        {getImageCredit(post.heroImage) && (
+          <p className="mt-2 text-[11px] text-slate-400">
+            Photo: {getImageCredit(post.heroImage)!.author},{" "}
+            <a href={getImageCredit(post.heroImage)!.source} target="_blank" rel="noopener nofollow" className="underline">
+              {getImageCredit(post.heroImage)!.license}
+            </a>
+            , via Wikimedia Commons
+          </p>
+        )}
       </div>
 
       {/* Main Content Layout */}
@@ -302,7 +312,7 @@ export function BlogClient({ post, relatedPosts, relatedTours }: BlogClientProps
                         Want this circuit arranged end-to-end with private cab?
                       </span>
                       <Link
-                        href={`/tours/${section.ctaTourSlug}`}
+                        href={["south-india", "heritage-temple", "adventure-trekking", "island", "north-india", "international"].includes(section.ctaTourSlug) ? `/tours?category=${section.ctaTourSlug}` : `/tours/${section.ctaTourSlug}`}
                         className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-gradient-to-r from-[#E61E6E] to-[#F25C05] text-white text-xs font-bold shadow-xs hover:scale-105 transition-all"
                       >
                         <span>{section.ctaTourTitle || "View Tour Package"}</span>
