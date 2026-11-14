@@ -4,16 +4,16 @@ import { tourPackages } from "@/data/tours";
 import { businessInfo } from "@/data/business";
 
 export const metadata: Metadata = {
-  title: "Tour Packages — South India, Hill Stations, Temples & Escapes | Gateway Holidays",
+  title: { absolute: "Tour Packages from Madurai | Gateway Holidays" },
   description:
-    "Explore 50+ handpicked holiday packages from Madurai with dedicated AC cabs, luxury resort stays, and 24/7 personal tour assistance. Customize your South India, Kerala, Heritage, or International tour.",
+    "Tour packages from Madurai for hill stations, temples, Kerala backwaters, islands and abroad, with private AC cabs and hotels. Every trip can be customised.",
   alternates: {
     canonical: "https://gatewayholidays.in/tours",
   },
   openGraph: {
     title: "Tour Packages — Customized Holidays from Madurai | Gateway Holidays",
     description:
-      "Explore 50+ handpicked holiday packages from Madurai with dedicated AC cabs and 24/7 personal tour assistance.",
+      "Tour packages from Madurai with private AC cabs and handpicked hotels. Every trip can be customised.",
     url: "https://gatewayholidays.in/tours",
     siteName: "Gateway Holidays",
     type: "website",

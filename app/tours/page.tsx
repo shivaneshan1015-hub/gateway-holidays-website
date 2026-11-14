@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useMemo, Suspense } from "react";
+import React, { useState, useMemo, useEffect, Suspense } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useSearchParams } from "next/navigation";
@@ -28,26 +28,23 @@ import { EnquiryModal } from "@/components/tours/enquiry-modal";
 import { tourPackages, tourCategories, TourCategory } from "@/data/tours";
 import { SectionHeading } from "@/components/ui/section-heading";
 
-function ToursContent() {
-  const searchParams = useSearchParams();
-  const categoryParam = searchParams.get("category") as TourCategory | null;
+// Reads ?category= on the client only, so the full tour list is still
+// rendered into the HTML that search engines see.
+function CategoryFromUrl({ onChange }: { onChange: (c: TourCategory) => void }) {
+  const category = useSearchParams().get("category") as TourCategory | null;
+  useEffect(() => {
+    if (category) onChange(category);
+  }, [category, onChange]);
+  return null;
+}
 
-  const [selectedCategory, setSelectedCategory] = useState<"all" | TourCategory>(
-    categoryParam || "all"
-  );
+function ToursContent() {
+  const [selectedCategory, setSelectedCategory] = useState<"all" | TourCategory>("all");
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedTheme, setSelectedTheme] = useState<string>("all");
   const [modalOpen, setModalOpen] = useState(false);
   const [activeTourForModal, setActiveTourForModal] = useState<string | undefined>();
 
-  // Sync if URL query param changes
-  const [prevCategoryParam, setPrevCategoryParam] = useState(categoryParam);
-  if (categoryParam !== prevCategoryParam) {
-    setPrevCategoryParam(categoryParam);
-    if (categoryParam) {
-      setSelectedCategory(categoryParam);
-    }
-  }
 
   const filteredTours = useMemo(() => {
     return tourPackages.filter((tour) => {
@@ -73,6 +70,9 @@ function ToursContent() {
 
   return (
     <div className="min-h-screen flex flex-col bg-slate-50 text-slate-900">
+      <Suspense fallback={null}>
+        <CategoryFromUrl onChange={setSelectedCategory} />
+      </Suspense>
       <Navbar onOpenEnquiry={() => setModalOpen(true)} />
 
       {/* Hero Header Strip (Clean Light Theme) */}
@@ -330,9 +330,5 @@ function ToursContent() {
 }
 
 export default function ToursHubPage() {
-  return (
-    <Suspense fallback={<div className="min-h-screen bg-slate-50" />}>
-      <ToursContent />
-    </Suspense>
-  );
+  return <ToursContent />;
 }

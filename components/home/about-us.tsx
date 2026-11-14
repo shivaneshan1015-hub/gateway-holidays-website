@@ -42,17 +42,17 @@ export function AboutUs({ onOpenEnquiry }: AboutUsProps) {
     },
     {
       icon: <ShieldCheck className="h-6 w-6 text-blue-600" />,
-      title: "Zero Hidden Costs Policy",
+      title: "Itemised Quotes",
       description:
-        "Transparent, comprehensive quotations. Tolls, driver allowances, and permits are clearly itemized so you can travel with complete peace of mind.",
+        "Tolls, driver allowance and permits are listed in every quote, so you know what is included before you book.",
       badge: "Honest Pricing",
     },
     {
       icon: <HeartHandshake className="h-6 w-6 text-[#F25C05]" />,
-      title: "24/7 Madurai Tour Support",
+      title: "Madurai-Based Trip Support",
       description:
-        "You are never alone on the road. Our central Anna Nagar team monitors your journey live and provides immediate assistance whenever needed.",
-      badge: "Round-the-Clock Support",
+        "Our Anna Nagar team stays in touch on phone and WhatsApp throughout your trip.",
+      badge: "On-Trip Support",
     },
   ];
 
@@ -170,8 +170,8 @@ export function AboutUs({ onOpenEnquiry }: AboutUsProps) {
                     <div className="text-[11px] text-slate-300 font-medium mt-1">Private AC Cabs</div>
                   </div>
                   <div className="p-4 rounded-2xl bg-white/5 border border-white/10">
-                    <div className="text-2xl sm:text-3xl font-black text-sky-400">24/7</div>
-                    <div className="text-[11px] text-slate-300 font-medium mt-1">Madurai Travel Desk</div>
+                    <div className="text-2xl sm:text-3xl font-black text-sky-400">Madurai</div>
+                    <div className="text-[11px] text-slate-300 font-medium mt-1">Anna Nagar Travel Desk</div>
                   </div>
                 </div>
 

@@ -58,19 +58,19 @@ export interface BlogPost {
 export const blogPosts: BlogPost[] = [
   {
     "slug": "madurai-to-rameswaram-dhanushkodi-complete-travel-guide",
-    "title": "Can You Do Madurai to Rameswaram & Dhanushkodi in One Day? Timing, Route & Cab Itinerary (2026)",
-    "metaTitle": "Madurai to Rameswaram & Dhanushkodi One Day Trip Guide (2026) | Gateway Holidays",
-    "metaDescription": "Practical guide to a same-day Madurai to Rameswaram & Dhanushkodi round trip by private cab. NH-87 route, 22 theerthams, checkpost timings, and Pamban Bridge views.",
+    "title": "Madurai to Rameswaram and Dhanushkodi in One Day: Route, Timings and Plan",
+    "metaTitle": "Madurai to Rameswaram & Dhanushkodi One Day Trip Plan",
+    "metaDescription": "Can you do Madurai to Rameswaram and Dhanushkodi in one day? Distance, a realistic hour-by-hour plan, theertham bath tips and Dhanushkodi road timings.",
     "category": "Weekend Getaways",
     "publishDate": "October 18, 2026",
-    "modifiedDate": "November 9, 2026",
+    "modifiedDate": "2026-11-14",
     "readingTime": "6 min read",
     "author": {
       "name": "Murali",
-      "role": "Lead Travel Planner, Gateway Holidays Madurai"
+      "role": "Founder, Gateway Holidays, Madurai"
     },
     "heroImage": "/images/blogs/rameswaram-temple-pamban.webp",
-    "excerpt": "Complete one-day road trip guide from Madurai to Rameswaram and the ghost town of Dhanushkodi via the NH-87 four-lane highway.",
+    "excerpt": "A realistic one-day plan for Madurai to Rameswaram and Dhanushkodi: when to leave, how long the theertham bath takes, and when the Dhanushkodi road closes.",
     "quickAnswer": "Yes, a same-day Madurai to Rameswaram and Dhanushkodi round trip is practical by private AC cab. The drive takes 3 hours via the NH-87 four-lane highway (172 km). Departing Madurai by 5:30 AM allows morning darshan at Ramanathaswamy Temple (7:30 AM – 11:30 AM), visiting Dhanushkodi and Arichal Munai by 2:00 PM before the 5:00 PM checkpost closure, stopping at Pamban Bridge for sunset, and returning to Madurai by 9:30 PM.",
     "quickSummaryPoints": [
       {
@@ -209,6 +209,18 @@ export const blogPosts: BlogPost[] = [
       {
         "question": "What is the best month to do the Madurai to Rameswaram road trip?",
         "answer": "October to March offers the most pleasant coastal temperatures (22°C to 30°C) with dry sunny skies and comfortable sea breezes."
+      },
+      {
+        "question": "What is the distance from Madurai to Rameswaram?",
+        "answer": "About 175 km by road via Paramakudi and Ramanathapuram, which takes roughly 3.5 to 4 hours by car."
+      },
+      {
+        "question": "Is one day enough for Rameswaram and Dhanushkodi?",
+        "answer": "It is possible if you leave Madurai by 4:30 to 5 am, but it is a 14 to 15 hour day. Families with elders are more comfortable staying one night."
+      },
+      {
+        "question": "How long does the 22 theertham bath take?",
+        "answer": "Usually one to two hours depending on the crowd. Weekends and Amavasai days take longer."
       }
     ],
     "relatedTourSlugs": [
@@ -226,19 +238,19 @@ export const blogPosts: BlogPost[] = [
   },
   {
     "slug": "madurai-to-kodaikanal-road-trip-guide",
-    "title": "Madurai to Kodaikanal by Road: Distance, Ghat Driving Hours & Best Route via Batlagundu",
-    "metaTitle": "Madurai to Kodaikanal by Road (2026 Route & Cab Guide) | Gateway Holidays",
-    "metaDescription": "Driving from Madurai to Kodaikanal? Discover the shortest 120 km route via Batlagundu, ghat hairpin bends, Silver Cascade checkpost, and cab travel tips.",
+    "title": "Madurai to Kodaikanal by Road: Distance, Route, Ghat Road and Travel Time",
+    "metaTitle": "Madurai to Kodaikanal by Road: Distance, Route & Time",
+    "metaDescription": "Madurai to Kodaikanal is about 120 km via Batlagundu. See the best route, ghat road tips, stops like Silver Cascade, and how to plan a 2-day trip.",
     "category": "Weekend Getaways",
     "publishDate": "October 20, 2026",
-    "modifiedDate": "November 9, 2026",
+    "modifiedDate": "2026-11-14",
     "readingTime": "5 min read",
     "author": {
       "name": "Murali",
-      "role": "Lead Travel Planner, Gateway Holidays Madurai"
+      "role": "Founder, Gateway Holidays, Madurai"
     },
     "heroImage": "/images/blogs/kodaikanal-pine-forest.webp",
-    "excerpt": "Everything you need to know about driving from Madurai to the Princess of Hill Stations: 120 km, 3.5 hours, and scenic mountain curves.",
+    "excerpt": "Everything you need for the Madurai to Kodaikanal drive: about 120 km, 3 to 3.5 hours, the Batlagundu route and the ghat road stops worth making.",
     "quickAnswer": "The road distance from Madurai to Kodaikanal is 120 km and takes approximately 3 to 3.5 hours by car. The smoothest route follows the NH-44 four-lane highway up to Dindigul/Sithayan Kottai, then connects via the SH-156 Batlagundu ghat road with gentle curves and wide asphalt, passing Machur and the Silver Cascade Waterfall before entering town.",
     "quickSummaryPoints": [
       {
@@ -346,6 +358,18 @@ export const blogPosts: BlogPost[] = [
       {
         "question": "Is night driving safe on the Kodaikanal ghat road?",
         "answer": "While the road is well-paved, dense fog and mist reduce visibility after 8:00 PM. We strongly recommend completing the hill ascent before 7:00 PM for safety and to enjoy the scenic valley views."
+      },
+      {
+        "question": "What is the distance from Madurai to Kodaikanal?",
+        "answer": "About 120 km via Vadipatti and Batlagundu. The drive takes about 3 to 3.5 hours, with the last 50 km on the ghat road."
+      },
+      {
+        "question": "How many days are enough for Kodaikanal?",
+        "answer": "Two days cover the lake, Coaker's Walk, Pillar Rocks, Guna Caves and the pine forest. Add a day for Berijam Lake or Poombarai."
+      },
+      {
+        "question": "Is the Kodaikanal ghat road safe for first-time drivers?",
+        "answer": "It is a good road but has many bends and heavy traffic in season. If you are not used to hill driving, a cab with an experienced driver is less stressful."
       }
     ],
     "relatedTourSlugs": [
@@ -362,20 +386,20 @@ export const blogPosts: BlogPost[] = [
   },
   {
     "slug": "madurai-to-munnar-car-route-bodimettu-pass-guide",
-    "title": "Madurai to Munnar by Car: The Scenic Bodimettu Route vs Chinnakanal Road Conditions",
-    "metaTitle": "Madurai to Munnar by Car: Bodimettu Route & Travel Guide (2026)",
-    "metaDescription": "Driving from Madurai to Munnar? Read our 2026 route comparison: NH-85 via Theni and Bodimettu Ghat Pass, drive times, checkposts, and viewpoints.",
+    "title": "Madurai to Munnar by Car: Distance, Bodimettu Route and Travel Time",
+    "metaTitle": "Madurai to Munnar Distance, Route & Travel Time by Car",
+    "metaDescription": "Madurai to Munnar is about 155 km via Theni and the Bodimettu ghat. See travel time, road stops, the Kerala border checkpost and tips for a smooth drive.",
     "category": "Kerala Circuits",
     "publishDate": "October 22, 2026",
-    "modifiedDate": "November 9, 2026",
+    "modifiedDate": "2026-11-14",
     "readingTime": "6 min read",
     "author": {
       "name": "Murali",
-      "role": "Lead Travel Planner, Gateway Holidays Madurai"
+      "role": "Founder, Gateway Holidays, Madurai"
     },
     "heroImage": "/images/blogs/munnar-tea-gardens.webp",
-    "excerpt": "Discover the newly upgraded NH-85 Bodimettu pass from Madurai to Munnar: 155 km, 4.5 hours, and rolling emerald tea hills.",
-    "quickAnswer": "The drive from Madurai to Munnar is 155 km and takes approximately 4.5 hours via the NH-85 highway passing Usilampatti, Theni, Bodi, and the Bodimettu Ghat Pass. The Bodimettu highway has been newly widened into a smooth two-lane mountain corridor with 14 gradual hairpin bends, scenic valley overlooks, and lower traffic than the Coimbatore or Kochi approach routes.",
+    "excerpt": "The Madurai to Munnar drive via Theni and Bodimettu: about 155 km and 4.5 hours, with tea estate views, spice stops and the Kerala border checkpost.",
+    "quickAnswer": "The drive from Madurai to Munnar is 155 km and takes approximately 4.5 hours via the NH-85 highway passing Usilampatti, Theni, Bodi, and the Bodimettu Ghat Pass. The Bodimettu ghat road has hairpin bends and valley viewpoints, and usually less traffic than the approach from Kochi.",
     "quickSummaryPoints": [
       {
         "title": "Madurai to Theni",
@@ -442,7 +466,7 @@ export const blogPosts: BlogPost[] = [
       }
     ],
     "proTips": [
-      "State Border Permitting: Commercial tourist cabs crossing from Tamil Nadu into Kerala must pay the interstate road tax. When booking with Gateway Holidays, this permit cost is always pre-calculated and included in your booking quotation.",
+      "State Border Permitting: Commercial tourist cabs crossing from Tamil Nadu into Kerala must pay the interstate road tax. When you book with Gateway Holidays, this permit is listed in your quote.",
       "Cardamom Shopping: The stretch between Bodimettu and Poopara features genuine farmer-direct spice outlets where you can purchase high-grade green cardamom, black pepper, and clove.",
       "Chinnakanal Lake View: In the late afternoon, mist rolls over the Anaerangal Dam reservoir along Gap Road, creating postcard-worthy photographic conditions."
     ],
@@ -471,11 +495,23 @@ export const blogPosts: BlogPost[] = [
     "faqs": [
       {
         "question": "Is the road between Theni and Munnar in good condition right now?",
-        "answer": "Yes. The NH-85 stretch from Theni through Bodimettu and Gap Road was completely widened and rebuilt by the National Highways Authority. It is currently in pristine condition with smooth asphalt and protective safety walls."
+        "answer": "The NH-85 stretch through Bodimettu and Gap Road has been widened in recent years and is generally in good condition. Landslides can close parts of Gap Road in heavy monsoon rain, so check conditions before you travel."
       },
       {
         "question": "Can we reach Munnar faster via Madurai than via Kochi?",
         "answer": "If you are flying into Madurai Airport or traveling from Southern Tamil Nadu, driving via Bodimettu takes roughly 4.5 hours with far less urban traffic than the congested Kochi-Aluva-Kothamangalam corridor."
+      },
+      {
+        "question": "What is the distance from Madurai to Munnar?",
+        "answer": "About 155 km from Madurai city via Theni, Bodi and the Bodimettu ghat. The drive takes about 4.5 hours with short stops."
+      },
+      {
+        "question": "Which is the shortest route from Madurai to Munnar?",
+        "answer": "The Bodimettu route via Theni and Bodinayakanur is the shortest and most common. The route via Kumily is longer."
+      },
+      {
+        "question": "Is there a Madurai to Munnar bus?",
+        "answer": "Yes, Tamil Nadu and Kerala state buses run via Theni and Bodi, but they take longer and stop often. A cab lets you stop at viewpoints on the way."
       }
     ],
     "relatedTourSlugs": [
@@ -492,26 +528,26 @@ export const blogPosts: BlogPost[] = [
   },
   {
     "slug": "south-india-temple-dress-code-and-rules-guide",
-    "title": "South India Temple Dress Code (2026): What to Wear in Madurai, Rameswaram, Thanjavur & Srirangam",
-    "metaTitle": "South India Temple Dress Code Rules (2026 Guide) | Gateway Holidays",
-    "metaDescription": "Mandatory dress code, locker rules, and entry guidelines for Madurai Meenakshi, Rameswaram, Thanjavur Big Temple, and Srirangam.",
+    "title": "Temple Dress Code in Tamil Nadu: What to Wear at Madurai, Rameswaram, Thanjavur and Srirangam",
+    "metaTitle": "Temple Dress Code in Tamil Nadu: What to Wear (2026)",
+    "metaDescription": "What to wear at Meenakshi Temple, Rameswaram, Thanjavur and Srirangam: dress code for men and women, phone rules and locker tips before you visit.",
     "category": "Temple Pilgrimage",
     "publishDate": "October 25, 2026",
-    "modifiedDate": "November 9, 2026",
+    "modifiedDate": "2026-11-14",
     "readingTime": "7 min read",
     "author": {
       "name": "Murali",
-      "role": "Lead Travel Planner, Gateway Holidays Madurai"
+      "role": "Founder, Gateway Holidays, Madurai"
     },
     "heroImage": "/images/blogs/madurai-meenakshi-temple.webp",
-    "excerpt": "Everything you need to know about traditional temple attire, mobile phone restrictions, and darshan etiquette across Tamil Nadu's historic shrines.",
+    "excerpt": "A simple guide to temple dress codes in Tamil Nadu: what men and women should wear, where phones are banned, and how to avoid being turned away at the gate.",
     "quickAnswer": "Major Tamil Nadu temples enforce a mandatory traditional dress code mandated by the High Court. Men must wear traditional dhotis with angavastram, pyjama sets, or formal trousers with shirts (jeans, shorts, and lungis are barred; shirts must be removed at Rameswaram and Srirangam inner sanctums). Women must wear sarees, half-sarees, or salwar kameez with dupattas (leggings, sleeveless tops, and skirts are prohibited). Mobile phones must be deposited in security lockers outside the temple.",
     "quickSummaryPoints": [
       {
         "title": "Attire for Men",
         "distance": "Mandatory Rule",
         "highlight": "Dhoti with shirt/angavastram or formal trousers with shirt",
-        "bestFor": "Guaranteed entry across all gopuram gates without hassle"
+        "bestFor": "Smooth entry through the temple gates"
       },
       {
         "title": "Attire for Women",
@@ -554,7 +590,7 @@ export const blogPosts: BlogPost[] = [
           "Wear easy-to-slip-on footwear that can be checked in and retrieved quickly"
         ],
         "idealDuration": "Read before packing your trip luggage",
-        "insiderTip": "Small traditional shops right outside temple entrances sell simple cotton dhotis for Rs. 150 to Rs. 250 if your travel attire is flagged by security.",
+        "insiderTip": "Small traditional shops right outside temple entrances sell simple cotton dhotis if security asks you to change.",
         "ctaTourSlug": "madurai-meenakshi-amman-temple-tour",
         "ctaTourTitle": "View Madurai Heritage Temple Tour"
       },
@@ -574,7 +610,7 @@ export const blogPosts: BlogPost[] = [
           "Thanjavur Big Temple allows photography in the outer courtyard, but never inside the sanctum"
         ],
         "idealDuration": "Saves 30 to 45 minutes of locker queue time",
-        "insiderTip": "Keep Rs. 20 and Rs. 50 notes handy in a small pouch; special darshan queue tickets and footwear tokens require exact change.",
+        "insiderTip": "Keep small change handy in a pouch; special darshan queue tickets and footwear tokens require exact change.",
         "ctaTourSlug": "thanjavur-big-temple-tour",
         "ctaTourTitle": "View Thanjavur Big Temple Tour"
       }
@@ -614,6 +650,18 @@ export const blogPosts: BlogPost[] = [
       {
         "question": "Are non-Hindus allowed inside Tamil Nadu temples?",
         "answer": "At Madurai Meenakshi Temple, non-Hindus are permitted inside the outer corridors, courtyards, and the Hall of 1,000 Pillars, but cannot enter the sanctum sanctorum of Goddess Meenakshi or Lord Sundareswarar. Thanjavur Big Temple courtyards are open to all visitors."
+      },
+      {
+        "question": "Can I wear jeans to Meenakshi Temple?",
+        "answer": "Full-length jeans are usually allowed for men and women, but shorts, sleeveless tops and short skirts are not. Traditional dress is always the safest choice."
+      },
+      {
+        "question": "Are mobile phones allowed in Tamil Nadu temples?",
+        "answer": "Meenakshi Temple and several other major temples do not allow phones inside. Use the paid counters at the entrance or leave your phone with your driver."
+      },
+      {
+        "question": "What should men wear to Padmanabhaswamy Temple?",
+        "answer": "Men must wear a mundu or dhoti and enter without a shirt. Dhotis can be rented near the temple."
       }
     ],
     "relatedTourSlugs": [
@@ -630,19 +678,19 @@ export const blogPosts: BlogPost[] = [
   },
   {
     "slug": "navagraha-temple-tour-circuit-kumbakonam-route-guide",
-    "title": "Complete Navagraha Temple Tour Route: Sequence, Distance & 2-Day Cab Itinerary",
-    "metaTitle": "Navagraha Temple Tour Route & Itinerary (2026 Guide) | Gateway Holidays",
-    "metaDescription": "Plan your 9 Navagraha temple tour around Kumbakonam: exact circuit sequence, travel distances, darshan timings, and a 2-day cab itinerary.",
+    "title": "Navagraha Temples Tour Around Kumbakonam: Route, Order and 2-Day Plan",
+    "metaTitle": "Navagraha Temples Tour: Route, Order & 2-Day Plan",
+    "metaDescription": "Plan the 9 Navagraha temples near Kumbakonam in 2 days: the temple list, best visiting order, distances and how to work around afternoon closures.",
     "category": "Temple Pilgrimage",
     "publishDate": "October 28, 2026",
-    "modifiedDate": "November 9, 2026",
+    "modifiedDate": "2026-11-14",
     "readingTime": "8 min read",
     "author": {
       "name": "Murali",
-      "role": "Lead Travel Planner, Gateway Holidays Madurai"
+      "role": "Founder, Gateway Holidays, Madurai"
     },
     "heroImage": "/images/blogs/thanjavur-brihadeeswarar-temple.webp",
-    "excerpt": "The definitive guide to completing all 9 planetary Navagraha temples around Kumbakonam in 2 days without missing midday temple closure windows.",
+    "excerpt": "How to visit all nine Navagraha temples around Kumbakonam in two days: the temple list, a practical route and the midday closures to plan around.",
     "quickAnswer": "To complete all 9 Navagraha temples in 2 days by cab, follow the geographic circular route: Day 1 covers Thingalur (Moon), Alangudi (Jupiter), Thirunageswaram (Rahu), Suriyanar (Sun), and Kanjanoor (Venus). Day 2 covers Vaitheeswaran Koil (Mars), Thiruvenkadu (Mercury), Keezhperumpallam (Ketu), and concludes at Thirunallar (Saturn) before the evening closing prayer.",
     "quickSummaryPoints": [
       {
@@ -752,6 +800,18 @@ export const blogPosts: BlogPost[] = [
       {
         "question": "Do we need to take a bath before visiting each temple?",
         "answer": "No. You only need to bathe in the morning. Special holy tank dips (such as Nala Theertham at Thirunallar or Agni Theertham) have dedicated changing facilities on site."
+      },
+      {
+        "question": "What are the 9 Navagraha temples?",
+        "answer": "Suriyanar Koil (Sun), Thingalur (Moon), Vaitheeswaran Koil (Mars), Thiruvenkadu (Mercury), Alangudi (Jupiter), Kanjanur (Venus), Thirunallar (Saturn), Thirunageswaram (Rahu) and Keezhperumpallam (Ketu)."
+      },
+      {
+        "question": "Can we visit all Navagraha temples in one day?",
+        "answer": "It is possible with a very early start, but temples close in the afternoon, so one day is rushed. Two days is more comfortable."
+      },
+      {
+        "question": "How far is Kumbakonam from Madurai?",
+        "answer": "About 220 km via Thanjavur, roughly 4.5 hours by road."
       }
     ],
     "relatedTourSlugs": [
@@ -768,19 +828,19 @@ export const blogPosts: BlogPost[] = [
   },
   {
     "slug": "arupadai-veedu-murugan-temple-tour-madurai-guide",
-    "title": "Arupadai Veedu Murugan Temple Tour: 4-Day Complete Itinerary Starting from Madurai",
-    "metaTitle": "Arupadai Veedu Murugan Tour (4-Day Madurai Route) | Gateway Holidays",
-    "metaDescription": "Complete travel guide to Lord Murugan's 6 sacred abodes (Arupadai Veedu) starting from Madurai. Route map, distances, winch tips, and cab booking.",
+    "title": "Arupadai Veedu Temples Tour from Madurai: 4-Day Route to Murugan's Six Abodes",
+    "metaTitle": "Arupadai Veedu Temples Tour from Madurai: 4-Day Plan",
+    "metaDescription": "Visit all six Arupadai Veedu Murugan temples from Madurai: Thiruparankundram, Tiruchendur, Palani, Swamimalai, Tiruttani and Pazhamudircholai in 4 days.",
     "category": "Temple Pilgrimage",
     "publishDate": "November 1, 2026",
-    "modifiedDate": "November 9, 2026",
+    "modifiedDate": "2026-11-14",
     "readingTime": "7 min read",
     "author": {
       "name": "Murali",
-      "role": "Lead Travel Planner, Gateway Holidays Madurai"
+      "role": "Founder, Gateway Holidays, Madurai"
     },
     "heroImage": "/images/tours/tiruchendur-rameshwaram.webp",
-    "excerpt": "Why Madurai is the natural starting hub for Lord Murugan's six abodes, and how to comfortably complete the 4-day devotional circuit by private cab.",
+    "excerpt": "A practical 4-day route from Madurai to Lord Murugan's six abodes, with distances, the best order and tips for the climbs at Palani and Tiruttani.",
     "quickAnswer": "Madurai is the natural starting hub for the Arupadai Veedu tour since Thirupparankundram (1st abode) and Pazhamudircholai (6th abode) are both situated within Madurai city limits. A private cab route heads south to coastal Tiruchendur (2nd abode, 180 km), cuts northwest across NH-44 to hilltop Palani (3rd abode, 115 km), proceeds east to Swamimalai (4th abode near Kumbakonam), and concludes at Tiruttani (5th abode near Chennai) over 4 to 5 days.",
     "quickSummaryPoints": [
       {
@@ -886,6 +946,18 @@ export const blogPosts: BlogPost[] = [
       {
         "question": "Can we start and end the tour in Madurai?",
         "answer": "Yes, you can do a round-trip returning to Madurai, or an open-jaw circuit ending at Chennai after completing Tiruttani."
+      },
+      {
+        "question": "What are the six Arupadai Veedu temples?",
+        "answer": "Thiruparankundram, Tiruchendur, Palani, Swamimalai, Tiruttani and Pazhamudircholai."
+      },
+      {
+        "question": "How many days are needed for the Arupadai Veedu tour?",
+        "answer": "Four days by road from Madurai is comfortable. Tiruttani is far north, near Chennai, so it takes the most driving."
+      },
+      {
+        "question": "Which Arupadai Veedu temples are near Madurai?",
+        "answer": "Thiruparankundram is in Madurai city and Pazhamudircholai is on Alagar Hills, about 25 km away. Palani and Tiruchendur are each about 2.5 to 4 hours away."
       }
     ],
     "relatedTourSlugs": [
@@ -902,19 +974,19 @@ export const blogPosts: BlogPost[] = [
   },
   {
     "slug": "kolukkumalai-sunrise-jeep-safari-vagamon-adventure-guide",
-    "title": "Kolukkumalai Sunrise Jeep Safari: Cost, Timings, Booking Reality & 4x4 Route (2026)",
-    "metaTitle": "Kolukkumalai Sunrise Jeep Safari (2026 Booking Guide) | Gateway Holidays",
-    "metaDescription": "Complete guide to Kolukkumalai sunrise 4x4 jeep safari: Suriyanelli departure timings, cost, off-road realities, and combining with Vagamon adventure tours.",
+    "title": "Kolukkumalai Sunrise Jeep Safari: Timings, Booking and What to Expect",
+    "metaTitle": "Kolukkumalai Sunrise Jeep Safari: Timings & Booking",
+    "metaDescription": "How the Kolukkumalai sunrise jeep safari from Suryanelli works: start time, booking, the off-road ride, the tea factory and what to carry.",
     "category": "Adventure & Safari",
     "publishDate": "October 16, 2026",
-    "modifiedDate": "November 9, 2026",
+    "modifiedDate": "2026-11-14",
     "readingTime": "6 min read",
     "author": {
       "name": "Murali",
-      "role": "Lead Travel Planner, Gateway Holidays Madurai"
+      "role": "Founder, Gateway Holidays, Madurai"
     },
     "heroImage": "/images/blogs/kolukkumalai-sunrise-clouds.webp",
-    "excerpt": "Everything you need to know about the thrilling 4:00 AM off-road jeep safari to the highest organic tea estate in the world at 7,900 feet.",
+    "excerpt": "What the 4 am jeep ride to Kolukkumalai is really like: when to leave Suryanelli, how to book, the rough road and the sunrise over the clouds.",
     "quickAnswer": "Kolukkumalai sits at 7,900 feet on the Tamil Nadu-Kerala crest and is only accessible by heavy-duty 4x4 Mahindra safari jeeps starting from the Suriyanelli jeep stand. Private cars and ordinary tourist cabs cannot navigate the 14 km boulder-strewn estate trail. Safari jeeps depart between 4:00 AM and 4:30 AM to reach the sunrise viewpoint by 5:45 AM, where visitors witness the famous cloud bed phenomenon above the Western Ghats.",
     "quickSummaryPoints": [
       {
@@ -938,7 +1010,7 @@ export const blogPosts: BlogPost[] = [
       {
         "title": "1935 Tea Factory",
         "distance": "Colonial Heritage",
-        "highlight": "World's highest orthodox wood-fired tea factory",
+        "highlight": "A high-altitude tea factory that still uses traditional methods",
         "bestFor": "Fresh hot orthodox tea tasting"
       }
     ],
@@ -1020,6 +1092,18 @@ export const blogPosts: BlogPost[] = [
       {
         "question": "Is tent camping allowed at Kolukkumalai?",
         "answer": "Regulated private campsites operate near Suriyanelli and below the estate perimeter with prior Forest Department permissions. Camps offer cozy tents, campfires, and pre-dawn safari pickups."
+      },
+      {
+        "question": "What time does the Kolukkumalai jeep leave?",
+        "answer": "Jeeps for the sunrise usually leave Suryanelli between 4 and 4:30 am. The ride takes about an hour."
+      },
+      {
+        "question": "Can we drive our own car to Kolukkumalai?",
+        "answer": "No. The last stretch is a rough estate track, and only local 4x4 jeeps go up."
+      },
+      {
+        "question": "Is Kolukkumalai good for children and elders?",
+        "answer": "The jeep ride is very bumpy and not suitable for people with back problems or very young children."
       }
     ],
     "relatedTourSlugs": [
@@ -1036,19 +1120,19 @@ export const blogPosts: BlogPost[] = [
   },
   {
     "slug": "kerala-tour-package-munnar-alleppey-houseboat-guide",
-    "title": "Alleppey Houseboat Guide: Day Cruise vs Overnight Stay, Real Costs & Route Breakdown",
-    "metaTitle": "Alleppey Houseboat Booking Guide (2026 Day vs Overnight) | Gateway Holidays",
-    "metaDescription": "Planning an Alleppey backwaters trip? Compare day cruises vs overnight houseboat stays, AC operational hours, Kuttanad meals, and cab connections.",
+    "title": "Alleppey Houseboat Guide: Day Cruise or Overnight Stay?",
+    "metaTitle": "Alleppey Houseboat: Day Cruise vs Overnight Stay Guide",
+    "metaDescription": "Should you book a day cruise or an overnight houseboat in Alleppey? Check-in times, AC hours, meals, the evening anchor rule and which suits your trip.",
     "category": "Kerala Circuits",
     "publishDate": "October 18, 2026",
-    "modifiedDate": "November 9, 2026",
+    "modifiedDate": "2026-11-14",
     "readingTime": "7 min read",
     "author": {
       "name": "Murali",
-      "role": "Lead Travel Planner, Gateway Holidays Madurai"
+      "role": "Founder, Gateway Holidays, Madurai"
     },
     "heroImage": "/images/blogs/alleppey-luxury-houseboat.webp",
-    "excerpt": "The honest insider breakdown between a 5-hour day cruise and an overnight stay in the palm-fringed backwaters of Alleppey.",
+    "excerpt": "A plain comparison of Alleppey day cruises and overnight houseboat stays: timings, AC hours, meals and the evening anchor rule.",
     "quickAnswer": "An Alleppey Day Cruise (11:30 AM – 5:00 PM) suits travelers on tight schedules or families continuing onward to Kovalam or Madurai, offering cruising with a freshly cooked Kuttanad lunch. An Overnight Stay (12:00 PM – 9:00 AM next morning) is best for couples and honeymooners wanting tranquil canal sunsets. Government regulations mandate that all houseboats dock at riverbanks by 5:30 PM to protect fishermen's nets.",
     "quickSummaryPoints": [
       {
@@ -1155,6 +1239,18 @@ export const blogPosts: BlogPost[] = [
       {
         "question": "Can we combine Munnar and Alleppey in a 4-day tour from Madurai?",
         "answer": "Yes, this is one of our most popular itineraries: Day 1 & 2 in Munnar tea hills, Day 3 driving down to Alleppey for a houseboat cruise, and Day 4 returning to Madurai or departing via Cochin Airport."
+      },
+      {
+        "question": "What are Alleppey houseboat check-in and check-out times?",
+        "answer": "Overnight boats usually check in around 12 noon and check out around 9 am. Day cruises run for a few hours in the late morning or afternoon."
+      },
+      {
+        "question": "Do houseboats cruise at night?",
+        "answer": "No. Local rules require houseboats to stop cruising and anchor in the evening, usually around 5:30 pm."
+      },
+      {
+        "question": "How far is Alleppey from Madurai?",
+        "answer": "About 270 km via Kumily and Kottayam, roughly 6.5 to 7 hours by road."
       }
     ],
     "relatedTourSlugs": [
@@ -1171,19 +1267,19 @@ export const blogPosts: BlogPost[] = [
   },
   {
     "slug": "vagamon-vs-kodaikanal-hill-station-comparison-guide",
-    "title": "Vagamon or Kodaikanal: Real Comparison of Weather, Crowds, Adventure & Driving Distance",
-    "metaTitle": "Vagamon vs Kodaikanal: Which Hill Station is Better? (2026 Guide)",
-    "metaDescription": "Comparing Vagamon and Kodaikanal: driving distance from Madurai, crowd levels, paragliding adventure vs family lake boating, and hotel options.",
+    "title": "Vagamon or Kodaikanal: Which Hill Station Should You Choose from Madurai?",
+    "metaTitle": "Vagamon vs Kodaikanal: Which Hill Station to Choose?",
+    "metaDescription": "Vagamon or Kodaikanal from Madurai? Compare distance, crowds, weather, things to do and stays to pick the right hill station for your trip.",
     "category": "Weekend Getaways",
     "publishDate": "November 2, 2026",
-    "modifiedDate": "November 9, 2026",
+    "modifiedDate": "2026-11-14",
     "readingTime": "6 min read",
     "author": {
       "name": "Murali",
-      "role": "Lead Travel Planner, Gateway Holidays Madurai"
+      "role": "Founder, Gateway Holidays, Madurai"
     },
     "heroImage": "/images/tours/vagamon.webp",
-    "excerpt": "Can't decide between Kodaikanal's established charm and Vagamon's tranquil green meadows? Here is an honest, side-by-side comparison.",
+    "excerpt": "A side-by-side comparison of Vagamon and Kodaikanal for travellers from Madurai: distance, crowds, weather and what each does best.",
     "quickAnswer": "Choose Kodaikanal if you want established family attractions, cooler temperatures (10°C–18°C), row boating on Kodai Lake, and bustling town markets within a 3.5-hour drive from Madurai (120 km). Choose Vagamon if you prefer crowd-free rolling green meadows, pine forests, tandem paragliding, and peaceful plantation homestays within a 4.5-hour drive (175 km via Theni and Elappara).",
     "quickSummaryPoints": [
       {
@@ -1275,6 +1371,18 @@ export const blogPosts: BlogPost[] = [
       {
         "question": "Is Vagamon suitable for families with small kids?",
         "answer": "Yes, children love running across the open meadows (Vagamon Pine Forest and Kurisumala hills), but dining and medical facilities are simpler than in Kodaikanal."
+      },
+      {
+        "question": "Which is closer to Madurai, Vagamon or Kodaikanal?",
+        "answer": "Kodaikanal, at about 120 km (3 to 3.5 hours). Vagamon is about 200 km (around 5 hours) via Kumily."
+      },
+      {
+        "question": "Which is better for a family with kids?",
+        "answer": "Kodaikanal has more family activities such as boating, cycling and parks. Vagamon is better for open meadows and quiet."
+      },
+      {
+        "question": "Which is less crowded?",
+        "answer": "Vagamon is usually much less crowded, especially on weekends and in April and May."
       }
     ],
     "relatedTourSlugs": [
@@ -1291,19 +1399,19 @@ export const blogPosts: BlogPost[] = [
   },
   {
     "slug": "private-cab-vs-train-south-india-tour-guide",
-    "title": "Private Cab vs Train for South India Holidays: Cost, Flexibility & Senior Comfort Analysis",
-    "metaTitle": "South India Tour: Private Cab vs Train (2026 Real Comparison)",
-    "metaDescription": "Debating between trains and a dedicated private AC cab for your South India tour? Read our honest analysis on costs, luggage, seniors, and timings.",
+    "title": "Private Cab or Train for a South India Tour? A Practical Comparison",
+    "metaTitle": "Private Cab vs Train for a South India Tour",
+    "metaDescription": "Train or private cab for your South India trip? Compare comfort, luggage, travel time, elderly travellers and sightseeing flexibility.",
     "category": "Travel Planning",
     "publishDate": "November 4, 2026",
-    "modifiedDate": "November 9, 2026",
+    "modifiedDate": "2026-11-14",
     "readingTime": "7 min read",
     "author": {
       "name": "Murali",
-      "role": "Lead Travel Planner, Gateway Holidays Madurai"
+      "role": "Founder, Gateway Holidays, Madurai"
     },
     "heroImage": "/images/tours/kanyakumari-thiruvananthapuram.webp",
-    "excerpt": "An honest breakdown of costs, senior citizen comfort, luggage handling, and route flexibility when traveling across Tamil Nadu and Kerala.",
+    "excerpt": "When a train makes sense, when a private cab is worth it, and how to choose for families with elders, children or lots of luggage.",
     "quickAnswer": "While trains are economical for single intercity transfers, a dedicated private AC cab is significantly more practical for 3 to 7-day South India holiday circuits. Cab travel eliminates railway porter hassles for luggage, bridges remote temple locations that lack direct railway tracks (such as Munnar, Kodaikanal, and Dhanushkodi), and allows flexible stops during afternoon temple closures without waiting at hot railway platforms.",
     "quickSummaryPoints": [
       {
@@ -1358,7 +1466,7 @@ export const blogPosts: BlogPost[] = [
       }
     ],
     "proTips": [
-      "Transparent Inclusions: When comparing cab quotations, ensure tolls, parking fees, driver food/night allowances, and interstate road permits are explicitly bundled. Gateway Holidays packages include all these fees upfront with zero hidden charges.",
+      "Transparent Inclusions: When comparing cab quotations, ensure tolls, parking fees, driver food/night allowances, and interstate road permits are explicitly bundled. Gateway Holidays lists all these charges in your quote.",
       "Luggage Advantage: You can leave heavy suitcases locked securely in the car trunk while making quick stops at roadside temples or restaurants."
     ],
     "keyFacts": [
@@ -1387,6 +1495,18 @@ export const blogPosts: BlogPost[] = [
       {
         "question": "Do drivers expect extra tips or food payments during the trip?",
         "answer": "At Gateway Holidays, driver night beta and food allowances are completely included in your package quotation. Any voluntary tipping for polite, safe driving is entirely at your personal discretion."
+      },
+      {
+        "question": "Is a private cab better than a train for elderly travellers?",
+        "answer": "Usually yes. A cab picks you up at the door, avoids station stairs and lets you stop for rest whenever needed."
+      },
+      {
+        "question": "Are hill stations reachable by train from Madurai?",
+        "answer": "Most are not. Kodaikanal Road station is about 80 km from Kodaikanal, and Munnar, Thekkady and Vagamon have no railway, so you need a road connection anyway."
+      },
+      {
+        "question": "When is the train the better choice?",
+        "answer": "For long city-to-city legs, such as Madurai to Chennai or Bengaluru, an overnight train is cheaper and saves a day."
       }
     ],
     "relatedTourSlugs": [
@@ -1403,19 +1523,19 @@ export const blogPosts: BlogPost[] = [
   },
   {
     "slug": "madurai-to-kanyakumari-road-trip-nh44-guide",
-    "title": "Madurai to Kanyakumari by Road: 4-Lane NH-44 Highway Guide & Sunset Stopovers",
-    "metaTitle": "Madurai to Kanyakumari by Road (2026 NH-44 Guide) | Gateway Holidays",
-    "metaDescription": "Driving from Madurai to Kanyakumari? 240 km on the smooth NH-44 four-lane expressway, Tirunelveli halwa stop, Vivekananda Rock ferry, and sunset tips.",
+    "title": "Madurai to Kanyakumari by Road: Distance, NH44 Route and Stops",
+    "metaTitle": "Madurai to Kanyakumari by Road: Distance, Route & Stops",
+    "metaDescription": "Madurai to Kanyakumari is about 245 km on NH44. See travel time, the Tirunelveli halwa stop, ferry timings for Vivekananda Rock and sunrise tips.",
     "category": "Weekend Getaways",
     "publishDate": "November 5, 2026",
-    "modifiedDate": "November 9, 2026",
+    "modifiedDate": "2026-11-14",
     "readingTime": "6 min read",
     "author": {
       "name": "Murali",
-      "role": "Lead Travel Planner, Gateway Holidays Madurai"
+      "role": "Founder, Gateway Holidays, Madurai"
     },
     "heroImage": "/images/tours/kanyakumari.webp",
-    "excerpt": "Cruise down India's premier north-south expressway to the meeting point of three oceans in under four hours.",
+    "excerpt": "The Madurai to Kanyakumari drive on NH44: about 245 km and 4.5 hours, the best stops on the way and how to avoid the ferry queue.",
     "quickAnswer": "The 240 km drive from Madurai to Kanyakumari takes just 4 hours via the smooth NH-44 four-lane expressway passing Tirunelveli. To avoid 2-hour ferry queues at Vivekananda Rock Memorial, arrive at the Kanyakumari jetty by 7:45 AM (ticket counters open at 8:00 AM). Visit the Padmanabhapuram Palace on the return journey or combine with Kovalam Beach in Kerala (85 km away).",
     "quickSummaryPoints": [
       {
@@ -1483,7 +1603,7 @@ export const blogPosts: BlogPost[] = [
           "Panoramic view looking back over the shoreline and multicolored sands"
         ],
         "idealDuration": "2.5 Hours on the rock memorial",
-        "insiderTip": "Purchase the special speed-ferry ticket (Rs. 200–300 extra) if you arrive later in the morning; it bypasses general queues and saves up to 90 minutes of standing in line.",
+        "insiderTip": "Buy the special ferry ticket if you arrive later in the morning; it bypasses general queues and saves up to 90 minutes of standing in line.",
         "ctaTourSlug": "kanyakumari",
         "ctaTourTitle": "Book Kanyakumari Day Tour"
       }
@@ -1522,6 +1642,18 @@ export const blogPosts: BlogPost[] = [
       {
         "question": "Is it easy to combine Kanyakumari with Trivandrum / Kovalam?",
         "answer": "Yes, Trivandrum is only 85 km (2.5 hours) from Kanyakumari. Many travelers have our cab drop them at Trivandrum Airport after visiting Kovalam Beach and the Padmanabhaswamy Temple."
+      },
+      {
+        "question": "What is the distance from Madurai to Kanyakumari?",
+        "answer": "About 245 km via NH44 through Virudhunagar and Tirunelveli. The drive takes about 4.5 hours."
+      },
+      {
+        "question": "Can we do Kanyakumari as a day trip from Madurai?",
+        "answer": "It is possible, but you will miss either the sunrise or the sunset. One night lets you see both."
+      },
+      {
+        "question": "What are the Vivekananda Rock ferry timings?",
+        "answer": "The ferry usually runs from about 8 am to 4 pm, weather permitting. Go early on weekends to avoid long queues."
       }
     ],
     "relatedTourSlugs": [
@@ -1538,19 +1670,19 @@ export const blogPosts: BlogPost[] = [
   },
   {
     "slug": "andaman-tour-package-from-tamil-nadu-planning-guide",
-    "title": "How to Plan an Andaman Tour Package from Tamil Nadu: Flights, Ferries & 5-Day Itinerary",
-    "metaTitle": "Andaman Tour Package from Tamil Nadu (2026 Guide) | Gateway Holidays",
-    "metaDescription": "Planning an Andaman vacation from Chennai or Madurai? Read our complete 5-day guide: Port Blair, Havelock private ferries, Radhanagar beach, and scuba tips.",
+    "title": "How to Plan an Andaman Trip from Tamil Nadu: Flights, Ferries and a 5-Day Plan",
+    "metaTitle": "Andaman Trip from Tamil Nadu: Flights, Ferries & 5-Day Plan",
+    "metaDescription": "Plan an Andaman trip from Madurai or Chennai: flights to Port Blair, ferry booking for Havelock and Neil, the best months and a 5-day itinerary.",
     "category": "Island & International",
     "publishDate": "November 6, 2026",
-    "modifiedDate": "November 9, 2026",
+    "modifiedDate": "2026-11-14",
     "readingTime": "7 min read",
     "author": {
       "name": "Murali",
-      "role": "Lead Travel Planner, Gateway Holidays Madurai"
+      "role": "Founder, Gateway Holidays, Madurai"
     },
     "heroImage": "/images/tours/andaman-nicobar-islands-tour.webp",
-    "excerpt": "Everything travelers from Tamil Nadu need to know to plan a stress-free 5-day holiday across Port Blair, Havelock Island, and Neil Island.",
+    "excerpt": "What travellers from Tamil Nadu need to know before booking Andaman: flights, ferries, the best season and a 5-day plan across Port Blair, Havelock and Neil.",
     "quickAnswer": "The most convenient way to reach Andaman from Tamil Nadu is via direct 2-hour flights from Chennai (MAA) to Port Blair (IXZ), with connecting flights accessible from Madurai (IXM). A balanced 5-day itinerary spends 1 night in Port Blair for the Cellular Jail Light & Sound show, 2 nights in Havelock for Radhanagar Beach and scuba diving at Elephant Beach, and 1 night in Neil Island for natural coral bridge formations.",
     "quickSummaryPoints": [
       {
@@ -1625,7 +1757,7 @@ export const blogPosts: BlogPost[] = [
     ],
     "proTips": [
       "Mobile Connectivity: BSNL and Airtel offer reliable 4G connectivity in Port Blair, Havelock, and Neil. Other network operators have limited or patchy signals on the islands.",
-      "Carry Cash: While UPI is accepted in major Port Blair hotels, card machines on Havelock and Neil islands frequently experience internet downtime. Keep Rs. 5,000 to Rs. 10,000 in cash for water sports and local cafes."
+      "Carry Cash: While UPI is accepted in major Port Blair hotels, card machines on Havelock and Neil islands frequently experience internet downtime. Carry enough cash for water sports and local cafes."
     ],
     "keyFacts": [
       {
@@ -1657,6 +1789,18 @@ export const blogPosts: BlogPost[] = [
       {
         "question": "Can Gateway Holidays arrange flights from Madurai to Andaman?",
         "answer": "Yes, our team arranges the complete package including connecting domestic flights from Madurai (IXM) via Chennai, private airport transfers in Port Blair, island ferry tickets, and resort stays."
+      },
+      {
+        "question": "How do we reach Andaman from Madurai?",
+        "answer": "Fly from Madurai to Chennai (or take an overnight train), then take a direct flight from Chennai to Port Blair, which takes about 2 hours."
+      },
+      {
+        "question": "What is the best time to visit Andaman?",
+        "answer": "October to May. The monsoon from June to September brings rough seas and ferry cancellations."
+      },
+      {
+        "question": "How many days are enough for Andaman?",
+        "answer": "Five to six days cover Port Blair, Havelock and Neil Island without rushing."
       }
     ],
     "relatedTourSlugs": [

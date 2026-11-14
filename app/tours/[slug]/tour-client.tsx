@@ -23,6 +23,7 @@ import {
   UserCheck,
 } from "lucide-react";
 import { Navbar } from "@/components/layout/navbar";
+import { getImageCredit } from "@/data/image-credits";
 import { Footer } from "@/components/layout/footer";
 import { StickyMobileCTA } from "@/components/ui/sticky-mobile-cta";
 import { EnquiryModal } from "@/components/tours/enquiry-modal";
@@ -113,7 +114,7 @@ export function IndividualTourClient({
               GH
             </div>
             <div>
-              <p className="text-xs text-slate-500 font-medium">100% Bespoke Itinerary</p>
+              <p className="text-xs text-slate-500 font-medium">Custom Itinerary</p>
               <p className="text-sm font-bold text-slate-900">Private Tour • Custom Dates</p>
             </div>
           </div>
@@ -234,8 +235,8 @@ export function IndividualTourClient({
                         />
                       </button>
 
-                      {isCurrent && (
-                        <div className="px-6 pb-6 pt-4 border-t border-slate-100 space-y-4 bg-slate-50/50">
+                      {/* All days stay in the HTML (for search engines); only the open one is visible */}
+                        <div hidden={!isCurrent} className="px-6 pb-6 pt-4 border-t border-slate-100 space-y-4 bg-slate-50/50">
                           <div className="space-y-3">
                             <p className="text-[11px] font-bold uppercase tracking-wider text-slate-500 flex items-center gap-1.5">
                               <Sparkles className="h-3.5 w-3.5 text-[#F25C05]" />
@@ -262,7 +263,6 @@ export function IndividualTourClient({
                             </ul>
                           </div>
                         </div>
-                      )}
                     </div>
                   );
                 })}
@@ -310,6 +310,50 @@ export function IndividualTourClient({
                 </div>
               </div>
             </section>
+
+            {/* Trip planning: best time and how to get there */}
+            {(tour.bestTime || tour.gettingThere) && (
+              <section className="space-y-4">
+                <h2 className="text-2xl font-bold text-slate-900 tracking-tight flex items-center gap-2">
+                  <Compass className="h-5 w-5 text-[#F25C05]" />
+                  <span>Plan Your {tour.destination} Trip</span>
+                </h2>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  {tour.bestTime && (
+                    <div className="p-5 rounded-3xl bg-white border border-slate-200 shadow-sm space-y-2">
+                      <h3 className="text-sm font-bold text-slate-900">Best Time to Visit</h3>
+                      <p className="text-sm text-slate-600 leading-relaxed">{tour.bestTime}</p>
+                    </div>
+                  )}
+                  {tour.gettingThere && (
+                    <div className="p-5 rounded-3xl bg-white border border-slate-200 shadow-sm space-y-2">
+                      <h3 className="text-sm font-bold text-slate-900">How to Get There</h3>
+                      <p className="text-sm text-slate-600 leading-relaxed">{tour.gettingThere}</p>
+                    </div>
+                  )}
+                </div>
+              </section>
+            )}
+
+            {/* FAQs (also used for FAQPage structured data, so they must stay visible) */}
+            {tour.faqs && tour.faqs.length > 0 && (
+              <section className="space-y-4">
+                <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
+                  {tour.destination} Tour: Frequently Asked Questions
+                </h2>
+                <div className="space-y-3">
+                  {tour.faqs.map((f) => (
+                    <details key={f.question} className="group rounded-2xl bg-white border border-slate-200 p-4 open:shadow-sm">
+                      <summary className="cursor-pointer font-semibold text-sm text-slate-900 list-none flex justify-between gap-3">
+                        <span>{f.question}</span>
+                        <ChevronRight className="h-4 w-4 shrink-0 mt-0.5 transition-transform group-open:rotate-90" />
+                      </summary>
+                      <p className="mt-3 text-sm text-slate-600 leading-relaxed">{f.answer}</p>
+                    </details>
+                  ))}
+                </div>
+              </section>
+            )}
           </div>
 
           {/* Right Column: Private Cab Details & Consultation Card */}
@@ -324,7 +368,7 @@ export function IndividualTourClient({
                   Customize This Tour
                 </h3>
                 <p className="text-xs text-slate-500 mt-1">
-                  Travel on your own dates with your family. Zero hidden charges.
+                  Travel on your own dates with your family. Every quote is itemised.
                 </p>
               </div>
 
@@ -335,7 +379,7 @@ export function IndividualTourClient({
                   <span>Private AC Cab Service</span>
                 </div>
                 <p className="text-[11px] text-emerald-700 leading-relaxed">
-                  Dedicated sanitized vehicle for your family throughout the tour. Experienced local driver, toll gates, fuel, and parking included.
+                  A clean, dedicated vehicle for your family throughout the tour. Experienced local driver, toll gates, fuel, and parking included.
                 </p>
               </div>
 
@@ -456,6 +500,15 @@ export function IndividualTourClient({
             ))}
           </div>
         </section>
+        {getImageCredit(tour.image) && (
+          <p className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-6 text-[11px] text-slate-400">
+            Photo: {getImageCredit(tour.image)!.author},{" "}
+            <a href={getImageCredit(tour.image)!.source} target="_blank" rel="noopener nofollow" className="underline">
+              {getImageCredit(tour.image)!.license}
+            </a>
+            , via Wikimedia Commons
+          </p>
+        )}
       </main>
 
       <Footer />

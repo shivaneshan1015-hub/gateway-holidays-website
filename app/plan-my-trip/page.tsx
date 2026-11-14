@@ -147,7 +147,7 @@ _Please send me a customized itinerary quotation._`;
               Design Your <span className="text-gradient-brand">Bespoke Holiday</span>
             </h1>
             <p className="text-sm text-slate-600 max-w-lg mx-auto font-normal">
-              Tell us your dream route. We handle the private sanitized AC cab, verified hotel stays, and custom timetable. Zero fixed rush.
+              Tell us your dream route. We arrange the private AC cab, handpicked hotels and a timetable that suits you.
             </p>
           </div>
 

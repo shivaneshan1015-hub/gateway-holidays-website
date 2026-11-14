@@ -25,11 +25,11 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL("https://gatewayholidays.in"),
   title: {
-    default: "Gateway Holidays — Bespoke Tour Packages & Private Cab Services | Madurai",
+    default: "Tour Packages & Private Cabs from Madurai | Gateway Holidays",
     template: "%s | Gateway Holidays",
   },
   description:
-    "4.8★ Rated tour operator in Anna Nagar, Madurai. Customized South India hill stations, high-altitude adventure trekking tours, heritage temple circuits, and international escapes with private sanitized AC cabs and 24/7 personal tour assistance.",
+    "Tour packages from Madurai: hill stations, temple tours, Kerala backwaters, islands and international trips, with a private AC cab, hotels and itineraries planned around you.",
   icons: {
     icon: [
       { url: "/favicon.ico" },
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
     siteName: "Gateway Holidays",
     title: "Gateway Holidays — Bespoke Tours & Private AC Cab Services",
     description:
-      "Your journey, crafted perfectly without the hassle. Private AC cabs, handpicked resorts, and 24/7 WhatsApp support from Anna Nagar, Madurai.",
+      "Your journey, crafted perfectly without the hassle. Private AC cabs, handpicked hotels and WhatsApp support from Anna Nagar, Madurai.",
     images: [
       {
         url: "/images/logo.png",
@@ -79,7 +79,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Gateway Holidays — Bespoke Tours & Private AC Cab Services",
     description:
-      "Private AC cabs, handpicked resorts, and 24/7 WhatsApp support from Anna Nagar, Madurai.",
+      "Private AC cabs, handpicked hotels and WhatsApp support from Anna Nagar, Madurai.",
   },
     robots: {
       index: true,
@@ -95,9 +95,9 @@ export const metadata: Metadata = {
     alternates: {
       canonical: "https://gatewayholidays.in",
     },
-    verification: {
-      google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "google-site-verification",
-    },
+    verification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
+      ? { google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION }
+      : undefined,
   };
 
   const agencySchema = {
@@ -113,7 +113,7 @@ export const metadata: Metadata = {
         logo: "https://gatewayholidays.in/images/logo.png",
         image: "https://gatewayholidays.in/images/logo.png",
         description:
-          "4.8★ Rated tour operator in Anna Nagar, Madurai. Customized South India hill stations, high-altitude adventure trekking tours, heritage temple circuits, and international escapes with private sanitized AC cabs and 24/7 personal tour assistance.",
+          "Tour packages from Madurai: hill stations, temple tours, Kerala backwaters, islands and international trips, with a private AC cab, hotels and itineraries planned around you.",
         telephone: "+91 81227 12587",
         email: "info@gatewayholidays.in",
         currenciesAccepted: "INR",
@@ -140,14 +140,6 @@ export const metadata: Metadata = {
             closes: "19:00",
           },
         ],
-        aggregateRating: {
-          "@type": "AggregateRating",
-          ratingValue: "4.8",
-          bestRating: "5",
-          worstRating: "1",
-          ratingCount: "13",
-          reviewCount: "13",
-        },
         sameAs: [
           "https://www.instagram.com/gatewayholidays.in/",
           "https://www.facebook.com/profile.php?id=61584744403569",

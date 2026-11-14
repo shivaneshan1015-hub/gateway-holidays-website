@@ -40,7 +40,7 @@ export default function HomePage() {
         name: "Are highway tolls, parking fees, and driver allowances included in your tour packages?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Yes. All Gateway Holidays packages follow a transparent pricing model where dedicated private AC vehicle, fuel, driver night allowances, highway tolls, parking charges, and interstate road permits are fully included with zero hidden costs."
+          text: "Yes. All Gateway Holidays packages follow a transparent pricing model where dedicated private AC vehicle, fuel, driver night allowances, highway tolls, parking charges, and interstate road permits are included and listed in your quote."
         }
       },
       {

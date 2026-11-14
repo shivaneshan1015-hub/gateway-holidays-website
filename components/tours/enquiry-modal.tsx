@@ -320,7 +320,7 @@ _Please share a customized itinerary & quotation._`;
                       </label>
                       <div className="px-3.5 py-2.5 rounded-xl bg-emerald-50 border border-emerald-200 text-emerald-800 text-xs flex items-center gap-2">
                         <ShieldCheck className="h-4 w-4 shrink-0 text-emerald-600" />
-                        <span>Private sanitized AC Cab & verified Driver included</span>
+                        <span>Private AC cab and experienced driver included</span>
                       </div>
                     </div>
                   </div>
@@ -401,7 +401,7 @@ _Please share a customized itinerary & quotation._`;
                   </div>
 
                   <p className="text-[11px] text-center text-slate-500 pt-1 font-medium">
-                    🔒 Your privacy is 100% protected. We will never share or spam your contact number.
+                    🔒 We use your number only to reply about your trip. See our privacy policy.
                   </p>
                 </form>
               )}
