@@ -1,6 +1,22 @@
 import { NextResponse } from "next/server";
 import { createClient } from "@supabase/supabase-js";
 
+/** "3 Nights / 4 Days" -> 4, "5" -> 5, "2 Nights" -> 3. Falls back to 4. */
+function parseDurationDays(raw: string): number {
+  const days = raw.match(/(\d+)\s*Days?/i);
+  if (days) return Math.max(1, parseInt(days[1], 10));
+  const nights = raw.match(/(\d+)\s*Nights?/i);
+  if (nights) return Math.max(1, parseInt(nights[1], 10) + 1);
+  const first = raw.match(/\d+/);
+  return first ? Math.max(1, parseInt(first[0], 10)) : 4;
+}
+
+/** Numeric traveller count, or null when the form sent a label such as "Couple / Honeymoon". */
+function parseCount(raw: string): number | null {
+  return /^\s*\d+\s*$/.test(raw) ? parseInt(raw, 10) : null;
+}
+
+
 
 function normalizePhone(rawPhone: string): string {
   const digits = rawPhone.replace(/\D/g, "");
@@ -129,8 +145,8 @@ async function directSupabaseIngestion(payload: {
       `[Website Enquiry Intake]`,
       `Destination: ${destination}`,
       `Travel Window / Dates: ${travelDates}`,
-      `Duration: ${durationStr} Days`,
-      `Travelers: ${guestGroup} Adults, ${childrenGroup} Children`,
+      `Duration: ${parseDurationDays(durationStr)} days${/\d+\s*Days?/i.test(durationStr) || /^\s*\d+\s*$/.test(durationStr) ? '' : ` (${durationStr})`}`,
+      parseCount(guestGroup) !== null ? `Travelers: ${guestGroup} Adults, ${childrenGroup} Children` : `Travelers: ${guestGroup}`,
       `Hotel Preference: ${hotelCat}`,
       `Cab / Transport: ${cabReq}`,
       `Special Requests: ${specialReq}`,
@@ -138,6 +154,43 @@ async function directSupabaseIngestion(payload: {
     ]
       .filter(Boolean)
       .join("\n");
+
+    // Same person already has an open enquiry from the last 30 days: add this one to it
+    // instead of creating a duplicate lead and trip.
+    if (!isNewCustomer) {
+      const { data: openLead } = await supabase
+        .from("leads")
+        .select("id, initial_message")
+        .eq("customer_id", customerId)
+        .not("status", "in", "(WON,LOST)")
+        .gte("created_at", new Date(Date.now() - 30 * 24 * 60 * 60 * 1000).toISOString())
+        .order("created_at", { ascending: false })
+        .limit(1)
+        .maybeSingle();
+
+      if (openLead) {
+        const stamp = new Date().toLocaleDateString("en-IN", { timeZone: "Asia/Kolkata" });
+        await supabase
+          .from("leads")
+          .update({
+            initial_message: `${openLead.initial_message || ""}
+
+[Another enquiry on ${stamp}]
+${initialMessage}`,
+          })
+          .eq("id", openLead.id);
+        await supabase.from("activity_logs").insert({
+          customer_id: customerId,
+          lead_id: openLead.id,
+          action: "lead.repeat_enquiry",
+          entity_type: "lead",
+          entity_id: openLead.id,
+          new_value: { destination },
+          metadata: { source: "Website Direct Ingestion", submission_id: submissionId },
+        });
+        return { success: true, leadId: openLead.id, customerId };
+      }
+    }
 
     const { data: newLead, error: leadErr } = await supabase
       .from("leads")
@@ -158,7 +211,7 @@ async function directSupabaseIngestion(payload: {
     }
 
     // 4. Linked Trip & Requirements
-    const parsedDuration = parseInt(durationStr.replace(/\D/g, ""), 10) || 4;
+    const parsedDuration = parseDurationDays(durationStr);
     let parsedAdults = parseInt(guestGroup.replace(/\D/g, ""), 10);
     if (isNaN(parsedAdults) || parsedAdults < 1) parsedAdults = 2;
     let parsedChildren = parseInt(childrenGroup.replace(/\D/g, ""), 10);
@@ -212,7 +265,7 @@ async function directSupabaseIngestion(payload: {
         }
       }
 
-      await supabase.from("trip_requirements").insert({
+      const { error: reqErr } = await supabase.from("trip_requirements").insert({
         trip_id: newTrip.id,
         destination,
         travel_start_date: travelStartDateIso,
@@ -224,6 +277,9 @@ async function directSupabaseIngestion(payload: {
         travel_style: guestGroup,
         special_requirements: `Hotel: ${hotelCat} | Cab: ${cabReq} | Notes: ${specialReq}`,
       });
+      if (reqErr) {
+        console.error("[Direct Ingestion] Trip requirements insert failed:", reqErr);
+      }
     }
 
     // 5. Activity Log Audit Entry
