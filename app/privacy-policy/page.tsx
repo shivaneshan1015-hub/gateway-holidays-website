@@ -4,7 +4,7 @@ import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
 import { businessInfo } from "@/data/business";
 
-const LAST_UPDATED = "14 November 2026";
+const LAST_UPDATED = "15 November 2026";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
@@ -39,6 +39,7 @@ const sections: { heading: string; body: React.ReactNode }[] = [
           <li>For confirmed bookings, details needed to arrange the trip, such as traveller names and the payments you make to us</li>
         </ul>
         <p>Our website also keeps standard technical logs (such as IP address, browser type and pages visited) for security and to keep the site running.</p>
+        <p>We use Google Analytics to understand how visitors find and use the site, such as which pages are viewed and when an enquiry form is sent. It uses cookies and does not receive your name or phone number. You can block these cookies in your browser settings.</p>
       </>
     ),
   },
@@ -72,6 +73,7 @@ const sections: { heading: string; body: React.ReactNode }[] = [
           <li>Hotels, cab operators, guides and other travel partners who deliver the services you book</li>
           <li>Service providers that host our website and our customer database on our behalf</li>
           <li>WhatsApp (Meta), when you choose to contact us there</li>
+          <li>Google, which provides Google Analytics for this website</li>
           <li>Government authorities, when the law requires it</li>
         </ul>
       </>

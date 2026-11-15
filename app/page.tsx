@@ -64,7 +64,7 @@ export default function HomePage() {
         name: "Where is the Gateway Holidays office located in Madurai?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Our head office is located at 4C, Opposite Ambika College, Anna Nagar, Madurai, Tamil Nadu 625020. We welcome visitors for in-person itinerary consultations Monday through Saturday."
+          text: "Our head office is located at 4C, Opposite Ambiga College, Anna Nagar, Madurai, Tamil Nadu 625020. We welcome visitors for in-person itinerary consultations Monday through Saturday."
         }
       }
     ]

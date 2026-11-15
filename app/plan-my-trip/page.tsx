@@ -1,5 +1,6 @@
 "use client";
 
+import { trackLead } from "@/lib/analytics";
 import React, { useState } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
@@ -121,6 +122,7 @@ _Please send me a customized itinerary quotation._`;
         }),
       });
       setIsCompleted(true);
+      trackLead("plan_my_trip");
     } catch {
       handleWhatsAppSend();
     } finally {

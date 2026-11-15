@@ -5,14 +5,14 @@ import { businessInfo } from "@/data/business";
 export const metadata: Metadata = {
   title: "Contact Us — Anna Nagar, Madurai",
   description:
-    "Get in touch with Gateway Holidays Madurai. Call +91 81227 12587 or visit our office at 4C, Opp. Ambika College, Anna Nagar, Madurai. Plan your trip with us on WhatsApp.",
+    "Get in touch with Gateway Holidays Madurai. Call +91 81110 18881 or visit our office at 4C, Opp. Ambiga College, Anna Nagar, Madurai. Plan your trip with us on WhatsApp.",
   alternates: {
     canonical: "https://gatewayholidays.in/contact",
   },
   openGraph: {
     title: "Contact Gateway Holidays — Anna Nagar, Madurai",
     description:
-      "Call +91 81227 12587 or visit our office at 4C, Opp. Ambika College, Anna Nagar, Madurai. Plan your trip with us on WhatsApp.",
+      "Call +91 81110 18881 or visit our office at 4C, Opp. Ambiga College, Anna Nagar, Madurai. Plan your trip with us on WhatsApp.",
     url: "https://gatewayholidays.in/contact",
     siteName: "Gateway Holidays",
     type: "website",
@@ -47,8 +47,8 @@ export default function ContactLayout({ children }: { children: React.ReactNode 
           },
           geo: {
             "@type": "GeoCoordinates",
-            latitude: 9.9252,
-            longitude: 78.1198,
+            latitude: 9.9208739,
+            longitude: 78.1445313,
           },
           openingHoursSpecification: [
             {

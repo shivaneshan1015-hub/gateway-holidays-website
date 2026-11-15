@@ -1,5 +1,6 @@
 "use client";
 
+import { trackLead } from "@/lib/analytics";
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
@@ -112,6 +113,7 @@ _Please share a customized itinerary & quotation._`;
 
       if (response.ok) {
         setSubmitted(true);
+        trackLead("tour_enquiry", formData.destination);
       } else {
         handleWhatsAppSubmit();
       }

@@ -1,5 +1,6 @@
 "use client";
 
+import { trackLead } from "@/lib/analytics";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import {
@@ -54,6 +55,7 @@ export default function ContactPage() {
     } finally {
       setIsSubmitting(false);
       setSubmitted(true);
+      trackLead("contact");
     }
 
     const text = `*New Contact Message — Gateway Holidays*

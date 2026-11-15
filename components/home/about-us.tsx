@@ -79,7 +79,7 @@ export function AboutUs({ onOpenEnquiry }: AboutUsProps) {
           <div className="lg:col-span-7 space-y-6">
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-orange-50 border border-orange-200 text-xs font-bold text-orange-800">
               <Building2 className="h-3.5 w-3.5 text-[#F25C05]" />
-              <span>Headquartered in Anna Nagar, Madurai (Opp. Ambika College)</span>
+              <span>Headquartered in Anna Nagar, Madurai (Opp. Ambiga College)</span>
             </div>
 
             <h3 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
