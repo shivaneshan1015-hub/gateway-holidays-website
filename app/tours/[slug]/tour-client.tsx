@@ -417,7 +417,7 @@ export function IndividualTourClient({
                   <span>{businessInfo.phonePrimary}</span>
                 </a>
                 <p className="text-[10px] text-slate-500">
-                  Anna Nagar, Madurai (Opp. Ambika College)
+                  Anna Nagar, Madurai (Opp. Ambiga College)
                 </p>
               </div>
             </div>

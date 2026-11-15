@@ -132,7 +132,7 @@ export function FloatingWhatsAppDesk() {
               <div className="mt-2 pt-2 border-t border-white/10 flex items-center justify-between text-[11px] text-emerald-100/90">
                 <span className="flex items-center gap-1">
                   <MapPin className="w-3 h-3 text-amber-300" />
-                  Opp. Ambika College, Madurai
+                  Opp. Ambiga College, Madurai
                 </span>
                 <span className="font-semibold text-emerald-200">
                   ⚡ 5 Min Response

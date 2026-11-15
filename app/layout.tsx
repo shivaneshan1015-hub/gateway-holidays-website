@@ -1,4 +1,6 @@
 import type { Metadata, Viewport } from "next";
+import Script from "next/script";
+import { GA_MEASUREMENT_ID } from "@/lib/analytics";
 import { Plus_Jakarta_Sans, Outfit } from "next/font/google";
 import "./globals.css";
 import { FloatingWhatsAppDesk } from "@/components/ui/floating-whatsapp-desk";
@@ -114,14 +116,14 @@ export const metadata: Metadata = {
         image: "https://gatewayholidays.in/images/logo.png",
         description:
           "Tour packages from Madurai: hill stations, temple tours, Kerala backwaters, islands and international trips, with a private AC cab, hotels and itineraries planned around you.",
-        telephone: "+91 81227 12587",
+        telephone: "+91 81110 18881",
         email: "info@gatewayholidays.in",
         currenciesAccepted: "INR",
         paymentAccepted: "Cash, Credit Card, Debit Card, UPI, Net Banking",
         hasMap: "https://share.google/Ph649ZSpRfBmBvfY3",
         address: {
           "@type": "PostalAddress",
-          streetAddress: "4C, Opp. Ambika College, Anna Nagar",
+          streetAddress: "4C, Opp. Ambiga College, Anna Nagar",
           addressLocality: "Madurai",
           addressRegion: "Tamil Nadu",
           postalCode: "625020",
@@ -129,8 +131,8 @@ export const metadata: Metadata = {
         },
         geo: {
           "@type": "GeoCoordinates",
-          latitude: 9.9252,
-          longitude: 78.1198,
+          latitude: 9.9208739,
+          longitude: 78.1445313,
         },
         openingHoursSpecification: [
           {
@@ -180,6 +182,17 @@ export const metadata: Metadata = {
           {children}
           {/* Desktop Floating WhatsApp Desk with Quick Replies (hidden on mobile) */}
           <FloatingWhatsAppDesk />
+          {/* Google Analytics 4: same property as the old site */}
+          <Script
+            src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+            strategy="afterInteractive"
+          />
+          <Script id="ga4-init" strategy="afterInteractive">
+            {`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '${GA_MEASUREMENT_ID}');`}
+          </Script>
         </body>
       </html>
     );

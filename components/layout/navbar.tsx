@@ -71,7 +71,7 @@ export function Navbar({ onOpenEnquiry }: NavbarProps) {
           <div className="flex items-center gap-4">
             <span className="flex items-center gap-1.5 text-slate-300">
               <MapPin className="h-3 w-3 text-[#F25C05]" />
-              <span>Head Office: Anna Nagar (Opp. Ambika College), Madurai</span>
+              <span>Head Office: Anna Nagar (Opp. Ambiga College), Madurai</span>
             </span>
             <span className="text-white/20">•</span>
             <span className="text-amber-400 font-semibold flex items-center gap-1">

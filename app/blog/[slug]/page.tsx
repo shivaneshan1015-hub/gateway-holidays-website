@@ -124,8 +124,8 @@ export default async function BlogPostPage({ params }: PageProps) {
           },
           geo: {
             "@type": "GeoCoordinates",
-            latitude: 9.9252,
-            longitude: 78.1198,
+            latitude: 9.9208739,
+            longitude: 78.1445313,
           },
           logo: {
             "@type": "ImageObject",
