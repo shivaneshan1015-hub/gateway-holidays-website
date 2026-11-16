@@ -107,7 +107,7 @@ export function TransportBanner({ onOpenEnquiry }: TransportBannerProps) {
                   </button>
 
                   <a
-                    href={`tel:${businessInfo.phoneClean}`}
+                    href={`tel:+${businessInfo.phoneClean}`}
                     className="w-full py-2.5 px-4 rounded-xl bg-white/10 hover:bg-white/20 text-slate-200 font-semibold text-xs flex items-center justify-center gap-2 transition-colors"
                   >
                     <PhoneCall className="h-3.5 w-3.5 text-emerald-400" />

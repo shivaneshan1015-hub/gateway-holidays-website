@@ -1,6 +1,5 @@
 import React from "react";
 import type { Metadata } from "next";
-import { businessInfo } from "@/data/business";
 
 export const metadata: Metadata = {
   title: "Contact Us — Anna Nagar, Madurai",
@@ -30,39 +29,10 @@ export default function ContactLayout({ children }: { children: React.ReactNode 
         name: "Contact Gateway Holidays Madurai",
         description: "Official contact portal, office address, and direct phone lines for Gateway Holidays.",
         mainEntity: {
-          "@type": ["TravelAgency", "LocalBusiness"],
+          "@type": "TravelAgency",
+          "@id": "https://gatewayholidays.in/#agency",
           name: "Gateway Holidays",
-          telephone: businessInfo.phonePrimary,
-          email: businessInfo.email,
-          currenciesAccepted: "INR",
-          paymentAccepted: "Cash, Credit Card, Debit Card, UPI, Net Banking",
-          hasMap: businessInfo.googleMapsUrl,
-          address: {
-            "@type": "PostalAddress",
-            streetAddress: businessInfo.address,
-            addressLocality: businessInfo.city,
-            addressRegion: businessInfo.state,
-            postalCode: businessInfo.postalCode,
-            addressCountry: "IN",
-          },
-          geo: {
-            "@type": "GeoCoordinates",
-            latitude: 9.9208739,
-            longitude: 78.1445313,
-          },
-          openingHoursSpecification: [
-            {
-              "@type": "OpeningHoursSpecification",
-              dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-              opens: "10:00",
-              closes: "19:00",
-            },
-          ],
-          sameAs: [
-            businessInfo.socials.instagram,
-            businessInfo.socials.facebook,
-            businessInfo.googleMapsUrl,
-          ],
+          url: "https://gatewayholidays.in",
         },
       },
       {

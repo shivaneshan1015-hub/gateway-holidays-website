@@ -3,7 +3,6 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { blogPosts, getBlogPostBySlug, getRelatedBlogPosts } from "@/data/blogs";
 import { tourPackages } from "@/data/tours";
-import { businessInfo } from "@/data/business";
 import { BlogClient } from "./blog-client";
 
 interface PageProps {
@@ -111,22 +110,9 @@ export default async function BlogPostPage({ params }: PageProps) {
         },
         publisher: {
           "@type": "TravelAgency",
+          "@id": "https://gatewayholidays.in/#agency",
           name: "Gateway Holidays",
           url: "https://gatewayholidays.in",
-          telephone: businessInfo.phonePrimary,
-          address: {
-            "@type": "PostalAddress",
-            streetAddress: businessInfo.address,
-            addressLocality: businessInfo.city,
-            addressRegion: businessInfo.state,
-            postalCode: businessInfo.postalCode,
-            addressCountry: "IN",
-          },
-          geo: {
-            "@type": "GeoCoordinates",
-            latitude: 9.9208739,
-            longitude: 78.1445313,
-          },
           logo: {
             "@type": "ImageObject",
             url: "https://gatewayholidays.in/images/logo.png",

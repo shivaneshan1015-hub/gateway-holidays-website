@@ -17,6 +17,7 @@ export interface BusinessInfo {
   rating: number;
   reviewCount: number;
   googleMapsUrl: string;
+  mapEmbedUrl: string;
   defaultWhatsAppMessage: string;
   socials: {
     instagram: string;
@@ -44,12 +45,13 @@ export const businessInfo: BusinessInfo = {
   totalGoogleReviews: 13,
   rating: 4.8,
   reviewCount: 13,
-  googleMapsUrl: "https://share.google/Ph649ZSpRfBmBvfY3",
+  googleMapsUrl: "https://www.google.com/maps?cid=14859388972494244248",
+  mapEmbedUrl: "https://maps.google.com/maps?q=Gateway%20Holidays%2C%204C%20Anna%20Nagar%2C%20Madurai%20625020&z=16&output=embed",
   defaultWhatsAppMessage: "Hi Gateway Holidays, I am planning a holiday trip and would like a customized itinerary and quotation.",
   socials: {
     instagram: "https://www.instagram.com/gatewayholidays.in/",
     facebook: "https://www.facebook.com/profile.php?id=61584744403569",
   },
-  officeHours: "Monday - Saturday: 10:00 AM - 7:00 PM (Sunday: Prior Appointment)",
-  hours: "Monday - Saturday: 10:00 AM - 7:00 PM (Sunday: Prior Appointment)",
+  officeHours: "Monday - Saturday: 10:00 AM - 7:00 PM (Sunday: Closed)",
+  hours: "Monday - Saturday: 10:00 AM - 7:00 PM (Sunday: Closed)",
 };

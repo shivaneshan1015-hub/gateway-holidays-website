@@ -182,7 +182,7 @@ export function Footer() {
 
               <div className="flex items-center gap-2.5">
                 <Phone className="h-4 w-4 text-[#E61E6E] shrink-0" />
-                <a href={`tel:${businessInfo.phoneClean}`} className="hover:text-white font-bold">
+                <a href={`tel:+${businessInfo.phoneClean}`} className="hover:text-white font-bold">
                   {businessInfo.phonePrimary}
                 </a>
               </div>

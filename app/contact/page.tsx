@@ -110,7 +110,7 @@ export default function ContactPage() {
                     <div>
                       <p className="font-bold text-slate-900">Office Address:</p>
                       <p className="text-slate-600 mt-0.5 leading-relaxed">
-                        {businessInfo.address}
+                        {businessInfo.address}, {businessInfo.city}, {businessInfo.state} {businessInfo.postalCode}
                       </p>
                     </div>
                   </div>
@@ -120,10 +120,10 @@ export default function ContactPage() {
                     <div>
                       <p className="font-bold text-slate-900">Phone Support:</p>
                       <a
-                        href={`tel:${businessInfo.phoneClean}`}
+                        href={`tel:+${businessInfo.phoneClean}`}
                         className="text-slate-900 hover:text-[#F25C05] font-bold transition-colors block mt-0.5"
                       >
-                        {businessInfo.phonePrimary} / {businessInfo.phoneSecondary}
+                        {businessInfo.phonePrimary}
                       </a>
                     </div>
                   </div>
@@ -150,8 +150,16 @@ export default function ContactPage() {
                   </div>
                 </div>
 
-                {/* Google Maps Link Card */}
-                <div className="pt-4 border-t border-slate-100">
+                {/* Google Maps embed + directions link */}
+                <div className="pt-4 border-t border-slate-100 space-y-3">
+                  <iframe
+                    src={businessInfo.mapEmbedUrl}
+                    title="Gateway Holidays office on Google Maps, Anna Nagar, Madurai"
+                    className="w-full h-64 rounded-xl border border-slate-200"
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    allowFullScreen
+                  />
                   <a
                     href={businessInfo.googleMapsUrl}
                     target="_blank"
