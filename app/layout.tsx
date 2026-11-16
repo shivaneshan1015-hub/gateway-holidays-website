@@ -120,7 +120,7 @@ export const metadata: Metadata = {
         email: "info@gatewayholidays.in",
         currenciesAccepted: "INR",
         paymentAccepted: "Cash, Credit Card, Debit Card, UPI, Net Banking",
-        hasMap: "https://share.google/Ph649ZSpRfBmBvfY3",
+        hasMap: "https://www.google.com/maps?cid=14859388972494244248",
         address: {
           "@type": "PostalAddress",
           streetAddress: "4C, Opp. Ambiga College, Anna Nagar",
@@ -145,7 +145,7 @@ export const metadata: Metadata = {
         sameAs: [
           "https://www.instagram.com/gatewayholidays.in/",
           "https://www.facebook.com/profile.php?id=61584744403569",
-          "https://share.google/Ph649ZSpRfBmBvfY3",
+          "https://www.google.com/maps?cid=14859388972494244248",
         ],
         areaServed: [
           { "@type": "City", name: "Madurai" },

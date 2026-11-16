@@ -1,6 +1,5 @@
 import React from "react";
 import type { Metadata } from "next";
-import { businessInfo } from "@/data/business";
 
 export const metadata: Metadata = {
   title: "Plan Your Trip: Custom Itinerary & Quote",
@@ -31,9 +30,9 @@ export default function PlanMyTripLayout({ children }: { children: React.ReactNo
         description: "Personalized holiday planning service for South India, hill stations, heritage temples, and international destinations.",
         provider: {
           "@type": "TravelAgency",
+          "@id": "https://gatewayholidays.in/#agency",
           name: "Gateway Holidays",
           url: "https://gatewayholidays.in",
-          telephone: businessInfo.phonePrimary,
         },
         areaServed: {
           "@type": "Country",

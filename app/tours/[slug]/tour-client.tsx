@@ -410,7 +410,7 @@ export function IndividualTourClient({
                   Prefer a direct phone conversation?
                 </p>
                 <a
-                  href={`tel:${businessInfo.phoneClean}`}
+                  href={`tel:+${businessInfo.phoneClean}`}
                   className="inline-flex items-center gap-1.5 text-xs font-bold text-slate-900 hover:text-[#F25C05] transition-colors"
                 >
                   <PhoneCall className="h-3.5 w-3.5 text-[#F25C05]" />

@@ -36,7 +36,7 @@ export function StickyMobileCTA({ onOpenEnquiry }: StickyMobileCTAProps) {
           </button>
         ) : (
           <a
-            href={`tel:${businessInfo.phoneClean}`}
+            href={`tel:+${businessInfo.phoneClean}`}
             className="flex items-center justify-center gap-2 py-3 px-3 rounded-xl bg-gradient-to-r from-[#E61E6E] to-[#F25C05] text-white font-bold text-xs shadow-lg active:scale-97 transition-transform"
           >
             <Phone className="h-4 w-4 shrink-0" />
